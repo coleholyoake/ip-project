@@ -8,6 +8,7 @@
         <style>
             html, body {
                 height: 100%;
+                background-color: #000;
             }
 
             body {
@@ -37,7 +38,6 @@
         <script src="js/aframe.js"></script>
     </head>
     <body>
-        
         <a-scene>
                 
 
@@ -45,52 +45,71 @@
 
 
                 {{-- <a-curvedimage src="img/paua.jpg" radius="5.7" theta-length="50" height="4" rotation="0 100 0" position="0 1.8 0"></a-curvedimage> --}}
-                 <a-curvedimage src="img/Untitled.png" radius="5.7" theta-length="50" height="3" rotation="0 25 0" position="0 4 0"></a-curvedimage>
 
-                 <a-cube width=".6" height=".2" depth=".1" color="#fff" position=".4 1.5 0" opacity="0.8">
-                 <a-mouseenter color="red"></a-mouseenter>
-                 <a-mouseleave color="#fff"></a-mouseleave>
-                 </a-cube>
+                 {{-- <a-curvedimage src="img/Untitled.png" radius="5.7" theta-length="50" height="3" rotation="0 25 0" position="0 4 0" opacity="0.8"></a-curvedimage> --}}
 
-                 {{-- <a-cube width=".6" height=".2" depth=".1" color="#fff" position="-.4 1.5 0" opacity="0.8">
-                 <a-mouseenter color="red"></a-mouseenter>
-                 <a-mouseleave color="#fff"></a-mouseleave>
-                 </a-cube> --}}
+                 <a-image src="img/Untitled.png" height=".8" opacity="0.8" position="0 2.35 0" scale="0.8"></a-image>
 
-                 <a-entity geometry=    "primitive: box;
+                {{-- <a-entity geometry=     "primitive: plane;
                                         width: .6;
                                         height: .2;
-                                        depth: .1;
                                         translate: 0 0 0;"
-                            material=   "color: #fff;
+                            material=   "color: #d3d3d3;
                                         opacity: 0.8;"
-                            position=   "-0.4 1.5 0">
-                <a-mouseenter material= "color: red;
-                                        opacity: 0.8;">
+                            position=   "0.4 1.5 0">
+                <a-mouseenter material= "color: #fff;
+                                        opacity: 0.8;"
+                            position=   "0.4 1.5 0.08">
                 </a-mouseenter>
-                <a-mouseleave material= "color: #fff;
-                                        opacity: 0.8;">
+                <a-mouseleave material= "color: #d3d3d3;
+                                        opacity: 0.8;"
+                            position=   "0.4 1.5 0">
                 </a-mouseleave>
                 </a-entity>
 
-                 {{-- <a-image src="img/Untitled.png" width="300" height="175"></a-image> --}}
+                <a-entity geometry=     "primitive: plane;
+                                        width: .6;
+                                        height: .2;
+                                        translate: 0 0 0;"
+                            material=   "color: #d3d3d3;
+                                        opacity: 0.8;"
+                            position=   "-0.4 1.5 0">
+                <a-mouseenter material= "color: #fff;
+                                        opacity: 0.8;"
+                            position=   "-0.4 1.5 0.08">
+                </a-mouseenter>
+                <a-mouseleave material= "color: #d3d3d3;
+                                        opacity: 0.8;"
+                            position=   "-0.4 1.5 0">
+                </a-mouseleave>
+                </a-entity> --}}
 
-                 {{-- <a-curvedimage src="img/paua.jpg" radius="5.7" theta-length="50" height="4" rotation="0 25 0" position="0 7 0"></a-curvedimage> --}}
+                <a-entity geometry=     "primitive: plane;
+                                        width: .6;
+                                        height: .2;
+                                        translate: 0 0 0;"
+                            material=   "color: #d3d3d3;
+                                        opacity: 0.8;"
+                            position=   "0 1.5 0">
+                <a-mouseenter material= "color: #fff;
+                                        opacity: 0.8;"
+                            position=   "0 1.5 0.08">
+                </a-mouseenter>
+                <a-mouseleave material= "color: #c3c3c3;
+                                        opacity: 0.8;"
+                            position=   "0 1.5 0">
+                </a-mouseleave>
+                </a-entity>
 
-                 {{-- <a-curvedimage src="img/paua.jpg" radius="5.7" theta-length="50" height="4" rotation="0 -50 0" position="0 1.8 0"></a-curvedimage> --}}
+                <a-sky src="img/sky4.jpg"></a-sky>
 
-
-                 <a-sky src="img/sky2.jpg"></a-sky>
+                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -1" rotation="0 20 0"></a-model>
                  
             
-                    <a-camera position="0 1.8 1.5"></a-camera>
-                    <a-light color="#fff" position="0 1.8 1.5" intensity="1.5"></a-light>
+                <a-camera position="0 1.8 1.5"></a-camera>
+                <a-light color="#fff" position="0 1.8 1.5" intensity="2"></a-light>
         </a-scene>
-        <div class="container">
-            <div class="content">
-                <div class="title">IP Project</div>
-            </div>
-        </div>
+        <img src="img/fallback_sky.jpg">
             
     </body>
 </html>
