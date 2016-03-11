@@ -50,48 +50,18 @@
 
                  {{-- <a-curvedimage src="img/Untitled.png" radius="5.7" theta-length="50" height="3" rotation="0 25 0" position="0 4 0" opacity="0.8"></a-curvedimage> --}}
 
-                 <a-image src="img/Untitledcopy.png" height="4" opacity="0.8" position="0 3 -3" scale="4">
+                <a-image src="img/Untitledcopy.png" height="4" opacity="0.8" position="0 2.8 -3" scale="4">
                     <a-animation attribute="scale" from="1 0 1" to="3 0.75 1" begin="1500" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 5 0" to="0 3 -2" begin="1000" dur="1000" fill="both" easing="ease-out"></a-animation>
-                 </a-image>
+                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -2" begin="1000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    
+                </a-image>
 
-
+                <a-image src="img/enter.png" height=".5" width=".2" opacity="0.8" position="0 0 -2"  rotation="0 20 0" onclick="location.href='https://www.google.co.nz/webhp?hl=en'">
+                    <a-animation attribute="position" from="-1 1 -2" to="-1 1 -2" begin="3000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="scale" from="1 0 1" to="3 0.75 1" begin="3500" dur="200" fill="both" easing="ease-out"></a-animation>
+                </a-image>
 
                 {{-- <a-entity geometry=     "primitive: plane;
-                                        width: .6;
-                                        height: .2;
-                                        translate: 0 0 0;"
-                            material=   "color: #d3d3d3;
-                                        opacity: 0.8;"
-                            position=   "0.4 1.5 0">
-                <a-mouseenter material= "color: #fff;
-                                        opacity: 0.8;"
-                            position=   "0.4 1.5 0.08">
-                </a-mouseenter>
-                <a-mouseleave material= "color: #d3d3d3;
-                                        opacity: 0.8;"
-                            position=   "0.4 1.5 0">
-                </a-mouseleave>
-                </a-entity>
-
-                <a-entity geometry=     "primitive: plane;
-                                        width: .6;
-                                        height: .2;
-                                        translate: 0 0 0;"
-                            material=   "color: #d3d3d3;
-                                        opacity: 0.8;"
-                            position=   "-0.4 1.5 0">
-                <a-mouseenter material= "color: #fff;
-                                        opacity: 0.8;"
-                            position=   "-0.4 1.5 0.08">
-                </a-mouseenter>
-                <a-mouseleave material= "color: #d3d3d3;
-                                        opacity: 0.8;"
-                            position=   "-0.4 1.5 0">
-                </a-mouseleave>
-                </a-entity> --}}
-
-                <a-entity geometry=     "primitive: plane;
                                         width: 1.8;
                                         height: .5;
                                         translate: 0 0 0;"
@@ -106,11 +76,19 @@
                                         opacity: 0.8;"
                             position=   "0 1.2 -3">
                 </a-mouseleave>
-                </a-entity>
+                </a-entity> --}}
+
+                
+
+                
+  <a-entity text="text: Hello, World!" material="color: blue"></a-entity>
+
 
                 <a-sky src="img/sky4.jpg"></a-sky>
 
-                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 20 0"></a-model>
+                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 20 0">
+                    <a-animation attribute="position" from="0 5 0" to="1.2 1 -2" begin="2000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-model>
                  
             
                 <a-camera position="0 1.8 1.5" wasd-controls-enabled="false"></a-camera>
