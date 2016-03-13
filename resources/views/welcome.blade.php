@@ -45,6 +45,38 @@
                 </a-assets>
 
 
+                <!-- <a-entity geometry="primitive: ring; 
+                                    segmentsTheta: 50; 
+                                    thetaStart: 90; 
+                                    thetaLength: 10; 
+                                    radiusInner: .48;
+                                    radiusOuter: .51;"
+                            material="color: #fff;
+                                    opacity: 0;"
+                            position="0 .7 -3">
+                    <a-animation 
+                        begin="mouseenter" attribute="geometry.thetaLength" to="350" dur="2000">
+                   </a-animation>
+                   <a-animation 
+                        begin="mouseenter" attribute="material.opacity" to="0.8" dur="2000">
+                   </a-animation>
+                </a-entity> -->
+
+                <a-entity onclick="nextScene()" geometry="primitive: circle;
+                                        segments: 50;
+                                        radius: .45"
+                            material=   "color: #000;
+                                        opacity: 0.8;"
+                            position=   "0 .7 -3">
+                <a-mouseenter material= "color: #eee;
+                                        opacity: 0.8;">
+                </a-mouseenter>
+                <a-mouseleave material= "color: #000;
+                                        opacity: 0.8;">
+                </a-mouseleave>
+                    <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="5500" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 -4 0" to="0 .7 -3" begin="5000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-entity>
 
                 {{-- <a-curvedimage src="img/paua.jpg" radius="5.7" theta-length="50" height="4" rotation="0 100 0" position="0 1.8 0"></a-curvedimage> --}}
 
@@ -56,55 +88,74 @@
                     
                 </a-image> --}}
 
-                <a-image src="img/back.png" height="4" opacity="0.8" position="0 2.8 -3" scale="4">
-                    <a-animation attribute="scale" from="1 0 1" to="3 0.75 1" begin="1500" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -3" begin="1000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                <a-image src="img/back.png" height="4" opacity="0.9" position="0 2.8 -3" scale="4">
+                    <a-animation attribute="scale" from="1 0 1" to="2.8 0.75 1" begin="1000" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -3" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-image>
 
-                {{-- <a-image src="img/enter.png" height=".5" width=".2" opacity="0.5" position="0 0 -2"  rotation="0 20 0" onclick="location.href='https://www.google.co.nz/webhp?hl=en'">
+                <!-- <a-image src="img/enter.png" height=".5" width=".2" opacity="0.5" position="0 0 -2"  rotation="0 20 0" onclick="location.href='https://www.google.co.nz/webhp?hl=en'">
                     <a-animation attribute="position" from="-1 1 -2" to="-1 1 -2" begin="3000" dur="1000" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="scale" from="1 0 1" to="3 0.75 1" begin="3500" dur="200" fill="both" easing="ease-out"></a-animation>
-                </a-image> --}}
-
-                <a-entity onclick="location.href='https://www.google.co.nz/webhp?hl=en'" geometry=     "primitive: plane;
-                                        width: 1.8;
-                                        height: .5;
-                                        translate: 0 0 0;"
-                            material=   "color: #000;
-                                        opacity: 0.8;"
-                            position=   "0 1 -3">
-                <a-mouseenter material= "color: #fff;
-                                        opacity: 0.8;"
-                            position=   "0 1 -2.6">
+                    <a-mouseenter material= "opacity: 0.8;"
+                            position=   "0 0 -2">
                 </a-mouseenter>
-                <a-mouseleave material= "color: #000;
-                                        opacity: 0.8;"
-                            position=   "0 1 -3">
+                <a-mouseleave material= "opacity: 0.5;"
+                            position=   "-1 1 -2">
                 </a-mouseleave>
-                    <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="7000" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 -4 0" to="0 1 -3" begin="6500" dur="1000" fill="both" easing="ease-out"></a-animation>
-                </a-entity>
+                </a-image> -->
 
+                <!-- onclick="location.href='https://www.google.co.nz/webhp?hl=en'" -->
 
+                
+
+                
 
             
 
-                <a-sky src="img/sky4.jpg"></a-sky>
+                <a-sky id="scene1" src="img/sky4.jpg"></a-sky>
+                <a-sky id="scene2" visible="false" src="img/sky5.jpg"></a-sky>
 
-                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 20 0">
-                    <a-animation attribute="position" from="0 5 0" to="1.2 1 -2" begin="2000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -20 0">
+                    <a-animation attribute="position" from="0 5 0" to="1.2 1 -2" begin="4000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="rotation" to="0 25 0" begin="4000" dur="5000" easing="ease-out"></a-animation>
+
                 </a-model>
                  
             
-                <a-camera position="0 1.8 1.5" rotation="0 0 0" wasd-controls-enabled="false">
-                    <a-animation attribute="rotation" from="0 0 0" to="0 15 10" begin="1500" dur="2000"  easing="ease"></a-animation>
-                    {{-- <a-animation attribute="rotation" from="0 0 0" to="0 15 0" begin="4500" dur="2000"  easing="ease" direction="reverse"></a-animation> --}}
-                    <a-animation attribute="rotation" from="0 15 10" to="0 -15 -10" begin="3500" dur="2000"  easing="ease"></a-animation>
-                    <a-animation attribute="rotation" from="0 -15 -10" to="0 0 0" begin="5500" dur="2000"  easing="ease"></a-animation>
+                <a-camera position="0 1.8 1.5" rotation="0 0 0" wasd-controls-enabled="false" fuse="true">
+                    <a-animation attribute="rotation" from="0 0 0" to="0 15 10" begin="1000" dur="1500"  easing="ease"></a-animation>
+                    {{-- <a-animation attribute="rotation" from="0 0 0" to="0 15 0" begin="4000" dur="1500"  easing="ease" direction="reverse"></a-animation> --}}
+                    <a-animation attribute="rotation" from="0 15 10" to="0 -15 -10" begin="2500" dur="1500"  easing="ease"></a-animation>
+                    <a-animation attribute="rotation" from="0 -15 -10" to="0 0 0" begin="4000" dur="1500"  easing="ease"></a-animation>
                 </a-camera>
-                <a-light color="#fff" position="0 1.8 1.5" intensity="2"></a-light>
+                <a-light color="#fff" position="0 1.8 1.5" intensity="2">
+                    <a-animation attribute="intensity" from="0" to="2" begin="500" dur="3000" easing="ease"></a-animation>
+
+                </a-light>
         </a-scene>
-        <img src="img/fallback_sky.jpg">
+        <!-- <img src="img/fallback_sky.jpg"> -->
+
+         <script type="text/javascript">
+
+        function nextScene() {
+            document.getElementById('scene1').setAttribute('visible', 'false')
+            document.getElementById('scene2').setAttribute('visible', 'true')
+        }
+        
+
+        
+  </script>
             
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
