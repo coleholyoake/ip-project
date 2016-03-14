@@ -45,24 +45,21 @@
                 </a-assets>
 
 
-                <!-- <a-entity geometry="primitive: ring; 
+                <a-entity id="button-outline" geometry="primitive: ring; 
                                     segmentsTheta: 50; 
                                     thetaStart: 90; 
-                                    thetaLength: 10; 
+                                    thetaLength: 0; 
                                     radiusInner: .48;
                                     radiusOuter: .51;"
                             material="color: #fff;
-                                    opacity: 0;"
+                                    opacity: 0.8;"
                             position="0 .7 -3">
-                    <a-animation 
-                        begin="mouseenter" attribute="geometry.thetaLength" to="350" dur="2000">
+                    <a-animation id="u"
+                        begin="outline" attribute="geometry.thetaLength" to="360" dur="1000" fill="both">
                    </a-animation>
-                   <a-animation 
-                        begin="mouseenter" attribute="material.opacity" to="0.8" dur="2000">
-                   </a-animation>
-                </a-entity> -->
+                </a-entity>
 
-                <a-entity onclick="nextScene()" geometry="primitive: circle;
+                <a-entity id="button" onmouseenter="activate()" onmouseleave="deactivate()" onclick="nextScene()" geometry="primitive: circle;
                                         segments: 50;
                                         radius: .45"
                             material=   "color: #000;
@@ -115,22 +112,23 @@
                 <a-sky id="scene1" src="img/sky4.jpg"></a-sky>
                 <a-sky id="scene2" visible="false" src="img/sky5.jpg"></a-sky>
 
-                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -20 0">
+                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -30 0">
                     <a-animation attribute="position" from="0 5 0" to="1.2 1 -2" begin="4000" dur="1000" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="rotation" to="0 25 0" begin="4000" dur="5000" easing="ease-out"></a-animation>
+                    <a-animation attribute="rotation" to="0 30 0" begin="4000" dur="5000" easing="ease-out"></a-animation>
 
                 </a-model>
                  
-            
+                <a-entity cursor="fuse: true; maxDistance: 30; timeout: 500" material="color: #000;">
+                </a-entity>
+
                 <a-camera position="0 1.8 1.5" rotation="0 0 0" wasd-controls-enabled="false" fuse="true">
                     <a-animation attribute="rotation" from="0 0 0" to="0 15 10" begin="1000" dur="1500"  easing="ease"></a-animation>
-                    {{-- <a-animation attribute="rotation" from="0 0 0" to="0 15 0" begin="4000" dur="1500"  easing="ease" direction="reverse"></a-animation> --}}
                     <a-animation attribute="rotation" from="0 15 10" to="0 -15 -10" begin="2500" dur="1500"  easing="ease"></a-animation>
                     <a-animation attribute="rotation" from="0 -15 -10" to="0 0 0" begin="4000" dur="1500"  easing="ease"></a-animation>
                 </a-camera>
+
                 <a-light color="#fff" position="0 1.8 1.5" intensity="2">
                     <a-animation attribute="intensity" from="0" to="2" begin="500" dur="3000" easing="ease"></a-animation>
-
                 </a-light>
         </a-scene>
         <!-- <img src="img/fallback_sky.jpg"> -->
@@ -141,6 +139,19 @@
             document.getElementById('scene1').setAttribute('visible', 'false')
             document.getElementById('scene2').setAttribute('visible', 'true')
         }
+
+        function activate() {
+            document.querySelector('#button-outline').emit('outline')
+            document.getElementById('u').setAttribute('to', '360')
+        }
+
+        function deactivate() {
+            document.querySelector('#button-outline').emit('outline')
+            document.getElementById('u').setAttribute('to', '0')
+        }
+
+                
+          
         
 
         
