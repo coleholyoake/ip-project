@@ -55,9 +55,9 @@
 			window.sr = ScrollReveal();
 				// sr.reveal('.moving-zone');
 				// sr.reveal('.test');
-                sr.reveal('.button', { duration: 1500 });
-                sr.reveal('iframe', { duration: 1500 });
-                sr.reveal('.carousel', { duration: 1500 });
+                sr.reveal('.button', { duration: 1000 });
+                sr.reveal('iframe', { duration: 1000 });
+                sr.reveal('.carousel', { duration: 1000 });
 		</script>
 </body>
 </html>

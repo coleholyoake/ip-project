@@ -14,10 +14,10 @@
 
 
 
-<div class="arch"> 
+<div class="drone"> 
 	<div class="container no-padding-bottom">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-12">
 				<h2>_CAPTURE VR360° MEDIA</h2>
 				<span><p> +NZVR360° = EXCEPTIONAL VR360° MEDIA CONTENT</p></span>
 				<p>+NZVR360° have specialised camera &amp; mounting rigs to suit any VR360° project.  We often design &amp; engineer solutions for unique &amp; innovative shoot requirements.
@@ -30,38 +30,44 @@
 	</div>
 	<img src="../img/auck.png" width="100%">
 </div>
-<!-- 
+
 <div class="process">
-</div> -->
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h2>_CAMERAS &amp; CAPTURE TOOLS</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-md-offset-2">
+			<span><p> OUR VR360° CAMERA RIGS</p></span>
+		</div>
+		<div class="col-md-4">
+			<span><p> STANDARD &amp; CUSTOM CONFIGURATIONS</p></span>
+		</div>
+	</div>
+</div>
 
 
-<div class="north">		
+<div class="ozo">		
 	<div class="container">
-		<div class="row ozo">
+		<div class="row">
 			
 			<div class="col-md-8 col-md-offset-2 test">
-					<span><p class="inverse half-width"> 360FLY</p></span>
-					<p>The 360fly is an action camera - it looks more like an oversized golf ball. The 360fly’s lens is spherical, and points straight up into the air. The camera can capture everything happening around you all at once, the single eye recording everything in its field of view.
+					<h3 class="darkblue"> NOKIA OZO</h3><br>
+					<p class="darkblue">The 360fly is an action camera - it looks more like an oversized golf ball. The 360fly’s lens is spherical, and points straight up into the air. The camera can capture everything happening around you all at once, the single eye recording everything in its field of view.
 					<br><br>
 					The 360fly is the simple camera in the arsenal but often essential in the output &amp; result of +NZVR360° media.  It has limited control functionality &amp; editing capability; it's field of view is 360° on the horizontal &amp; 240° on the vertical.  However, the 360fly is a set &amp; forget camera &amp; a great resource due to ease of use, light weight &amp; unobtrusive presence.</p>
 			</div>
 			<div class="col-md-8 col-md-offset-2 col-xs-12 carousel">
 				
 				<div class="owl-carousel">
-				    <div class="item" style="width:250px"><h4>1</h4></div>
-				    <div class="item" style="width:100px"><h4>2</h4></div>
-				    <div class="item" style="width:500px"><h4>3</h4></div>
-				    <div class="item" style="width:100px"><h4>4</h4></div>
-				    <div class="item" style="width:50px"><h4>6</h4></div>
-				    <div class="item" style="width:250px"><h4>7</h4></div>
-				    <div class="item" style="width:120px"><h4>8</h4></div>
-				    <div class="item" style="width:420px"><h4>9</h4></div>
-				    <div class="item" style="width:120px"><h4>10</h4></div>
-				    <div class="item" style="width:300px"><h4>11</h4></div>
-				    <div class="item" style="width:450px"><h4>12</h4></div>
-				    <div class="item" style="width:220px"><h4>13</h4></div>
-				    <div class="item" style="width:150px"><h4>14</h4></div>
-				    <div class="item" style="width:600px"><h4>15</h4></div>
+					<div class="item" style="width:375px"><img src="img/ozo00.jpg"></div>
+				    <div class="item" style="width:312.5px"><img src="img/ozo01.jpg"></div>
+				    <div class="item" style="width:312.5px"><img src="img/ozo02.jpg"></div>
+				    <div class="item" style="width:375px"><img src="img/ozo03.jpg"></div>
+				    <div class="item" style="width:625px"><img src="img/ozo04.jpg"></div>
+				    <div class="item" style="width:437.5px"><img src="img/ozo05.jpg"></div>
+				    <div class="item" style="width:437.5px"><img src="img/ozo06.jpg"></div>
 				</div>
 			</div>
 
@@ -76,12 +82,12 @@
 	<img class="imgozo" src="img/ozo.png" width="100%">
 </div>
 
-<div class="arch" id="cluster"> 
+<div class="cluster" id="cluster"> 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
-				<span><p> 360HEROS CLUSTER</p></span>
-				<p>We use this cluster of GoPro cameras for most applications &amp; projects.  Cost effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots stitched together with clever software to create our immersive VR360° media.
+				<h3 class="white"> 360HEROS CLUSTER</h3><br>
+				<p class="white">We use this cluster of GoPro cameras for most applications &amp; projects.  Cost effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots stitched together with clever software to create our immersive VR360° media.
 				The complete cluster including patented mount weighs in at under 600grams &amp; is extremely versatile &amp; strong.  A shell makes the cluster waterproof for underwater shots; we mount on drones for flying / tracking shots; &amp; we have custom designed remote control vehicles for terrestrial tracking shots.  In the post production we can hide the mounting or vehicle in the seam of the stitch for a complete &amp; total immersive experience.</p>
 			</div>
 			<div class="col-md-7">
@@ -105,19 +111,21 @@
 			</div>
 			
 		 </div>
+
 	</div>
+<!-- <hr> -->
 </div>
 
 
 
 
 
-<div class="south">		
+<div class="fly">		
 	<div class="container">
-		<div class="row fly">
+		<div class="row">
 			
 			<div class="col-md-8 col-md-offset-2 test">
-					<span><p class="inverse half-width"> 360FLY</p></span>
+					<h3 class="white"> 360FLY</h3><br>
 					<p>The 360fly is an action camera - it looks more like an oversized golf ball. The 360fly’s lens is spherical, and points straight up into the air. The camera can capture everything happening around you all at once, the single eye recording everything in its field of view.
 					<br><br>
 					The 360fly is the simple camera in the arsenal but often essential in the output &amp; result of +NZVR360° media.  It has limited control functionality &amp; editing capability; it's field of view is 360° on the horizontal &amp; 240° on the vertical.  However, the 360fly is a set &amp; forget camera &amp; a great resource due to ease of use, light weight &amp; unobtrusive presence.</p>
@@ -140,9 +148,16 @@
 </div>
 
 
+<div class="process">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>2D CONVENTIONAL CAPTURE</h3>
+			<p>Our +NZVR360° Camera Operators &amp; Directors have extensive experience in conventional capture, film industry &amp; TV broadcast (Live &amp; Studio).  We utilise DSLR &amp; leading edge digital systems with new technologies &amp; peripheral equipment in 2D production to complement our VR360° media. +NZVR360° make exceptional visual media in any context.</p>
+		</div>
+	</div>
+</div>
 
-
-<div class="arch" id="arch"> 
+<div class="drone" id="drone"> 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
