@@ -6,20 +6,39 @@
 		    margin: 0;
 		    font-family: dosis;
 		    color: #040b1b;
+		    font-size: 16px;
 		}
-		p {
-			font-size: 16px;
+		div{
+  box-sizing:border-box;
+}
+
+.above-the-fold{
+  background:lightblue;
+  color:white;
+  padding:20px;
+}
+.hidden {
+	display: none;
+}
+.visible {
+	display: block;
+}
+.scroll-down {
+	position: absolute;
+	bottom: 1em;
+	left: -0%;
+}
+
+		h1, h2{
+			letter-spacing: .4em;
+			margin-top: 15px;
+			font-weight: 400;
 		}
 		.darkblue {
 			color: #040b1b;
 		}
 		.white {
 			color: #f3f3f3;
-		}
-		hr {
-			border-color: #fff;
-			margin: 0;
-			opacity: 0.4
 		}
 		.row {
 			margin: 0px;
@@ -37,11 +56,6 @@
 			color: #040b1b;
 			opacity: 0.8;
 		}
-		h1, h2{
-			letter-spacing: .4em;
-			margin-top: 15px;
-			font-weight: 400;
-		}
 		.margin {
 			margin-top: 15px;
 		}
@@ -49,15 +63,12 @@
 			padding: 100px 0px;
 			width: 80%;
 			margin: 0px auto;
-			/*background-color: #f3f3f3;*/
 			background-size: cover;
-			/*position: relative;*/
 			overflow: auto;
 		}
 		.no-padding-bottom {
 			padding-bottom: 0px !important
 		}
-
 		.fly {
 			background: #040b1b;
 			background: linear-gradient(170deg, #040b1b, #000);
@@ -83,7 +94,6 @@
 			z-index: 1;
 			pointer-events: none;
 		}
-		
 		.drone {
 			/*background-image: url('img/fallback_sky.jpg');*/
 			background: #f3f3f3;
@@ -96,22 +106,17 @@
 		}
 		.process {
 			/*background: linear-gradient(340deg, #fff, #ddd);*/
-		/*background-image: url('../img/VR_CoverPage.jpg');*/
-		/*background: linear-gradient(10deg, rgba(0,0,0,.5), rgba(0,0,0,.7)),url('../img/VR_CoverPage.jpg');
-		background-size: cover;*/
-		background-color: #f3f3f3;
-		
-		padding: 50px 0;
+			/*background-image: url('../img/VR_CoverPage.jpg');*/
+			/*background: linear-gradient(10deg, rgba(0,0,0,.5), rgba(0,0,0,.7)),url('../img/VR_CoverPage.jpg');
+			background-size: cover;*/
+			background-color: #f3f3f3;
+			padding: 50px 0;
 		}
-		
 		.moving-zone {
 		    position: relative;
-		    /*top:40%; left:50%;*/
 		    width:85%; height:985%;
 		    margin: auto;
-		    /*margin: 0 auto;*/
 		    perspective: 800px;
-		    
 		}
 		.popup {
 		    /*position: absolute;*/
@@ -133,108 +138,65 @@
 			 /*top: 200px; */
 			transform: translateZ(100px) !important;
 		}
-
-		
 		.popup-content {
 		    background: #000;
 		    padding: 20px;
 		    width:100%;
 		    height: 100%;
 		    box-sizing: border-box;
-		    /*border-radius: 100%;*/
 		}
-		
-		
-		/*.test {
-			width:35%; height:50%;
-			float: right;
-			display: inline;
-		}*/
 		.test {
 			color: #fff;
 			margin-bottom: 50px;
 		}
-		/*.test p {
-			clear: both;
-		}*/
 		.popup img {
 			position: relative;
 		}
-		/*.popup .popup {
-			padding-left: 20%;
-			left:50%; top:0% !important;
-			position: absolute;
-			transform: translateZ(100px) !important;
-		}
-		.popup .popup:before {
-			left:50%; top:0% !important;
-			transform: translateZ(-10px) !important;
-		}*/
 		.button{
 		  clear: both;
 		  position:relative;
-
 		}
-		
-
-
-.btn {
-	margin-top: 70px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-  
-.btn input {
-    border: 2px solid #040b1b;
-    border-radius: 20px;
-    color: #040b1b;
-    text-transform: uppercase;
-    background: none;
-    padding: .3em 1em;    
-    outline: none;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-    /*width: 177px;*/
-    font-size: 16px;
-}
-
-.btn input:hover {
-      background: #040b1b;
-      color: #fff;
-}
-
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-
-.table {
-	display: table;
-}
-.table-cell {
-	display: table-cell;
-	vertical-align: top;
-}
-
-/*.half-width { 
-	width: 50%;
-	background: #fff;
-	background: linear-gradient(90deg, #fff, rgba(0,0,0,0));
-}*/
-
-.item {
-	/*height: 250px;*/
-	width: auto;
-}
+		.btn {
+			margin-top: 70px;
+		  	position: absolute;
+		  	top: 50%;
+		  	left: 50%;
+		  	transform: translate(-50%, -50%);
+		}
+		.btn input {
+		    border: 2px solid #040b1b;
+		    border-radius: 20px;
+		    color: #040b1b;
+		    text-transform: uppercase;
+		    background: none;
+		    padding: .3em 1em;    
+		    outline: none;
+		    cursor: pointer;
+		    transition: all .3s ease-in-out;
+		    /*width: 177px;*/
+		    font-size: 16px;
+		}
+		.btn input:hover {
+		      background: #040b1b;
+		      color: #fff;
+		}
+		.videoWrapper {
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 25px;
+			height: 0;
+		}
+		.videoWrapper iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.table {
+			display: table;
+		}
+		.table-cell {
+			display: table-cell;
+			vertical-align: top;
+		}

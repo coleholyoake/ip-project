@@ -29,8 +29,19 @@ $(document).ready(function(){
         autoWidth:true,
         items:4,
         autoplay:true,
-        autoplayTimeout:4000,
+        autoplayTimeout:3000,
         autoplayHoverPause:true
+    });
+
+    /*Set height of sections to window height*/
+    $( ".above-the-fold" ).each(function(){
+        var $this = $(this);
+        $this.css({'min-height':($(window).height())+'px'});
+
+        /*Recalculate on window resize*/
+        $(window).resize(function(){
+        $this.css({'min-height':($(window).height())+'px'});
+        });
     });
 });
 

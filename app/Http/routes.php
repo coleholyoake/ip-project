@@ -15,7 +15,8 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'HomeController@home');
+Route::get('/', 'indexController@home');
+Route::get('/capture', 'indexController@capture');
 Route::get('/live', 'LiveController@live');
 /*
 |--------------------------------------------------------------------------
