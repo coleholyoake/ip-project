@@ -48,6 +48,7 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script src="js/owl.carousel.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.interactive_bg.min.js"></script>
 		<script type="text/javascript" src="js/vivus.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.1/scrollreveal.min.js"></script>
         

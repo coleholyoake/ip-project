@@ -8,27 +8,122 @@
 		    color: #040b1b;
 		    font-size: 16px;
 		}
-		div{
-  box-sizing:border-box;
-}
+		/*div{
+		  box-sizing:border-box;
+		}*/
 
-.above-the-fold{
-  background:lightblue;
-  color:white;
-  padding:20px;
-}
-.hidden {
-	display: none;
-}
-.visible {
-	display: block;
-}
-.scroll-down {
-	position: absolute;
-	bottom: 1em;
-	left: -0%;
-}
-
+		.above-the-fold{
+		  background-image: url('../img/fold.jpg');
+		  background-size: cover;
+		  /*color: white;*/
+		  /*padding: 20px;*/
+		  position: relative;
+		 }
+		
+		.hero-logo {
+			height: 40vh;
+			position: relative;
+			z-index: 2;
+		}
+		.table {
+			/*display: table;*/
+			
+		}
+		.table-cell {
+			/*display: table-cell;*/
+			vertical-align: top;
+			height: 350px;
+			width: 33.333%;
+			position: absolute;
+			bottom: -400px;
+			right: 0;
+			/*background-color: #040b1b;*/
+			color: #fff;
+			padding: 2em;
+			box-sizing: border-box;
+		}
+		.fold {
+			/*position: relative;*/
+			z-index: 3;
+		}
+		.table-cell2 {
+			/*display: table-cell;*/
+			vertical-align: top;
+			height: 350px;
+			width: 66.666%;
+			position: absolute;
+			bottom: -400px;
+			left: 0;
+			background: #040b1b;
+			background: linear-gradient(10deg, #040b1b, #000);
+			color: #fff;
+			padding: 2em;
+			box-sizing: border-box;
+		}
+		.cell4 {
+			background: #f3f3f3;
+			background: linear-gradient(10deg, #ddd, #fff);
+			
+		}
+		.cell3 {
+			background: #c2180f;
+			background: linear-gradient(30deg, #c2180f, #e06019);
+			color: #fff;
+			
+		}
+		.cell5 {
+			background: #040b1b;
+			background: linear-gradient(10deg, #040b1b, #000);
+			color: #fff;
+			
+		}
+		.captdeli {
+			background-image: url('../img/fallback_sky.jpg');
+			background-size: cover;
+		}
+		.capt {
+			height: 200px
+		} 
+		.capt:hover {
+			background: #c2180f;
+			background: linear-gradient(30deg, #c2180f, #e06019);
+			color: #fff;
+		}
+		.deli {
+			height: 400px;
+		}
+		.soci {
+			height: 80px;
+		}
+		.soci:hover {
+			background: #f3f3f3;
+			background: linear-gradient(10deg, #ddd, #fff);
+		}
+		.nopadmarg {
+			padding: 0px !important;
+			/*box-sizing: border-box;*/
+			margin: 0px !important;
+		}
+		.clear {
+			clear: both;
+		}
+		.hidden {
+			display: none;
+			position: absolute;
+			bottom: 420px;
+			left: 47%;
+		}
+		.visible {
+			display: block;
+			position: absolute;
+			bottom: 420px;
+			left: 47%;
+		}
+		/*.scroll-down {
+			position: absolute;
+			bottom: 400px;
+			left: 45%;
+		}*/
 		h1, h2{
 			letter-spacing: .4em;
 			margin-top: 15px;
@@ -101,7 +196,7 @@
 		}
 		.cluster {
 			/*background-image: url('img/fallback_sky.jpg');*/
-			background: #f3f3f3;
+			background: #c2180f;
 			background: linear-gradient(30deg, #c2180f, #e06019);
 		}
 		.process {
@@ -147,6 +242,7 @@
 		}
 		.test {
 			color: #fff;
+			/*height:200px;*/
 			margin-bottom: 50px;
 		}
 		.popup img {
@@ -193,10 +289,4 @@
 			width: 100%;
 			height: 100%;
 		}
-		.table {
-			display: table;
-		}
-		.table-cell {
-			display: table-cell;
-			vertical-align: top;
-		}
+		

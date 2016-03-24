@@ -36,12 +36,13 @@ $(document).ready(function(){
     /*Set height of sections to window height*/
     $( ".above-the-fold" ).each(function(){
         var $this = $(this);
-        $this.css({'min-height':($(window).height())+'px'});
+        $this.css({'min-height':($(window).height())+400+'px'});
 
         /*Recalculate on window resize*/
         $(window).resize(function(){
-        $this.css({'min-height':($(window).height())+'px'});
+        $this.css({'min-height':($(window).height())+400+'px'});
         });
     });
 });
+
 
