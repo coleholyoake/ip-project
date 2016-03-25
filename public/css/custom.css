@@ -41,6 +41,7 @@
 			color: #fff;
 			padding: 2em;
 			box-sizing: border-box;
+			display: none;
 		}
 		.fold {
 			/*position: relative;*/
@@ -50,7 +51,7 @@
 			/*display: table-cell;*/
 			vertical-align: top;
 			height: 350px;
-			width: 66.666%;
+			width: 100%;
 			position: absolute;
 			bottom: -400px;
 			left: 0;
@@ -94,6 +95,9 @@
 		}
 		.soci {
 			height: 80px;
+			width: 20%;
+			float: left;
+			background: #040b1b;
 		}
 		.soci:hover {
 			background: #f3f3f3;
@@ -289,4 +293,18 @@
 			width: 100%;
 			height: 100%;
 		}
+
+@media screen and (min-width: 768px) {
+	.table-cell2 {
+		width: 66.666%;
+	}
+	.table-cell {
+		display: inline;
+	}
+	.soci {
+		width: 100%;
+		float: none;
+		
+	}
+}
 		

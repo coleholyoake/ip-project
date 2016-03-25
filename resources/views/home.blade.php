@@ -17,7 +17,7 @@
 </div>
 
 
-<div class="containr nopadmarg">
+<div class="containr nopadmarg tables">
     <div class="row nopadmarg">
 		<div class="col-md-8 nopadmarg table-cell">
     		<div class="row nopadmarg deli" >
