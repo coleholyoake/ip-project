@@ -5,8 +5,8 @@
 <div class="above-the-fold">
     <div class="container fold">	
     	<div class="row hero-logo">
-    		<div class="col-md-4 col-md-offset-4">
-    			<img src="img/front.png" width="100%">
+    		<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+    			<img src="img/logo2.svg" width="100%">
     		</div>
     	</div>
     	<div class="row">

@@ -301,6 +301,10 @@
 	.table-cell {
 		display: inline;
 	}
+	
+}
+
+@media screen and (min-width: 992px) { 
 	.soci {
 		width: 100%;
 		float: none;
