@@ -18,6 +18,7 @@
 		  /*color: white;*/
 		  /*padding: 20px;*/
 		  position: relative;
+		  /*z-index: -3;*/
 		 }
 		
 		.hero-logo {
@@ -44,9 +45,8 @@
 			box-sizing: border-box;
 			display: none;
 		}
-		.fold {
-			/*position: relative;*/
-			/*z-index: 3;*/
+		.center {
+			text-align: center !important;
 		}
 		.table-cell2 {
 			display: table-cell;
@@ -65,14 +65,10 @@
 		.flexbox {      
 			display: -webkit-flex;        
 			display: -ms-flexbox;     
-			display: flex;
-			overflow: hidden;
+			display: inline-block;
 		}
-		.table-cell3 {
-			/*display: table-cell;
-			width: 50%;*/
-			flex: 1;
-		}
+		
+
 		.cell4 {
 			background: #f3f3f3;
 			background: linear-gradient(10deg, #ddd, #fff);
@@ -87,10 +83,12 @@
 		.cell5 {
 			background: #040b1b;
 			background: linear-gradient(90deg, #000, #040b1b);
+				
 			color: #fff;
-			
+			/*z-index: -2;*/
 		}
 		.captdeli {
+			/*background-image: url('../img/starwars.gif');*/
 			background-image: url('../img/sky4.jpg');
 			background-size: cover;
 		}
@@ -137,13 +135,13 @@
 			display: none;
 			position: absolute;
 			bottom: 550px;
-			left: 47%;
+			left: 46%;
 		}
 		.visible {
 			display: block;
 			position: absolute;
 			bottom: 550px;
-			left: 47%;
+			left: 46%;
 		}
 		.hidden2 {
 			display: none;
@@ -224,7 +222,13 @@
 		.fly .container {
 			z-index: 2;
 		}
-		.imgozo, .imgfly, .imghead {
+		.imgozo, .imgfly {
+			position: absolute;
+			bottom: 0;
+			z-index: 1;
+			pointer-events: none;
+		}
+		.imghead {
 			position: absolute;
 			bottom: 0;
 			z-index: 1;
@@ -297,6 +301,8 @@
 		}
 		.btn {
 			margin-top: 10px;
+			padding: 0;
+			border-radius: 10px;
 		  	/*position: absolute;*/
 		  	/*top: 0;
 		  	right: 0;*/
@@ -304,7 +310,7 @@
 		}
 		.btn input {
 		    border: 2px solid #040b1b;
-		    border-radius: 20px;
+		    border-radius: 10px;
 		    color: #040b1b;
 		    text-transform: uppercase;
 		    background: none;
@@ -318,6 +324,9 @@
 		.btn input:hover {
 		      background: #040b1b;
 		      color: #fff;
+		}
+		.btn:focus {
+			border: none;
 		}
 		.videoWrapper {
 			position: relative;
@@ -344,6 +353,22 @@
 			padding: 3em 5em !important;
 			box-sizing: border-box;
 			margin: 0px !important;
+		}
+		.flexbox {      
+			display: -webkit-flex;        
+			display: -ms-flexbox;     
+			display: flex;
+			overflow: hidden;
+			flex-direction: row;
+		}
+		.table-cell3 {
+			flex: 3;
+		}
+		.table-cell4 {
+			flex: 4;
+		}
+		.table-cell5 {
+			flex: .5;
 		}
 	
 }

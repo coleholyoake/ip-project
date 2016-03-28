@@ -9,16 +9,16 @@
     			<img src="img/logo2.svg" width="100%">
     		</div>
     	</div>
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+        <div class="row slogan">
+            <div class="col-md-8 col-md-offset-2 center">
                 <br>
                 <h4>VIRTUAL REALITY • 360° • IMMERSIVE MEDIA</h4>
                 <h4>EXPERIMENTAL • EXPONENTIAL • EXPERIENTIAL</h4>
             </div>
         </div>
     	<div class="row">
-	    	<img id="scroll-before" class="visible center-block scroll-down" src="img/scroll_arrow.svg" width="6%">
-	    	<a href="#intro"><img id="scroll-after" class="hidden center-block scroll-down" src="img/scroll_text.svg" width="6%"></a>
+	    	<a href="#intro"><img id="scroll-before" class="visible center-block scroll-down" src="img/scroll_arrow.svg" width="8%"></a>
+	    	<a href="#intro"><img id="scroll-after" class="hidden center-block scroll-down" src="img/scroll_text.svg" width="8%"></a>
 	    </div>
      </div>
      <a id="intro"></a>
@@ -46,7 +46,7 @@
 
 <div class="clear">
 	<div class="containr nopadmarg ">
-    	<div class="row nopadmarg tables flexbox">
+    	<div class="row nopadmarg flexbox">
 			<div class="col-md-6 cell4 nopadmarg captdeli table-cell3">
 	    		<div class="row nopadmarg2 deli" >
 	    			<h2>LIVE 360°</h2>
@@ -62,41 +62,57 @@
                     Our rigs are sophisticated capture devices in shot specific configurations; &amp; we understand the 
                     need for shots &amp; scenes that will "flow" in a released product as a story in the context of 
                     VR360°.</p>
-                    <form action="/live" class="button">
-                            <div class="btn"><input type="submit" href="/live" value="More"></div>
+                    <form action="/capture" class="button">
+                        <div class="btn"><input type="submit" value="More"></div>
                     </form>
     			</div>
                 <hr>
     			<div id="delivery-before" class="row nopadmarg2 capt">
 
     				<img id="delivery-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2"> DELIVERY</h2>
-                    
+        
                     <p>+NZVR360° are utilising Vrideo &amp; Deep Inc/ARTe360 - LIQUID CINEMA™ tools for distribution, authoring &amp; development.</p>
-
-<p>+NZVR360 build immersive experiences for online/ offline/ live/ interactive: trade &amp; entertainment events; experiential &amp; experimental installations; web/ mobile/ dedicated VR devices.</p>
-    			<form action="/live" class="button">
-                            <div class="btn"><input type="submit" href="/live" value="More"></div>
+                    <p>+NZVR360 build immersive experiences for online/ offline/ live/ interactive: trade &amp; entertainment events; experiential &amp; experimental installations; web/ mobile/ dedicated VR devices.</p>
+                    <form action="/delivery" class="button">
+                        <div class="btn"><input type="submit" value="More"></div>
                     </form>
                 </div>
     		</div>
     	</div>
     </div>
 </div>
-
+<img src="img/sky5.jpg" width="100%">
 <div class="clear">
 	<div class="containr nopadmarg">
-    	<div class="row nopadmarg">
-			<div class="col-md-4 cell4 nopadmarg">
-	    		<div class="row nopadmarg capt" >
+    	<div class="row nopadmarg flexbox">
+			<div class="col-md-4 cell4 nopadmarg table-cell3">
+	    		<div class="row nopadmarg2 capt" >
 	    			<h2>PROJECTS</h2>
-    			</div>
+                    <p>+NZVR360° build to brief: defined results require careful planning &amp; purpose.<p>
+                    <p>Our skill is in figuratively &amp; literally visualising the result - the structure of how our 
+                    audiences will respond to our media in the context of how it is delivered.</p>
+                    <p>We use sophisticated planning from our collaborative experience in TV broadcast, film, touring &amp; entertainment, content management, new media technologies &amp; advertising to produce &amp; build exceptional VR360° media.</p>
+    			     <form action="/delivery" class="button">
+                        <div class="btn"><input type="submit" value="More"></div>
+                    </form>
+                </div>
+                <hr>
+                <div class="row nopadmarg2 capt" >
+                    <h2>BLOG</h2>
+                </div>
     		</div>
-    		<div class="col-md-7 cell5 nopadmarg ">
-    			<div class="row nopadmarg deli" >
+    		<div class="col-md-8 cell5 nopadmarg table-cell4 ">
+    			<div class="row nopadmarg2 deli" >
     				<h2>INFO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     			</div>
 	    	</div>
-    		<div class="col-md-1 cell5 nopadmarg ">
+    		<div class="col-md-1 cell5 nopadmarg table-cell5">
     			<div class="row nopadmarg soci" ></div>
     			<div class="row nopadmarg soci" ></div>
 	    		<div class="row nopadmarg soci" ></div>

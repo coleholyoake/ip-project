@@ -54,9 +54,9 @@ $(document).ready(function(){
 
     var divs = $('.scroll-down');
     $(window).on('scroll', function() {
-       var st = $(this).scrollTop();
-    divs.css({ 'opacity' : (1 - st/350) });
-});
+        var st = $(this).scrollTop();
+        divs.css({ 'opacity' : (1 - st/200) });
+    });
 });
 
 
