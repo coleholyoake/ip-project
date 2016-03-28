@@ -81,7 +81,11 @@
     	</div>
     </div>
 </div>
-<img src="img/sky5.jpg" width="100%">
+
+<div class="parallax">
+</div>
+
+
 <div class="clear">
 	<div class="containr nopadmarg">
     	<div class="row nopadmarg flexbox">
@@ -112,7 +116,7 @@
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     			</div>
 	    	</div>
-    		<div class="col-md-1 cell5 nopadmarg table-cell5">
+    		<div class="col-md-1 cell6 nopadmarg table-cell5">
     			<div class="row nopadmarg soci" ></div>
     			<div class="row nopadmarg soci" ></div>
 	    		<div class="row nopadmarg soci" ></div>

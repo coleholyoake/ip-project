@@ -87,6 +87,9 @@
 			color: #fff;
 			/*z-index: -2;*/
 		}
+		.cell6 {
+			background: #040b1b;
+		}
 		.captdeli {
 			/*background-image: url('../img/starwars.gif');*/
 			background-image: url('../img/sky4.jpg');
@@ -155,6 +158,23 @@
 			-webkit-transition-property: opacity;
 			-webkit-transition-duration: 1s;
 			-webkit-transition-timing-function: ease-in-out;
+		}
+
+		.parallax {
+			height: 50vh;
+
+  text-indent: -9999px;
+
+  /* fix background */
+  background-attachment: fixed;
+
+  /* center it */
+  background-position: center center;
+
+  /* Scale it nicely to the element */
+  background-size: cover;
+
+  background-image: url('../img/sky5.jpg');
 		}
 
 
@@ -343,18 +363,30 @@
 		}
 
 @media screen and (min-width: 768px) {
+	
+	
+	.nopadmarg2 {
+			padding: 3em 5em !important;
+			box-sizing: border-box;
+			margin: 0px !important;
+		}
+		
+	
+}
+
+@media screen and (min-width: 992px) { 
+	.soci {
+		width: 100%;
+		float: none;
+		
+	}
 	.table-cell2 {
 		width: 66.666%;
 	}
 	.table-cell {
 		display: inline;
 	}
-	.nopadmarg2 {
-			padding: 3em 5em !important;
-			box-sizing: border-box;
-			margin: 0px !important;
-		}
-		.flexbox {      
+	.flexbox {      
 			display: -webkit-flex;        
 			display: -ms-flexbox;     
 			display: flex;
@@ -370,14 +402,5 @@
 		.table-cell5 {
 			flex: .5;
 		}
-	
-}
-
-@media screen and (min-width: 992px) { 
-	.soci {
-		width: 100%;
-		float: none;
-		
-	}
 }
 		
