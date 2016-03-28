@@ -36,13 +36,27 @@ $(document).ready(function(){
     /*Set height of sections to window height*/
     $( ".above-the-fold" ).each(function(){
         var $this = $(this);
-        $this.css({'min-height':($(window).height())+400+'px'});
+        $this.css({'min-height':($(window).height())+500+'px'});
 
         /*Recalculate on window resize*/
         $(window).resize(function(){
-        $this.css({'min-height':($(window).height())+400+'px'});
+        $this.css({'min-height':($(window).height())+500+'px'});
         });
     });
+
+
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 800);
+        return false;
+    });
+
+    var divs = $('.scroll-down');
+    $(window).on('scroll', function() {
+       var st = $(this).scrollTop();
+    divs.css({ 'opacity' : (1 - st/350) });
+});
 });
 
 

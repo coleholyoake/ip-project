@@ -21,21 +21,22 @@
 		 }
 		
 		.hero-logo {
-			height: 40vh;
+			/*height: 40vh;*/
 			position: relative;
 			z-index: 2;
 		}
-		.table {
-			/*display: table;*/
+		.tables {
+			display: table;
+			width: 100%;
 			
 		}
 		.table-cell {
-			/*display: table-cell;*/
+			display: table-cell;
 			vertical-align: top;
-			height: 350px;
-			width: 33.333%;
+			/*height: 350px;*/
+			width: 39%;
 			position: absolute;
-			bottom: -400px;
+			bottom: -500px;
 			right: 0;
 			/*background-color: #040b1b;*/
 			color: #fff;
@@ -45,21 +46,32 @@
 		}
 		.fold {
 			/*position: relative;*/
-			z-index: 3;
+			/*z-index: 3;*/
 		}
 		.table-cell2 {
-			/*display: table-cell;*/
+			display: table-cell;
 			vertical-align: top;
-			height: 350px;
+			/*height: 350px;*/
 			width: 100%;
 			position: absolute;
-			bottom: -400px;
+			bottom: -500px;
 			left: 0;
 			background: #040b1b;
 			background: linear-gradient(10deg, #040b1b, #000);
 			color: #fff;
 			padding: 2em;
 			box-sizing: border-box;
+		}
+		.flexbox {      
+			display: -webkit-flex;        
+			display: -ms-flexbox;     
+			display: flex;
+			overflow: hidden;
+		}
+		.table-cell3 {
+			/*display: table-cell;
+			width: 50%;*/
+			flex: 1;
 		}
 		.cell4 {
 			background: #f3f3f3;
@@ -74,24 +86,30 @@
 		}
 		.cell5 {
 			background: #040b1b;
-			background: linear-gradient(10deg, #040b1b, #000);
+			background: linear-gradient(90deg, #000, #040b1b);
 			color: #fff;
 			
 		}
 		.captdeli {
-			background-image: url('../img/fallback_sky.jpg');
+			background-image: url('../img/sky4.jpg');
 			background-size: cover;
 		}
 		.capt {
-			height: 200px
+			/*height: 200px*/
+			opacity: .8;
 		} 
-		.capt:hover {
+		.capt:hover, .capt:focus {
+			opacity: 1;
 			background: #c2180f;
 			background: linear-gradient(30deg, #c2180f, #e06019);
 			color: #fff;
 		}
+		hr {
+			border-top: 1px dashed #e06019;
+			margin: 0 5em;
+		}
 		.deli {
-			height: 400px;
+			/*height: 400px;*/
 		}
 		.soci {
 			height: 80px;
@@ -105,7 +123,11 @@
 		}
 		.nopadmarg {
 			padding: 0px !important;
-			/*box-sizing: border-box;*/
+			margin: 0px !important;
+		}
+		.nopadmarg2 {
+			padding: 1em 2em !important;
+			box-sizing: border-box;
 			margin: 0px !important;
 		}
 		.clear {
@@ -114,21 +136,36 @@
 		.hidden {
 			display: none;
 			position: absolute;
-			bottom: 420px;
+			bottom: 550px;
 			left: 47%;
 		}
 		.visible {
 			display: block;
 			position: absolute;
-			bottom: 420px;
+			bottom: 550px;
 			left: 47%;
 		}
+		.hidden2 {
+			display: none;
+		}
+		.visible2 {
+			display: inline-block;
+		}
+		.arrowto { 
+			margin-bottom: 13px;
+			transition: opacity 1s ease-in-out;
+			-webkit-transition-property: opacity;
+			-webkit-transition-duration: 1s;
+			-webkit-transition-timing-function: ease-in-out;
+		}
+
+
 		/*.scroll-down {
 			position: absolute;
-			bottom: 400px;
+			bottom: 500px;
 			left: 45%;
 		}*/
-		h1, h2{
+		h1, h2, h3,h4{
 			letter-spacing: .4em;
 			margin-top: 15px;
 			font-weight: 400;
@@ -187,7 +224,7 @@
 		.fly .container {
 			z-index: 2;
 		}
-		.imgozo, .imgfly {
+		.imgozo, .imgfly, .imghead {
 			position: absolute;
 			bottom: 0;
 			z-index: 1;
@@ -254,14 +291,16 @@
 		}
 		.button{
 		  clear: both;
-		  position:relative;
+		  /*position:relative;*/
+		  display: inline-block;
+		  float: right;
 		}
 		.btn {
-			margin-top: 70px;
-		  	position: absolute;
-		  	top: 50%;
-		  	left: 50%;
-		  	transform: translate(-50%, -50%);
+			margin-top: 10px;
+		  	/*position: absolute;*/
+		  	/*top: 0;
+		  	right: 0;*/
+		  	/*transform: translate(-50%, -50%);*/
 		}
 		.btn input {
 		    border: 2px solid #040b1b;
@@ -301,6 +340,11 @@
 	.table-cell {
 		display: inline;
 	}
+	.nopadmarg2 {
+			padding: 3em 5em !important;
+			box-sizing: border-box;
+			margin: 0px !important;
+		}
 	
 }
 
