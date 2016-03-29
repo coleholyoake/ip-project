@@ -88,7 +88,7 @@
 
                 <!-- //////////////////////////////////////////////// -->
 
-                <a-entity id="button-outline1" geometry="primitive: ring; 
+                <!-- <a-entity id="button-outline1" geometry="primitive: ring; 
                                     segmentsTheta: 50; 
                                     thetaStart: 90; 
                                     thetaLength: 0; 
@@ -104,7 +104,7 @@
                    <a-animation 
                         begin="fadeOut" attribute="geometry.thetaLength" from="360" to="0" dur="200">
                    </a-animation>
-                </a-entity>
+                </a-entity> -->
 
                 <a-entity id="button1" onclick="nextScene2()" geometry="primitive: circle;
                                         segments: 50;
@@ -215,7 +215,7 @@
 
 
         function camera() {
-            document.getElementById('camera').setAttribute('no-click-look-controls', 'maxyaw:2;maxpitch:.8');
+            document.getElementById('camera').setAttribute('no-click-look-controls', 'maxyaw:2.5;maxpitch:.8');
         }
         
 

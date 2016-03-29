@@ -82,8 +82,16 @@
     </div>
 </div>
 
-<div class="parallax">
-</div>
+<!-- <div class="cell5">  --> 
+    <div class="parallax">
+        <div class="container">
+            <div class="row">
+                <br>
+                <h1 class="center slogan2">IMMERSE YOURSELF +NZVR360°</h1>
+            </div>
+        </div>
+    </div>
+<!-- </div> -->
 
 
 <div class="clear">
@@ -103,6 +111,11 @@
                 <hr>
                 <div class="row nopadmarg2 capt" >
                     <h2>BLOG</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <form action="/blog" class="button">
+                        <div class="btn"><input type="submit" value="More"></div>
+                    </form>
                 </div>
     		</div>
     		<div class="col-md-8 cell5 nopadmarg table-cell4 ">
@@ -113,17 +126,52 @@
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+                    <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WTLum2m6iqw" frameborder="0" allowfullscreen></iframe>
+                    </div>
     			</div>
 	    	</div>
-    		<div class="col-md-1 cell6 nopadmarg table-cell5">
-    			<div class="row nopadmarg soci" ></div>
-    			<div class="row nopadmarg soci" ></div>
-	    		<div class="row nopadmarg soci" ></div>
-    			<div class="row nopadmarg soci" ></div>
-    			<div class="row nopadmarg soci" ></div>
-    		</div>
+    		<!-- <div class="col-md-1 cell6 nopadmarg table-cell5">
+    			<div class="row nopadmarg soci" >         
+                </div>
+    			<div class="row nopadmarg soci" >          
+                </div>
+	    		<div class="row nopadmarg soci" >          
+                </div>
+    			<div class="row nopadmarg soci" >          
+                </div>
+    			<div class="row nopadmarg soci" >          
+                </div>
+    		</div> -->
     	</div>
+    </div>
+</div>
+
+<div class="parallax2">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+
+<div class="containr cell5">
+    <div class="row">
+        <div class="col-xs-2 col-xs-offset-1">
+            <!-- <img src="img/logo.svg" class="center-block" width="80%"> -->
+        </div>
+        <div class="col-xs-2">
+            <!-- <img src="img/logo.svg" class="center-block" width="80%"> --> 
+        </div> 
+        <div class="col-xs-2">
+            <!-- <img src="img/logo.svg" class="center-block" width="80%"> -->
+        </div> 
+        <div class="col-xs-2">
+            <!-- <img src="img/logo.svg" class="center-block" width="80%"> --> 
+        </div> 
+        <div class="col-xs-2">
+            <!-- <img src="img/logo.svg" class="center-block" width="80%"> -->
+        </div>    
     </div>
 </div>
 

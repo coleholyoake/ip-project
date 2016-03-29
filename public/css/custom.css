@@ -63,8 +63,8 @@
 			box-sizing: border-box;
 		}
 		.flexbox {      
-			display: -webkit-flex;        
-			display: -ms-flexbox;     
+			/*display: -webkit-flex;        */
+			/*display: -ms-flexbox;     */
 			display: inline-block;
 		}
 		
@@ -161,28 +161,27 @@
 		}
 
 		.parallax {
-			height: 50vh;
-
-  text-indent: -9999px;
-
-  /* fix background */
-  background-attachment: fixed;
-
-  /* center it */
-  background-position: center center;
-
-  /* Scale it nicely to the element */
-  background-size: cover;
-
-  background-image: url('../img/sky5.jpg');
+			height: 55vh;
+			/*text-indent: -9999px;*/
+			background-attachment: fixed;
+			background-position: center center;
+			background-size: cover;
+			background-image: url('../img/stars.jpg');
+			/*opacity: 0.6;*/
+			color: #fff !important;
+		}
+		.parallax2 {
+			height: 55vh;
+			/*text-indent: -9999px;*/
+			background-attachment: fixed;
+			background-position: center center;
+			background-size: cover;
+			background-image: url('../img/sky5.jpg');
+			/*opacity: 0.6;*/
+			color: #fff !important;
 		}
 
-
-		/*.scroll-down {
-			position: absolute;
-			bottom: 500px;
-			left: 45%;
-		}*/
+		
 		h1, h2, h3,h4{
 			letter-spacing: .4em;
 			margin-top: 15px;
@@ -378,7 +377,6 @@
 	.soci {
 		width: 100%;
 		float: none;
-		
 	}
 	.table-cell2 {
 		width: 66.666%;
@@ -391,7 +389,7 @@
 			display: -ms-flexbox;     
 			display: flex;
 			overflow: hidden;
-			flex-direction: row;
+			/*flex-direction: row;*/
 		}
 		.table-cell3 {
 			flex: 3;
@@ -399,8 +397,8 @@
 		.table-cell4 {
 			flex: 4;
 		}
-		.table-cell5 {
+		/*.table-cell5 {
 			flex: .5;
-		}
+		}*/
 }
 		
