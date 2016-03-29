@@ -44,9 +44,6 @@ $(document).ready(function(){
         autoplayHoverPause:true
     });
 
-    
-
-
     $('a').click(function(){
         $('html, body').animate({
             scrollTop: $( $(this).attr('href') ).offset().top
@@ -54,10 +51,12 @@ $(document).ready(function(){
         return false;
     });
 
-    var divs = $('.scroll-down');
+    var scrollDown = $('.scroll-down');
+    var navbar = $('.navbar');
     $(window).on('scroll', function() {
         var st = $(this).scrollTop();
-        divs.css({ 'opacity' : (1 - st/200) });
+        scrollDown.css({ 'opacity' : (1 - st/200) });
+        navbar.css({ 'opacity' : (1 - st/50) });
     });
 });
 

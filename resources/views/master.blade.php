@@ -35,7 +35,7 @@
                             <li><a href="/live">LIVE</a></li>
                             <li><a href="/capture">CAPTURE</a></li>
                             <li><a href="/delivery">DELIVERY</a></li>
-                            <li><a href="/architecture">ARCHITECTURE</a></li>
+                            <li><a href="/architecture">PROJECTS</a></li>
                             
                         </ul>
                     </div>  
@@ -54,7 +54,15 @@
 		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.1/scrollreveal.min.js"></script>
         
 		<script type="text/javascript">
-
+            window.sr = ScrollReveal();
+                // sr.reveal('.moving-zone');
+                // sr.reveal('.test');
+                sr.reveal('.hero-logo', { duration: 3000 });
+                sr.reveal('.slogan', { duration: 5000 });
+                sr.reveal('.slogan2', { duration: 1500 });
+                sr.reveal('.button', { duration: 2000 });
+                sr.reveal('iframe', { duration: 1000 });
+                sr.reveal('.carousel', { duration: 1000 });
 		</script>
 </body>
 </html>
