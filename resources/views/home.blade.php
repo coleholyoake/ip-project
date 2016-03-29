@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <br>
-                <h1 class="center slogan2">IMMERSE YOURSELF +NZVR360°</h1>
+                <h1 class="center slogan2">IMMERSE<br>YOURSELF<br>+NZVR360°</h1>
             </div>
         </div>
     </div>

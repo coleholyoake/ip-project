@@ -11,7 +11,51 @@
 		/*div{
 		  box-sizing:border-box;
 		}*/
+		.navbar {
+			background-color: rgba(255,255,255,0);
+			position: absolute;
+			top: 0;
+			z-index: 1000000;
+			width: 100%;
+			padding: 0px 5%;
+			border: 0px;
+			overflow: auto;
+			min-height: 75px;
+		}
+		.navbar-brand {
+			width: 65%;
 
+		}
+		.navbar-brand img {
+			width: 50%;
+
+		}
+		.navbar-header {
+			width: 100%;
+		}
+		.navbar-nav>li>a {
+			padding-top: 22px !important;
+		}
+		.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+			border-bottom: 2px solid #040b1b;
+			/*transition: border-bottom .3s ease-in-out;*/
+		}
+		.navbar-default, .navbar-nav>li>a {
+			color: #040b1b !important;
+
+		}
+		.navbar-toggle {
+			margin-top: 15px;
+			margin-bottom: 15px;
+			border: 0;
+		}
+		.navbar-toggle:hover {
+			background-color: #f3f3f3 !important;
+		}
+		.icon-bar {
+			background-color: #040b1b !important;
+		}
+		
 		.above-the-fold{
 		  background-image: url('../img/fold.jpg');
 		  background-size: cover;
@@ -369,6 +413,16 @@
 			box-sizing: border-box;
 			margin: 0px !important;
 		}
+	.navbar-header {
+			width: 20%;
+		}
+	.navbar-brand img {
+			width: 100%;
+		}
+	.navbar-brand {
+			width: 100%;
+			cursor: pointer;
+		}
 		
 	
 }
@@ -400,5 +454,8 @@
 		/*.table-cell5 {
 			flex: .5;
 		}*/
+	.navbar-brand img {
+			width: 80%;
+		}
 }
 		

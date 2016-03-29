@@ -22,6 +22,17 @@ $(document).mousemove(function(e) {
         .css('transform', 'rotateX('-rotateX-'deg) rotateY('-rotateY-'deg)');
 });
 
+/*Set height of sections to window height*/
+    $( ".above-the-fold" ).each(function(){
+        var $this = $(this);
+        $this.css({'min-height':($(window).height())+500+'px'});
+
+        /*Recalculate on window resize*/
+        $(window).resize(function(){
+        $this.css({'min-height':($(window).height())+500+'px'});
+        });
+    });
+
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         margin:0,
@@ -33,16 +44,7 @@ $(document).ready(function(){
         autoplayHoverPause:true
     });
 
-    /*Set height of sections to window height*/
-    $( ".above-the-fold" ).each(function(){
-        var $this = $(this);
-        $this.css({'min-height':($(window).height())+500+'px'});
-
-        /*Recalculate on window resize*/
-        $(window).resize(function(){
-        $this.css({'min-height':($(window).height())+500+'px'});
-        });
-    });
+    
 
 
     $('a').click(function(){
