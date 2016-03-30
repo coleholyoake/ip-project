@@ -53,7 +53,7 @@
                     <!-- <p>Experience +NZVR360°</p> -->
     			</div>
     		</div>
-    		<div class="col-md-6 cell4 nopadmarg table-cell3">
+    		<div class="col-md-6 cell4 nopadmarg table-cell">
     			<div id="capture-before" class="row nopadmarg2 capt" >
                 
     				<img id="capture-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2"> CAPTURE</h2> 

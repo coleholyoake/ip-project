@@ -136,7 +136,7 @@
 		.cell6 {
 			background: rgba(243,243,243,0.8);
 			color: #040b1b !important;
-			height: 50%;
+			/*height: 50%;*/
 			/*width: 55%;*/
 			/*opacity: 0.5;*/
 		}
@@ -221,14 +221,14 @@
 			color: #fff !important;
 		}
 		.parallax2 {
-			height: 55vh;
+			height: 150vh;
 			/*text-indent: -9999px;*/
 			background-attachment: fixed;
 			background-position: center center;
 			background-size: cover;
 			background-image: url('../img/auck.jpg');
 			/*opacity: 0.6;*/
-			color: #fff !important;
+			/*color: #fff !important;*/
 		}
 
 		
@@ -460,9 +460,9 @@
 		.table-cell4 {
 			flex: 4;
 		}
-		/*.table-cell5 {
-			flex: .5;
-		}*/
+		.table-cell5 {
+			flex: 1.5;
+		}
 	.navbar-brand img {
 			width: 80%;
 		}
