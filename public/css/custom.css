@@ -134,7 +134,11 @@
 			/*z-index: -2;*/
 		}
 		.cell6 {
-			background: #040b1b;
+			background: rgba(243,243,243,0.8);
+			color: #040b1b !important;
+			height: 50%;
+			/*width: 55%;*/
+			/*opacity: 0.5;*/
 		}
 		.captdeli {
 			/*background-image: url('../img/starwars.gif');*/
@@ -222,7 +226,7 @@
 			background-attachment: fixed;
 			background-position: center center;
 			background-size: cover;
-			background-image: url('../img/sky5.jpg');
+			background-image: url('../img/auck.jpg');
 			/*opacity: 0.6;*/
 			color: #fff !important;
 		}
@@ -267,6 +271,9 @@
 		}
 		.no-padding-bottom {
 			padding-bottom: 0px !important
+		}
+		.no-padding-top {
+			padding-top: 0px !important
 		}
 		.fly {
 			background: #040b1b;

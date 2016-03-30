@@ -56,7 +56,7 @@ $(document).ready(function(){
     $(window).on('scroll', function() {
         var st = $(this).scrollTop();
         scrollDown.css({ 'opacity' : (1 - st/200) });
-        navbar.css({ 'opacity' : (1 - st/50) });
+        // navbar.css({ 'opacity' : (1 - st/50) });
     });
 });
 
