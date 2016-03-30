@@ -136,7 +136,7 @@
 		.cell6 {
 			background: rgba(243,243,243,0.8);
 			color: #040b1b !important;
-			/*height: 50%;*/
+			overflow: auto;
 			/*width: 55%;*/
 			/*opacity: 0.5;*/
 		}

@@ -2,16 +2,7 @@
 
 @section('content')
 
-<!-- <div class="drone"> 
-	<div class="container no-padding-bottom">
-		<div class="row">
-			<div class="col-md-12">
-				
-			</div>
-		</div>
-	</div>
-	<img src="../img/auck.png" width="100%">
-</div> -->
+
 <div class="parallax2">
 <div class="cell6">
         <div class="container">

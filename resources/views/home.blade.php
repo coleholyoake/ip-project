@@ -53,7 +53,7 @@
                     <!-- <p>Experience +NZVR360°</p> -->
     			</div>
     		</div>
-    		<div class="col-md-6 cell4 nopadmarg table-cell">
+    		<div class="col-md-6 cell4 nopadmarg table-cell3">
     			<div id="capture-before" class="row nopadmarg2 capt" >
                 
     				<img id="capture-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2"> CAPTURE</h2> 
@@ -98,22 +98,22 @@
 	<div class="containr nopadmarg">
     	<div class="row nopadmarg flexbox">
 			<div class="col-md-4 cell4 nopadmarg table-cell3">
-	    		<div class="row nopadmarg2 capt" >
-	    			<h2>PROJECTS</h2>
+	    		<div id="projects-before" class="row nopadmarg2 capt" >
+	    			<img id="projects-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2">PROJECTS</h2>
                     <p>+NZVR360° build to brief: defined results require careful planning &amp; purpose.<p>
                     <p>Our skill is in figuratively &amp; literally visualising the result - the structure of how our 
                     audiences will respond to our media in the context of how it is delivered.</p>
                     <p>We use sophisticated planning from our collaborative experience in TV broadcast, film, touring &amp; entertainment, content management, new media technologies &amp; advertising to produce &amp; build exceptional VR360° media.</p>
-    			     <form action="/delivery" class="button">
+    			     <form action="/projects" class="button">
                         <div class="btn"><input type="submit" value="More"></div>
                     </form>
                 </div>
                 <hr>
-                <div class="row nopadmarg2 capt" >
-                    <h2>BLOG</h2>
+                <div id="news-before" class="row nopadmarg2 capt" >
+                    <img id="news-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2">NEWS</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <form action="/blog" class="button">
+                    <form action="http://www.nzvr360.com/news/" class="button">
                         <div class="btn"><input type="submit" value="More"></div>
                     </form>
                 </div>

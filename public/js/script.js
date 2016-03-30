@@ -21,3 +21,18 @@ document.getElementById("delivery-before").onmouseout = function() {
 	document.getElementById("delivery-after").className = "hidden2 arrowto";
 }
 
+document.getElementById("projects-before").onmouseover = function() {
+	document.getElementById("projects-after").className = "visible2 arrowto";
+}
+document.getElementById("projects-before").onmouseout = function() {
+	document.getElementById("projects-after").className = "hidden2 arrowto";
+}
+
+document.getElementById("news-before").onmouseover = function() {
+	document.getElementById("news-after").className = "visible2 arrowto";
+}
+document.getElementById("news-before").onmouseout = function() {
+	document.getElementById("news-after").className = "hidden2 arrowto";
+}
+
+
