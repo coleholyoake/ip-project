@@ -45,13 +45,17 @@
 
 	@yield('content')
 
-    <footer class="cell5">
+    <footer class="cell3">
         <div class="container">
             <div class="row">
                 <a href="#top"><img id="scrollup-before" class="center-block visible-up scroll-up" src="img/scrollup_arrow.svg" width="8%"></a>
                 <a href="#top"><img id="scrollup-after" class="center-block hidden-up scroll-up" src="img/scrollup_text.svg" width="8%"></a>
             </div>
-            <h2>footer</h2>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <a href="https://twitter.com/nzvr360"><img src="img/social-tw-outline.svg" width="20%"></a><a href="https://www.instagram.com/nzvr360/"><img src="img/social-in-outline.svg" width="20%"></a><a href="https://www.facebook.com//nzvr360"><img src="img/social-fb-outline.svg" width="20%"></a><a href="https://www.linkedin.com/company/-nzvr360°"><img src="img/social-li-outline.svg" width="20%"></a><a href="https://www.youtube.com/channel/UCzQnZGrt6BvKRlv9yo1ziNQ"><img src="img/social-yo-outline.svg" width="20%"></a>
+                </div>
+            </div>
         </div>
     </footer>
 

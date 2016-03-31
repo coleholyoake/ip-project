@@ -223,5 +223,11 @@
 	</div>
 </div>
 
-
+<div class="parallax2">
+        <div class="container">
+            <div class="row">
+            
+            </div>
+        </div>
+    </div> 
 @endsection
