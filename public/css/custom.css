@@ -160,6 +160,10 @@
 			border-top: 1px dashed #e06019;
 			margin: 0 5em;
 		}
+		footer hr {
+			border-top: 1px solid #f3f3f3;
+			margin: 0 0;
+		}
 		.deli {
 			/*height: 400px;*/
 		}
@@ -217,6 +221,12 @@
 		}
 		footer {
 			position: relative;
+		}
+		.social {
+			position: relative;
+		}
+		.social a {
+			position: absolute;
 		}
 		.arrowto { 
 			margin-bottom: 13px;
