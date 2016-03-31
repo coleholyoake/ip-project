@@ -166,7 +166,7 @@
 <div class="process">
 	<div class="container no-padding-bottom no-padding-top">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
+		<div class="col-md-12">
 			<h3>2D CONVENTIONAL CAPTURE</h3>
 			<p>Our +NZVR360° Camera Operators &amp; Directors have extensive experience in conventional capture, film industry &amp; TV broadcast (Live &amp; Studio).  We utilise DSLR &amp; leading edge digital systems with new technologies &amp; peripheral equipment in 2D production to complement our VR360° media. +NZVR360° make exceptional visual media in any context.</p>
 		</div>
@@ -212,22 +212,45 @@
 				Our drones are CAA approved &amp; we understand &amp; employ all compliance including redundancy &amp; safety plans.
 				<br><br>
 				+NZVR360° come ready for your location &amp; can even provide the espresso machine; our production involves all audio (playback &amp; recording) &amp; lighting for any location requirement.</p>
-					<!-- <form action="/live">
-						<div class="button">
-					  		<div class="btn"><input type="submit" href="/live" value="Location &amp; event services"></div>
-					  	</div>
-				  	</form>
-			  	 -->
-			</div>
+				</div>
 		 </div>
 	</div>
 </div>
 
 <div class="parallax2">
-        <div class="container">
-            <div class="row">
-            
-            </div>
+    <div class="container">
+        <div class="row">
         </div>
-    </div> 
+    </div>
+</div> 
+
+<div class="fly"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 white">
+				<h2>_POST / EDITING</h2>
+				<span><p class="inverse"> PREPARING THE RESULT</p></span>
+				<p>Our editors use a selection of software packages to stitch the VR media together - depending on the 
+				capture method &amp; the requirement of delivery.
+				<br><br>
+				Generally the video is collected &amp; composited with either a proprietary After Effects plugin or 
+				dedicated proprietary software; we are Alpha testers for Ai &amp; Deep Inc package solutions &amp; we 
+				endeavour to use their products to enable cross platform distribution of web, mobile &amp; dedicated 
+				headset 360° media.
+				<br><br>
+				We've been editing &amp; finishing conventional 2D Film, TV &amp; AV display projects for many years however 
+				methodology &amp; process for VR360° is more like theatre than it is film... stories need intensive 
+				thought &amp; planning for the compositing &amp; edit.
+				<br><br>
+				+NZVR360° are making functional &amp; flowing post production &amp; VR360° edit with careful planning &amp; pre 
+				production.  +NZVR360° deliver engaging &amp; immersive results!
+				</p>
+				</div>
+		 </div>
+	</div>
+</div>
+
 @endsection
+
+
+

@@ -58,7 +58,7 @@
                 
     				<img id="capture-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2"> CAPTURE</h2> 
                     
-                    <p>+NZVR360° capture VR360° content with various specialised camera rigs to create immersive media. 
+                    <p><i class="fa fa-twitter"></i>+NZVR360° capture VR360° content with various specialised camera rigs to create immersive media. 
                     Our rigs are sophisticated capture devices in shot specific configurations; &amp; we understand the 
                     need for shots &amp; scenes that will "flow" in a released product as a story in the context of 
                     VR360°.</p>
