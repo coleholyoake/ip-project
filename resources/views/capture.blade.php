@@ -4,53 +4,7 @@
 
 
 <div class="parallax2">
-<div class="cell6">
-        <div class="container">
-            <div class="row">
-            <div class="col-md-12">
-		            <h2>_CAPTURE VR360° MEDIA</h2>
-				<span><p> +NZVR360° = EXCEPTIONAL VR360° MEDIA CONTENT</p></span>
-				<p>+NZVR360° have specialised camera &amp; mounting rigs to suit any VR360° project.  We often design &amp; engineer solutions for unique &amp; innovative shoot requirements.
-				<br><br>
-				The +NZVR360° team work collaboratively &amp; seamlessly between creative &amp; production to achieve innovative expectations &amp; results.  Conventional film &amp; TV methods are not applicable in the script - the process is more theatre in its execution.  +NZVR360° have a unique process that involves design practices with traditional production methodology to enable effective capture, execution &amp; eventual distribution.
-				<br><br>
-				Process is mapped from concept to execution &amp; the best tools are prepared.  +NZVR360° capture great immersive media.</p>
-	            </div>
-            </div>
-        </div>
-    </div>
-    <div class="clear">
-	<div class="containr nopadmarg ">
-    	<div class="row nopadmarg flexbox">
-			<div class="col-md-6 cell5 nopadmarg table-cell3">
-	    		<div class="row nopadmarg2 deli" >
-	    			<h2 class="center">_CAMERAS &amp; CAPTURE TOOLS</h2>
-                    <!-- <p>Experience +NZVR360°</p> -->
-    			</div>
-    		</div>
-    	</div>
-    	<!-- <div class="row nopadmarg flexbox">
-    		<div class="col-md-6 nopadmarg table-cell5">
-    			<div id="capture-before" class="row nopadmarg2 capt" >
-                
-                    
-                    <form action="/capture" class="button">
-                        <div class="btn"><input type="submit" value="OUR VR360° CAMERA RIGS"></div>
-                    </form>
-    			</div>
-    		</div>
-    		<div class="col-md-6  nopadmarg table-cell5">
-    			<div id="delivery-before" class="row nopadmarg2 capt">
-
-        			
-                    <form action="/delivery" class="button">
-                        <div class="btn"><input type="submit" value="STANDARD &amp; CUSTOM CONFIGURATIONS"></div>
-                    </form>
-                </div>
-    		</div>
-    	</div> -->
-    </div>
-</div>
+	
 </div>
 
 <!-- <div class="parallax2"> -->
@@ -86,7 +40,53 @@
 	</div>
 </div> -->
 
+<div class="cell6">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+		            <h2>_CAPTURE VR360° MEDIA</h2>
+				<span><p> +NZVR360° = EXCEPTIONAL VR360° MEDIA CONTENT</p></span>
+				<p>+NZVR360° have specialised camera &amp; mounting rigs to suit any VR360° project.  We often design &amp; engineer solutions for unique &amp; innovative shoot requirements.
+				<br><br>
+				The +NZVR360° team work collaboratively &amp; seamlessly between creative &amp; production to achieve innovative expectations &amp; results.  Conventional film &amp; TV methods are not applicable in the script - the process is more theatre in its execution.  +NZVR360° have a unique process that involves design practices with traditional production methodology to enable effective capture, execution &amp; eventual distribution.
+				<br><br>
+				Process is mapped from concept to execution &amp; the best tools are prepared.  +NZVR360° capture great immersive media.</p>
+	            </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear">
+		<div class="containr nopadmarg ">
+    		<div class="row nopadmarg flexbox">
+				<div class="col-md-6 cell5 nopadmarg table-cell3">
+	    			<div class="row nopadmarg2 deli" >
+	    				<h2 class="center">_CAMERAS &amp; CAPTURE TOOLS</h2>
+                    <!-- <p>Experience +NZVR360°</p> -->
+    				</div>
+    			</div>
+    		</div>
+    	<!-- <div class="row nopadmarg flexbox">
+    		<div class="col-md-6 nopadmarg table-cell5">
+    			<div id="capture-before" class="row nopadmarg2 capt" >
+                
+                    
+                    <form action="/capture" class="button">
+                        <div class="btn"><input type="submit" value="OUR VR360° CAMERA RIGS"></div>
+                    </form>
+    			</div>
+    		</div>
+    		<div class="col-md-6  nopadmarg table-cell5">
+    			<div id="delivery-before" class="row nopadmarg2 capt">
 
+        			
+                    <form action="/delivery" class="button">
+                        <div class="btn"><input type="submit" value="STANDARD &amp; CUSTOM CONFIGURATIONS"></div>
+                    </form>
+                </div>
+    		</div>
+    	</div> -->
+    	</div>
+	</div>
 
 
 
@@ -223,11 +223,5 @@
 	</div>
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md12">
-			
-		</div>
-	</div>
-</div>
+
 @endsection

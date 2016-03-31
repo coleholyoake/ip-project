@@ -155,24 +155,14 @@
         </div>
     </div> -->
 
-<div class="containr cell5">
-    <div class="row">
-        <div class="col-xs-2 col-xs-offset-1">
-            <!-- <img src="img/logo.svg" class="center-block" width="80%"> -->
+
+
+ <div class="parallax2">
+        <div class="container">
+            <div class="row">
+            
+            </div>
         </div>
-        <div class="col-xs-2">
-            <!-- <img src="img/logo.svg" class="center-block" width="80%"> --> 
-        </div> 
-        <div class="col-xs-2">
-            <!-- <img src="img/logo.svg" class="center-block" width="80%"> -->
-        </div> 
-        <div class="col-xs-2">
-            <!-- <img src="img/logo.svg" class="center-block" width="80%"> --> 
-        </div> 
-        <div class="col-xs-2">
-            <!-- <img src="img/logo.svg" class="center-block" width="80%"> -->
-        </div>    
     </div>
-</div>
 
 @endsection

@@ -7,6 +7,15 @@ document.getElementById("scroll-after").onmouseout = function() {
 	document.getElementById("scroll-after").className = "hidden center-block";
 }
 
+document.getElementById("scrollup-before").onmouseover = function() {
+	document.getElementById("scrollup-before").className = "hidden-up center-block";
+	document.getElementById("scrollup-after").className = "visible-up center-block";
+}
+document.getElementById("scrollup-after").onmouseout = function() {
+	document.getElementById("scrollup-before").className = "visible-up center-block";
+	document.getElementById("scrollup-after").className = "hidden-up center-block";
+}
+
 document.getElementById("capture-before").onmouseover = function() {
 	document.getElementById("capture-after").className = "visible2 arrowto";
 }

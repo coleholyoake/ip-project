@@ -118,6 +118,7 @@
 		.cell4 {
 			background: #f3f3f3;
 			background: linear-gradient(10deg, #ddd, #fff);
+			min-height: 400px;
 			
 		}
 		.cell3 {
@@ -196,11 +197,26 @@
 			bottom: 550px;
 			left: 46%;
 		}
+		.hidden-up {
+			display: none;
+			position: absolute;
+			top: 40px;
+			left: 46%;
+		}
+		.visible-up {
+			display: block;
+			position: absolute;
+			top: 40px;
+			left: 46%;
+		}
 		.hidden2 {
 			display: none;
 		}
 		.visible2 {
 			display: inline-block;
+		}
+		footer {
+			position: relative;
 		}
 		.arrowto { 
 			margin-bottom: 13px;
@@ -221,7 +237,7 @@
 			color: #fff !important;
 		}
 		.parallax2 {
-			height: 150vh;
+			height: 55vh;
 			/*text-indent: -9999px;*/
 			background-attachment: fixed;
 			background-position: center center;
