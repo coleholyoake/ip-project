@@ -17,4 +17,14 @@ class IndexController extends Controller
     {
     	return view('capture');
     }
+
+    public function delivery() 
+    {
+    	return view('delivery');
+    }
+
+    public function projects() 
+    {
+    	return view('projects');
+    }
 }

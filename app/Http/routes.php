@@ -17,6 +17,8 @@
 
 Route::get('/', 'indexController@home');
 Route::get('/capture', 'indexController@capture');
+Route::get('/delivery', 'indexController@delivery');
+Route::get('/projects', 'indexController@projects');
 Route::get('/live', 'LiveController@live');
 /*
 |--------------------------------------------------------------------------
