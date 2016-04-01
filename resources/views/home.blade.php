@@ -49,8 +49,10 @@
     	<div class="row nopadmarg flexbox">
 			<div class="col-md-6 cell4 nopadmarg captdeli table-cell3">
 	    		<div class="row nopadmarg2 deli" >
-	    			<h2>LIVE 360°</h2>
-                    <!-- <p>Experience +NZVR360°</p> -->
+	    			<h2>LIVE</h2>
+                    <p>Experience +NZVR360° right here, right now.</p>
+                    <br><br><br><br><br><br>
+                    <h1 class="center"><a class="white" href="/live"><i class="fa fa-play"></i></a></h1>
     			</div>
     		</div>
     		<div class="col-md-6 cell4 nopadmarg table-cell3">
@@ -58,7 +60,7 @@
                 
     				<img id="capture-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2"> CAPTURE</h2> 
                     
-                    <p><i class="fa fa-twitter"></i>+NZVR360° capture VR360° content with various specialised camera rigs to create immersive media. 
+                    <p>+NZVR360° capture VR360° content with various specialised camera rigs to create immersive media. 
                     Our rigs are sophisticated capture devices in shot specific configurations; &amp; we understand the 
                     need for shots &amp; scenes that will "flow" in a released product as a story in the context of 
                     VR360°.</p>

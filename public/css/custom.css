@@ -142,22 +142,34 @@
 			/*opacity: 0.5;*/
 		}
 		.captdeli {
-			/*background-image: url('../img/starwars.gif');*/
+			background: #040b1b;
 			background-image: url('../img/sky4.jpg');
 			background-size: cover;
+			transition: all .5s ease-in-out;
+			/*transition: all .5s ease-in-out;*/
+		}
+		.captdeli:hover {
+			background: #040b1b;
+			background-size: cover;
+			background-image: url('../img/sky4dark.jpg');
+			/*transition: all .5s ease-in-out;*/
+			color: #fff !important;
+			transition: all .5s ease-in-out;
 		}
 		.capt {
 			/*height: 200px*/
 			opacity: .8;
+			transition: color .5s ease-in-out;
 		} 
 		.capt:hover, .capt:focus {
 			opacity: 1;
 			background: #c2180f;
 			background: linear-gradient(30deg, #c2180f, #e06019);
 			color: #fff;
+			transition: color .5s ease-in-out;
 		}
 		hr {
-			border-top: 1px dashed #e06019;
+			border-top: 1px dashed #c2180f;
 			margin: 0 5em;
 		}
 		footer hr {
@@ -268,6 +280,14 @@
 		}
 		.white {
 			color: #f3f3f3;
+			transition: color .5s ease-in-out;
+		}
+		.red {
+			color: #c2180f;
+		}
+		a.white:hover {
+			color: #c2180f;
+			transition: color .5s ease-in-out;
 		}
 		.row {
 			margin: 0px;
@@ -396,6 +416,12 @@
 		  /*position:relative;*/
 		  display: inline-block;
 		  float: right;
+		}
+		.button2{
+		  clear: both;
+		  /*position:relative;*/
+		  display: inline-block;
+		  float: left;
 		}
 		.btn {
 			margin-top: 10px;

@@ -55,6 +55,13 @@
             </div>
         </div>
     </div>
+
+    <div class="parallax2">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</div> 
     <div class="clear">
 		<div class="containr nopadmarg ">
     		<div class="row nopadmarg flexbox">
@@ -188,6 +195,13 @@
     </div>
 </div> -->
 
+<div class="parallax2">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</div> 
+
 <div class="drone" id="drone"> 
 	<div class="container">
 		<div class="row">
@@ -217,12 +231,6 @@
 	</div>
 </div>
 
-<div class="parallax2">
-    <div class="container">
-        <div class="row">
-        </div>
-    </div>
-</div> 
 
 <div class="fly"> 
 	<div class="container">
@@ -245,10 +253,17 @@
 				+NZVR360° are making functional &amp; flowing post production &amp; VR360° edit with careful planning &amp; pre 
 				production.  +NZVR360° deliver engaging &amp; immersive results!
 				</p>
-				</div>
-		 </div>
+			</div>
+		</div>
 	</div>
 </div>
+
+<div class="parallax2">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</div> 
 
 @endsection
 
