@@ -38,7 +38,7 @@
                     <li><a href="/live">LIVE</a></li>
                     <li><a href="/capture">CAPTURE</a></li>
                     <li><a href="/delivery">DELIVERY</a></li>
-                    <li><a href="/architecture">PROJECTS</a></li>
+                    <li><a href="/projects">PROJECTS</a></li>
                     
                 </ul>
             </div>  
@@ -81,6 +81,7 @@
             </div>
             <!-- <br><hr> -->
             <div class="row">
+                
             </div>
         </div>
     </footer>
