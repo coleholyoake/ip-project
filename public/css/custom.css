@@ -180,7 +180,7 @@
 			/*height: 400px;*/
 		}
 		.soci {
-			height: 80px;
+			/*height: 80px;*/
 			width: 20%;
 			float: left;
 			background: #040b1b;
@@ -197,6 +197,9 @@
 			padding: 1em 2em !important;
 			box-sizing: border-box;
 			margin: 0px !important;
+		}
+		.nopad {
+			padding-top: 0 !important;
 		}
 		.clear {
 			clear: both;
@@ -236,9 +239,10 @@
 		}
 		.social {
 			position: relative;
+			height: 100%;
 		}
 		.social a {
-			position: absolute;
+			/*position: absolute;*/
 		}
 		.arrowto { 
 			margin-bottom: 13px;

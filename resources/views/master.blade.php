@@ -54,8 +54,12 @@
                 <a href="#top"><img id="scrollup-after" class="center-block hidden-up scroll-up" src="img/scrollup_text.svg" width="8%"></a>
             </div>
             <div class="row">
-                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-                    <div class="row">
+                <div class="col-md-3">
+                    <a href="mailto:info@nzvr360.com" class="">info@nzvr360.com</a> | <a href="tel:+64 4 393 5633" class="">+64 4 393 5633</a> 
+                    <p>PO Box 6693 Marion Square Wellington 6141</p>
+                </div>
+                <div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12">
+                    <div class="row clear">
                         <div class="col-xs-2 col-xs-offset-1 social">
                             <a id="tw-before" class="visible2" href="https://twitter.com/nzvr360"><img src="img/social-tw-outline.svg" width="100%"></a>
                             <a id="tw-after" class="hidden2" href="https://twitter.com/nzvr360"><img src="img/social-tw-fill.svg" width="100%"></a>
@@ -78,9 +82,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- <br><hr> -->
-            <div class="row">
                 
             </div>
         </div>
