@@ -48,11 +48,11 @@
 	<div class="containr nopadmarg ">
     	<div class="row nopadmarg flexbox">
 			<div class="col-md-6 cell4 nopadmarg captdeli table-cell3">
-	    		<div class="row nopadmarg2 deli" >
+	    		<div class="row nopadmarg2 deli relative" >
 	    			<h2>LIVE</h2>
                     <p>Experience +NZVR360° right here, right now.</p>
-                    <br><br><br><br><br><br>
-                    <h1 class="center"><a class="white" href="/live"><i class="fa fa-play"></i></a></h1>
+                    
+                    <h1 class="center font-large"><a class="white opacity" href="/live"><i class="fa fa-play"></i></a></h1>
     			</div>
     		</div>
     		<div class="col-md-6 cell4 nopadmarg table-cell3">

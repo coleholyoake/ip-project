@@ -143,18 +143,18 @@
 		}
 		.captdeli {
 			background: #040b1b;
-			background-image: url('../img/sky4.jpg');
+			color: #fff !important;
+			background-image: url('../img/sky4dark.jpg');
 			background-size: cover;
 			transition: all .5s ease-in-out;
 			/*transition: all .5s ease-in-out;*/
 		}
-		.captdeli:hover {
-			background: #040b1b;
-			background-size: cover;
-			background-image: url('../img/sky4dark.jpg');
-			/*transition: all .5s ease-in-out;*/
-			color: #fff !important;
-			transition: all .5s ease-in-out;
+		.font-large {
+			font-size: 100px;
+			/*vertical-align: middle;*/
+			position: absolute;
+			top: 40%;
+			left: 45%;
 		}
 		.capt {
 			/*height: 200px*/
