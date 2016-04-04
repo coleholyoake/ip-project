@@ -48,17 +48,14 @@
 	@yield('content')
 
     <footer class="cell3">
-        <div class="container">
+        <div class="container nopad">
             <div class="row">
                 <a href="#top"><img id="scrollup-before" class="center-block visible-up scroll-up" src="img/scrollup_arrow.svg" width="8%"></a>
                 <a href="#top"><img id="scrollup-after" class="center-block hidden-up scroll-up" src="img/scrollup_text.svg" width="8%"></a>
             </div>
             <div class="row">
-                <div class="col-md-3">
-                    <a href="mailto:info@nzvr360.com" class="">info@nzvr360.com</a> | <a href="tel:+64 4 393 5633" class="">+64 4 393 5633</a> 
-                    <p>PO Box 6693 Marion Square Wellington 6141</p>
-                </div>
-                <div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12">
+                
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
                     <div class="row clear">
                         <div class="col-xs-2 col-xs-offset-1 social">
                             <a id="tw-before" class="visible2" href="https://twitter.com/nzvr360"><img src="img/social-tw-outline.svg" width="100%"></a>
@@ -82,7 +79,30 @@
                         </div>
                     </div>
                 </div>
+               
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1  under-social">
+                    <img src="img/logo.svg" width="100%"><br>
+                    <p><small>Virtual Reality 360° Immersive Media</small></p>
+                </div>
                 
+                 <div class="col-md-2 col-md-offset-2  under-social">
+                    <a class="white" href="mailto:info@nzvr360.com" class="">info@nzvr360.com</a><br>
+                    <a class="white" href="tel:+64 4 393 5633" class="">+64 4 393 5633</a><br><br>
+                    <p>PO Box 6693 Marion Square Wellington 6141</p>
+                </div>
+                <div class="col-md-2 col-md-offset-2  under-social">
+                    <ul>
+                        <li>_ HOME</li>
+                        <li>_ CAPTURE</li>
+                        <li>_ DELIVERY</li>
+                        <li>_ LIVE</li>
+                        <li>_ PROJECTS</li>
+                        <li>_ NEWS</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>

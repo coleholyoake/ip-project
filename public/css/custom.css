@@ -199,7 +199,10 @@
 			margin: 0px !important;
 		}
 		.nopad {
-			padding-top: 0 !important;
+			padding: 20px 0 !important;
+		}
+		.mar {
+			margin: 50px 0;
 		}
 		.clear {
 			clear: both;
@@ -219,13 +222,13 @@
 		.hidden-up {
 			display: none;
 			position: absolute;
-			top: 40px;
+			top: -40px;
 			left: 46%;
 		}
 		.visible-up {
 			display: block;
 			position: absolute;
-			top: 40px;
+			top: -40px;
 			left: 46%;
 		}
 		.hidden2 {
@@ -240,9 +243,19 @@
 		.social {
 			position: relative;
 			height: 100%;
+			margin-bottom: 30px;
+		}
+		.under-social {
+			margin-top: 30px;
 		}
 		.social a {
 			/*position: absolute;*/
+		}
+		ul {
+			list-style: none;
+		}
+		small {
+			font-size: 60%;
 		}
 		.arrowto { 
 			margin-bottom: 13px;
