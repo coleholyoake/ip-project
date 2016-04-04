@@ -115,7 +115,7 @@
                     <img id="news-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2">NEWS</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <form action="http://www.nzvr360.com/news/" class="button">
+                    <form target="_blank" action="http://www.nzvr360.com/news/" class="button">
                         <div class="btn"><input type="submit" value="More"></div>
                     </form>
                 </div>

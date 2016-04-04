@@ -35,9 +35,9 @@
             <div class="collapse navbar-collapse navbar-right" id="collapsemenu">
                 <ul class="nav navbar-nav">
                     <li><a href="/">+NZVR360°</a></li>
-                    <li><a href="/live">LIVE</a></li>
                     <li><a href="/capture">CAPTURE</a></li>
                     <li><a href="/delivery">DELIVERY</a></li>
+                    <li><a href="/live">LIVE</a></li>
                     <li><a href="/projects">PROJECTS</a></li>
                     
                 </ul>
@@ -95,12 +95,12 @@
                 </div>
                 <div class="col-md-2 col-md-offset-2  under-social">
                     <ul>
-                        <li>_ HOME</li>
-                        <li>_ CAPTURE</li>
-                        <li>_ DELIVERY</li>
-                        <li>_ LIVE</li>
-                        <li>_ PROJECTS</li>
-                        <li>_ NEWS</li>
+                        <li><a class="white" href="/">_ HOME</a></li>
+                        <li><a class="white" href="/capture">_ CAPTURE</a></li>
+                        <li><a class="white" href="/delivery">_ DELIVERY</a></li>
+                        <li><a class="white" href="/live">_ LIVE</a></li>
+                        <li><a class="white" href="/projects">_ PROJECTS</a></li>
+                        <li><a class="white" target="_blank" href="http://www.nzvr360.com/news/">_ NEWS</a></li>
                     </ul>
                 </div>
             </div>
