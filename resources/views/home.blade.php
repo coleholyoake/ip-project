@@ -85,11 +85,11 @@
 </div>
 
 <!-- <div class="cell5">  --> 
-    <div class="parallax">
+    <div class="parallax2">
         <div class="container">
             <div class="row">
                 <br>
-                <h1 class="center slogan2">IMMERSE<br>YOURSELF<br>+NZVR360°</h1>
+                <h1 class="center white slogan2">IMMERSE<br>YOURSELF<br>+NZVR360°</h1>
             </div>
         </div>
     </div>

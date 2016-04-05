@@ -235,7 +235,7 @@
 <div class="fly"> 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 white">
+			<div class="col-md-8 col-md-offset-2 white">
 				<h2>_POST / EDITING</h2>
 				<span><p class="inverse"> PREPARING THE RESULT</p></span>
 				<p>Our editors use a selection of software packages to stitch the VR media together - depending on the 
@@ -253,6 +253,9 @@
 				+NZVR360° are making functional &amp; flowing post production &amp; VR360° edit with careful planning &amp; pre 
 				production.  +NZVR360° deliver engaging &amp; immersive results!
 				</p>
+			</div>
+			<div class="col-md-8 col-md-offset-2 white">
+				<img src="img/editing2.png" class="center-block" width="100%">
 			</div>
 		</div>
 	</div>
