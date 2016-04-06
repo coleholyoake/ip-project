@@ -94,14 +94,10 @@
 		.center {
 			text-align: center !important;
 		}
-		.inline {
-			display: inline;
-		}
 		.owl-nav {
 			float: right;
 		}
-		.owl-prev, .owl-next {
-			/*width: 50%;*/
+		.owl-prev, .owl-next, .inline {
 			display: inline;
 			
 		}

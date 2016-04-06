@@ -26,7 +26,7 @@
 				<p>360° video content encourages user interaction, increasing viewership numbers and total media consumption time.</p>
             </div>
         </div>
-        <hr class="mar">
+        <!-- <hr class="mar">
         <div class="col-md-12">
         	<p>+NZVR360° VIDEO VR SOLUTIONS FOR EVERYONE</p>
         </div>
@@ -37,6 +37,7 @@
 					<li>_ Product launches &amp; showcases</li>
 				</ul>
         </div>
+        
         <div class="col-md-4">
         	<ul>
 				<li>_ Tourism, virtual locations &amp; education</li>
@@ -50,11 +51,25 @@
 				<li>_ Concerts &amp; special events</li>
 				<li>_ Sports, gaming &amp; entertainment</li>
 			</ul>
-        </div>
+        </div> -->
     </div>
 </div>
 
 <div class="parallax2">
+	
+</div>
+
+<div class="cell5">
+    <div class="container">
+        <div class="row">
+        	<div class="col-md-8">
+        	<img src="img/VR_CoverPage.png" width="100%">
+        </div>
+       	</div>
+    </div>
+ </div>
+
+ <div class="parallax2">
 	
 </div>
 
