@@ -222,13 +222,13 @@
 		.hidden-up {
 			display: none;
 			position: absolute;
-			top: -40px;
+			top: -50px;
 			left: 46%;
 		}
 		.visible-up {
 			display: block;
 			position: absolute;
-			top: -40px;
+			top: -50px;
 			left: 46%;
 		}
 		.hidden2 {
@@ -413,6 +413,9 @@
 			 /*top: 200px; */
 			transform: translateZ(100px) !important;
 		}
+		.popup-2 img {
+			overflow: hidden;
+		}
 		.popup-content {
 		    background: #000;
 		    padding: 20px;
@@ -483,6 +486,11 @@
 			height: 100%;
 		}
 
+	.navbar-collapse {
+		background: rgba(255,255,255,0.95);
+		text-align: center;
+	}
+
 @media screen and (min-width: 768px) {
 	
 	
@@ -501,6 +509,10 @@
 			width: 100%;
 			cursor: pointer;
 		}
+	.navbar-collapse {
+		background: rgba(255,255,255,0);
+	}
+
 		
 	
 }

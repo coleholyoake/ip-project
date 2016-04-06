@@ -4,41 +4,8 @@
 
 
 <div class="parallax2">
-	
 </div>
 
-<!-- <div class="parallax2"> -->
-	<!-- <div class="cell6">  -->
-        <!-- <div class="container">
-            <div class="row">
-            	
-            </div>
-        </div> -->
-    <!-- </div> -->
-<!-- </div> -->
-
-<!-- <div class="parallax2">
-        <div class="container">
-            <div class="row">
-            </div>
-        </div>
-    </div> -->
-
-<!-- <div class="process">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<h2>_CAMERAS &amp; CAPTURE TOOLS</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-4 col-md-offset-2">
-			<span><p> OUR VR360° CAMERA RIGS</p></span>
-		</div>
-		<div class="col-md-4">
-			<span><p> STANDARD &amp; CUSTOM CONFIGURATIONS</p></span>
-		</div>
-	</div>
-</div> -->
 
 <div class="cell6">
     <div class="container">
@@ -56,57 +23,30 @@
     </div>
 </div>
 
-    <div class="parallax2">
-    <div class="container">
-        <div class="row">
-        </div>
-    </div>
+<div class="parallax2">
 </div> 
-    <div class="clear">
-		<div class="containr nopadmarg ">
-    		<div class="row nopadmarg flexbox">
-				<div class="col-md-6 cell5 nopadmarg table-cell3">
-	    			<div class="row nopadmarg2 deli" >
-	    				<h2 class="center">_CAMERAS &amp; CAPTURE TOOLS</h2>
-                    <!-- <p>Experience +NZVR360°</p> -->
-    				</div>
-    			</div>
-    		</div>
-    	<!-- <div class="row nopadmarg flexbox">
-    		<div class="col-md-6 nopadmarg table-cell5">
-    			<div id="capture-before" class="row nopadmarg2 capt" >
-                
-                    
-                    <form action="/capture" class="button">
-                        <div class="btn"><input type="submit" value="OUR VR360° CAMERA RIGS"></div>
-                    </form>
-    			</div>
-    		</div>
-    		<div class="col-md-6  nopadmarg table-cell5">
-    			<div id="delivery-before" class="row nopadmarg2 capt">
 
-        			
-                    <form action="/delivery" class="button">
-                        <div class="btn"><input type="submit" value="STANDARD &amp; CUSTOM CONFIGURATIONS"></div>
-                    </form>
-                </div>
-    		</div>
-    	</div> -->
-    	</div>
-	</div>
-
-
+<div class="clear">
+	<div class="containr nopadmarg ">
+		<div class="row nopadmarg flexbox">
+			<div class="col-md-6 cell5 nopadmarg table-cell3">
+    			<div class="row nopadmarg2 deli" >
+    				<h2 class="center">_CAMERAS &amp; CAPTURE TOOLS</h2>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
 
 <div class="ozo">		
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 test">
-					<h3 class="darkblue"> NOKIA OZO</h3><br>
-					<p class="darkblue">Capturing 360° spherical video and 360x360 surround sound with unique interactive monitoring, OZO increases both the quality and efficiency of Virtual Reality production.
-					</p>
+				<h3 class="darkblue"> NOKIA OZO</h3><br>
+				<p class="darkblue">Capturing 360° spherical video and 360x360 surround sound with unique interactive 
+				monitoring, OZO increases both the quality and efficiency of Virtual Reality production.</p>
 			</div>
 			<div class="col-md-8 col-md-offset-2 col-xs-12 carousel">
-				
 				<div class="owl-carousel">
 					<div class="item" style="width:375px"><img src="img/ozo00.jpg"></div>
 				    <div class="item" style="width:312.5px"><img src="img/ozo01.jpg"></div>
@@ -127,8 +67,14 @@
 		<div class="row">
 			<div class="col-md-5">
 				<h3 class="white"> 360HEROS CLUSTER</h3><br>
-				<p class="white">We use this cluster of GoPro cameras for most applications &amp; projects.  Cost effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots stitched together with clever software to create our immersive VR360° media.
-				The complete cluster including patented mount weighs in at under 600grams &amp; is extremely versatile &amp; strong.  A shell makes the cluster waterproof for underwater shots; we mount on drones for flying / tracking shots; &amp; we have custom designed remote control vehicles for terrestrial tracking shots.  In the post production we can hide the mounting or vehicle in the seam of the stitch for a complete &amp; total immersive experience.</p>
+				<p class="white">We use this cluster of GoPro cameras for most applications &amp; projects. Cost 
+				effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots 
+				stitched together with clever software to create our immersive VR360° media.
+				The complete cluster including patented mount weighs in at under 600grams &amp; is extremely versatile 
+				&amp; strong.  A shell makes the cluster waterproof for underwater shots; we mount on drones for flying 
+				/ tracking shots; &amp; we have custom designed remote control vehicles for terrestrial tracking shots. 
+				In the post production we can hide the mounting or vehicle in the seam of the stitch for a complete &amp; 
+				total immersive experience.</p>
 			</div>
 			<div class="col-md-7">
 				<div class="moving-zone">
@@ -146,19 +92,20 @@
 	</div>
 </div>
 
-
 <div class="fly">		
 	<div class="container">
 		<div class="row">	
 			<div class="col-md-8 col-md-offset-2 test">
-					<h3 class="white"> 360FLY</h3><br>
-					<p>The 360fly is an action camera - it looks more like an oversized golf ball. The 360fly’s lens is spherical, and points straight up into the air. The camera can capture everything happening around you all at once, the single eye recording everything in its field of view.
-					<br><br>
-					The 360fly is the simple camera in the arsenal but often essential in the output &amp; result of +NZVR360° media.  It has limited control functionality &amp; editing capability; it's field of view is 360° on the horizontal &amp; 240° on the vertical.  However, the 360fly is a set &amp; forget camera &amp; a great resource due to ease of use, light weight &amp; unobtrusive presence.</p>
+				<h3 class="white"> 360FLY</h3><br>
+				<p>The 360fly is an action camera - it looks more like an oversized golf ball. The 360fly’s lens is 
+				spherical, and points straight up into the air. The camera can capture everything happening around 
+				you all at once, the single eye recording everything in its field of view.
+				<br><br>
+				The 360fly is the simple camera in the arsenal but often essential in the output &amp; result of 
+				+NZVR360° media.  It has limited control functionality &amp; editing capability; it's field of view 
+				is 360° on the horizontal &amp; 240° on the vertical.  However, the 360fly is a set &amp; forget 
+				camera &amp; a great resource due to ease of use, light weight &amp; unobtrusive presence.</p>
 			</div>
-			<!-- <div class="col-md-2 col-md-offset-1">
-				<img src="img/360fly.png" width="100%">
-			</div> -->
 			<div class="col-md-8 col-md-offset-2 col-xs-12">
 				<div class="videoWrapper">
 					<iframe src="https://player.vimeo.com/video/115723017?color=78be20&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -169,37 +116,21 @@
 	<img class="imgfly" src="img/360fly2.png" width="100%">
 </div>
 
-
 <div class="process">
 	<div class="container no-padding-bottom no-padding-top">
-	<div class="row">
-		<div class="col-md-12">
-			<h3>2D CONVENTIONAL CAPTURE</h3>
-			<p>Our +NZVR360° Camera Operators &amp; Directors have extensive experience in conventional capture, film industry &amp; TV broadcast (Live &amp; Studio).  We utilise DSLR &amp; leading edge digital systems with new technologies &amp; peripheral equipment in 2D production to complement our VR360° media. +NZVR360° make exceptional visual media in any context.</p>
+		<div class="row">
+			<div class="col-md-12">
+				<h3>2D CONVENTIONAL CAPTURE</h3>
+				<p>Our +NZVR360° Camera Operators &amp; Directors have extensive experience in conventional capture, 
+				film industry &amp; TV broadcast (Live &amp; Studio).  We utilise DSLR &amp; leading edge digital 
+				systems with new technologies &amp; peripheral equipment in 2D production to complement our VR360° 
+				media. +NZVR360° make exceptional visual media in any context.</p>
+			</div>
 		</div>
-	</div>
 	</div>
 </div>
 
- 
-<!-- <div class="parallax2">
-	<div class="cell6"> 
-        <div class="container">
-            <div class="row">
-            	<div class="col-md-11 col-md-offset-1">
-		            <h3>2D CONVENTIONAL CAPTURE</h3>
-					<p>Our +NZVR360° Camera Operators &amp; Directors have extensive experience in conventional capture, film industry &amp; TV broadcast (Live &amp; Studio).  We utilise DSLR &amp; leading edge digital systems with new technologies &amp; peripheral equipment in 2D production to complement our VR360° media. +NZVR360° make exceptional visual media in any context.</p>
-	            </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <div class="parallax2">
-    <div class="container">
-        <div class="row">
-        </div>
-    </div>
 </div> 
 
 <div class="drone" id="drone"> 
@@ -216,21 +147,28 @@
 				        </div>
 				    </div>
 				</div>
-				
+				<!-- <br><br><img src="img/illumination.png" class="center-block" width="60%"> -->
 			</div>
 			<div class="col-md-5">
 				<h2>_DRONES &amp; PERIPHERAL RESOURCES</h2>
 				<span><p> TOOLS TO ENHANCE CAPTURE RESULTS</p></span>
-				<p>Our arsenal of equipment includes drones, conventional camera &amp; audio rigs &amp; peripheral resources - tripods, mounts, radio controlled vehicles, wireless control modules, HDD recorders &amp; more.  We collect equipment by habit &amp; necessity!
+				<p>Our arsenal of equipment includes drones, conventional camera &amp; audio rigs &amp; peripheral 
+				resources - tripods, mounts, radio controlled vehicles, wireless control modules, HDD recorders &amp; 
+				more. We collect equipment by habit &amp; necessity!
 				<br><br>
-				Our drones are CAA approved &amp; we understand &amp; employ all compliance including redundancy &amp; safety plans.
+				Our drones are CAA approved &amp; we understand &amp; employ all compliance including redundancy &amp; 
+				safety plans.
 				<br><br>
-				+NZVR360° come ready for your location &amp; can even provide the espresso machine; our production involves all audio (playback &amp; recording) &amp; lighting for any location requirement.</p>
-				</div>
-		 </div>
+				+NZVR360° come ready for your location &amp; can even provide the espresso machine; our production 
+				involves all audio (playback &amp; recording) &amp; lighting for any location requirement.</p>
+			</div>
+		</div>
+		<br><br>
+		<div class="row">
+			<!--  -->
+		</div>
 	</div>
 </div>
-
 
 <div class="fly"> 
 	<div class="container">
@@ -246,12 +184,12 @@
 				endeavour to use their products to enable cross platform distribution of web, mobile &amp; dedicated 
 				headset 360° media.
 				<br><br>
-				We've been editing &amp; finishing conventional 2D Film, TV &amp; AV display projects for many years however 
-				methodology &amp; process for VR360° is more like theatre than it is film... stories need intensive 
-				thought &amp; planning for the compositing &amp; edit.
+				We've been editing &amp; finishing conventional 2D Film, TV &amp; AV display projects for many years 
+				however methodology &amp; process for VR360° is more like theatre than it is film... stories need 
+				intensive thought &amp; planning for the compositing &amp; edit.
 				<br><br>
-				+NZVR360° are making functional &amp; flowing post production &amp; VR360° edit with careful planning &amp; pre 
-				production.  +NZVR360° deliver engaging &amp; immersive results!
+				+NZVR360° are making functional &amp; flowing post production &amp; VR360° edit with careful planning 
+				&amp; pre production. +NZVR360° deliver engaging &amp; immersive results!
 				</p>
 			</div>
 			<div class="col-md-8 col-md-offset-2 white">
@@ -262,10 +200,6 @@
 </div>
 
 <div class="parallax2">
-    <div class="container">
-        <div class="row">
-        </div>
-    </div>
 </div> 
 
 @endsection
