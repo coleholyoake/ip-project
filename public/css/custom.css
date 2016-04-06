@@ -94,6 +94,17 @@
 		.center {
 			text-align: center !important;
 		}
+		.inline {
+			display: inline;
+		}
+		.owl-nav {
+			float: right;
+		}
+		.owl-prev, .owl-next {
+			/*width: 50%;*/
+			display: inline;
+			
+		}
 		.table-cell2 {
 			display: table-cell;
 			vertical-align: top;
