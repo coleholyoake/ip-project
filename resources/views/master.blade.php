@@ -15,8 +15,19 @@
 	<link href="css/custom.css" rel="stylesheet" type="text/css">
      <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
 </head>
 <body>
+<noscript>
+    <style type="text/css">
+        .noscriptmsg {display:block; height: 40px; padding: 10px 0;}
+        .navbar {top: 40px;}
+        .above-the-fold {overflow: auto; height:160vh; position: relative;}
+    </style>
+    <div class="noscriptmsg center">
+    *We have detected you do not have JavaScript enabled. Please enable for the best experience. Thanks.
+    </div>
+</noscript>
 <a id="top"></a>
 	<nav id="top" class="navbar navbar-default">
         <div class="containr">

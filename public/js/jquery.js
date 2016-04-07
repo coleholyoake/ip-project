@@ -41,8 +41,8 @@ $(document).ready(function(){
         items:4,
         nav:true,
     navText: [
-      "<h3 class='inline'> < </h3>",
-      "<h3 class='inline'> > </h3>"
+      "<h3 class='center inline'> < </h3>",
+      "<h3 class='center inline'> > </h3>"
       ],
         // autoplay:true,
         // autoplayTimeout:3000,

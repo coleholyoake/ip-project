@@ -22,27 +22,28 @@
 	    </div>
      </div>
      <a id="intro"></a>
-</div>
-
-
-<div class="containr nopadmarg tables">
+     <div class="containr nopadmarg tables jsfail">
     <div class="row nopadmarg">
-		<div class="col-md-4 nopadmarg table-cell">
-    		<div class="row nopadmarg deli">
-	    		<img class="imghead center-block" src="img/head.png" width="70%">
-    		</div>
-    	</div>
-    	<div class="col-md-8 cell5 nopadmarg table-cell2">
-    		<div class="row nopadmarg2 deli" >
+        <div class="col-md-4 nopadmarg table-cell">
+            <div class="row nopadmarg deli">
+                <img class="imghead center-block" src="img/head.png" width="70%">
+            </div>
+        </div>
+        <div class="col-md-8 cell5 nopadmarg table-cell2">
+            <div class="row nopadmarg2 deli" >
                 <h4>virtual reality • 360° • immersive media</h4><br>
                 <p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.</p>
                 <p>Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.</p>
                 <p>+NZVR360° is a Wellington New Zealand based company developing innovative methodology of engagement &amp; delivery to audiences on multiple platforms.</p>
                 
             </div>
-    	</div>
+        </div>
     </div>
 </div>
+</div>
+
+
+
 
 <div class="clear">
 	<div class="containr nopadmarg ">
