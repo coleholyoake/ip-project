@@ -20,12 +20,17 @@
 <body>
 <noscript>
     <style type="text/css">
-        .noscriptmsg {display:block; height: 40px; padding: 10px 0;}
-        .navbar {top: 40px;}
-        .above-the-fold {overflow: auto; height:160vh; position: relative;}
+        .noscriptmsg {
+            height: 40px; 
+            padding: 10px 0;}
+        .navbar {
+            top: 40px;}
+        .above-the-fold {
+            height: 160vh;
+        }
     </style>
     <div class="noscriptmsg center">
-    *We have detected you do not have JavaScript enabled. Please enable for the best experience. Thanks.
+        <p>*We have detected you <strong>do not</strong> have JavaScript enabled. Please enable for the <strong>best</strong> experience. Thanks, +NZVR360°.</p>
     </div>
 </noscript>
 <a id="top"></a>

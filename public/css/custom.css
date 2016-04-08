@@ -340,7 +340,10 @@
 			width: 80%;
 			margin: 0px auto;
 			background-size: cover;
-			overflow: auto;
+			overflow: visible;
+		}
+		.flyincontainer1, .flycontainer2 {
+			overflow: hidden;
 		}
 		.no-padding-bottom {
 			padding-bottom: 0px !important
@@ -372,6 +375,7 @@
 			bottom: 0;
 			z-index: 1;
 			pointer-events: none;
+			transform: translate(0px, 0px);
 		}
 		.imghead {
 			position: absolute;
@@ -496,10 +500,15 @@
 			height: 100%;
 		}
 
-	.navbar-collapse {
-		background: rgba(255,255,255,0.95);
-		text-align: center;
-	}
+		.navbar-collapse {
+			background: rgba(255,255,255,0.95);
+			text-align: center;
+		}
+
+		.flyin {
+			transform: translate(100px, 20px);
+			z-index: 5;
+		}
 
 @media screen and (min-width: 768px) {
 	

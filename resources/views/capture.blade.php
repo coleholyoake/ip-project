@@ -28,8 +28,8 @@
 
 <div class="clear">
 	<div class="containr nopadmarg ">
-		<div class="row nopadmarg flexbox">
-			<div class="col-md-6 cell5 nopadmarg table-cell3">
+		<div class="row nopadmarg">
+			<div class="col-md-12 cell5 nopadmarg">
     			<div class="row nopadmarg2 deli" >
     				<h2 class="center">_CAMERAS &amp; CAPTURE TOOLS</h2>
 				</div>
