@@ -11,6 +11,7 @@
 		/*div{
 		  box-sizing:border-box;
 		}*/
+
 		.navbar {
 			background-color: rgba(255,255,255,0);
 			position: absolute;
@@ -340,9 +341,9 @@
 			width: 80%;
 			margin: 0px auto;
 			background-size: cover;
-			overflow: visible;
+			/*overflow: hidden;*/
 		}
-		.flyincontainer1, .flycontainer2 {
+		.flyincontainer1, .flyincontainer2 {
 			overflow: hidden;
 		}
 		.no-padding-bottom {

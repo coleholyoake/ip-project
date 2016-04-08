@@ -21,10 +21,9 @@
 <noscript>
     <style type="text/css">
         .noscriptmsg {
-            height: 40px; 
             padding: 10px 0;}
         .navbar {
-            top: 40px;}
+            top: 80px;}
         .above-the-fold {
             height: 160vh;
         }
