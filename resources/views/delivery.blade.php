@@ -70,11 +70,11 @@
     </div>
 </div>
 
-<div class="cell4">
+<div class="ozo">
     <div class="container">
         <div class="row">
         	<div class="col-md-8 col-md-offset-2 test">
-				<h2 class="darkblue">HTC+VALVE</h2>
+				<h2 class="darkblue">HTC+VALVE</h2><br>
 				<p class="darkblue">Vive’s headset was developed in conjunction with Valve, creators of such 
 				ground-breaking games as Portal &amp; Half-Life. HTC manufactures some of the 
 				finest consumer electronics on the planet &amp; Valve is an unrivaled architect 
@@ -89,11 +89,12 @@
 			</div>
 			<div class="col-md-8 col-md-offset-2 col-xs-12">
 				<div class="videoWrapper">
-					<iframe src="https://player.vimeo.com/video/115723017?color=78be20&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe width="500" height="281" src="https://www.youtube.com/embed/a5Wq3SrRcS8" frameborder="0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>	
 			</div>
        	</div>
     </div>
+    <img class="imghtc" src="img/htc.png" width="100%">
  </div>
 
  <div class="cell5 flyincontainer2">
@@ -103,7 +104,7 @@
         		<img class="flyin2" src="img/Oculus-1.png" width="100%">
         	</div>
         	<div class="col-md-5">
-				<h2>OCULUS RIFT</h2>
+				<h2>OCULUS RIFT</h2><br>
 				<p>Rift is unlike anything you’ve ever experienced. Whether you’re stepping into your favorite game, watching an immersive VR movie, jumping to a destination on the other side of the world, or just spending time with friends in VR, you’ll feel like you’re really there.
 				<br><br>
 				Seeing is believing
@@ -124,7 +125,7 @@
         		<img class="flyin1" src="img/VR_CoverPage.png" width="100%">
         	</div>
         	<div class="col-md-5">
-				<h2>GEAR VR / SAMSUNG</h2>
+				<h2>GEAR VR / SAMSUNG</h2><br>
 				<p>Samsung &amp; Oculus deliver a new &amp; refined Gear VR, with hundreds of new content options, to the most enjoyable &amp; comfortable mobile VR experience.
 				<br><br>
 				[Seoul, South Korea, September 25, 2015] – Samsung Electronics Co., Ltd. today announced its first Gear VR device aimed to consumers, extending its leadership in the wearables category. The latest edition of the Gear VR is compatible with even more smartphones, including the Galaxy Note 5, Galaxy S6 edge+, S6 &amp; S6 edge, leveraging each device’s super AMOLED display to provide the color, clarity &amp; performance needed for an amazing virtual reality experience.
@@ -134,11 +135,11 @@
     </div>
  </div>
 
- <div class="cell4">
+ <div class="ozo">
     <div class="container">
         <div class="row">
         	<div class="col-md-8 col-md-offset-2 test">
-				<h2 class="darkblue">GOOGLE CARDBOARD</h2>
+				<h2 class="darkblue">GOOGLE CARDBOARD</h2><br>
 				<p class="darkblue">Get it, fold it &amp; look inside to enter the world of Cardboard. It’s a VR experience starting with a simple viewer anyone can build or buy.
 				<br><br>
 				Once you have it, you can explore a variety of apps that unfold all around you.</p>
@@ -156,6 +157,7 @@
 			</div>
        	</div>
     </div>
+    <img class="imgcard" src="img/googlecardboard.png" width="100%">
  </div>
 
  <div class="parallax2">

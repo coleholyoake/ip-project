@@ -371,7 +371,7 @@
 		.fly .container {
 			z-index: 2;
 		}
-		.imgozo, .imgfly {
+		.imgozo, .imgfly, .imgcard, .imghtc {
 			position: absolute;
 			bottom: 0;
 			z-index: 1;
