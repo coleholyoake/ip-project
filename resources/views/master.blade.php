@@ -120,6 +120,11 @@
                 
             </div>
         </div>
+        <div class="containr">
+            <div class="row">
+                <p class="darkblue center"><small>2016 © +NZVR360°. All Rights Reserved. Designed by Cole Holyoake.</small></p>
+            </div>
+        </div>
     </footer>
 
 
