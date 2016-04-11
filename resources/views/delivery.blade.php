@@ -143,9 +143,9 @@
 				<p class="darkblue">Get it, fold it &amp; look inside to enter the world of Cardboard. It’s a VR experience starting with a simple viewer anyone can build or buy.
 				<br><br>
 				Once you have it, you can explore a variety of apps that unfold all around you.</p><br>
-				<form action="/capture" class="button2">
+				<form target="_blank" action="https://www.google.com/get/cardboard/get-cardboard/" class="button2">
                     <div class="btn"><input type="submit" value="Get Cardboard"></div>
-                </form>
+                </form><br>
 			</div>
 			<div class="col-md-8 col-md-offset-2 col-xs-12 carousel">
 				<div class="owl-carousel">

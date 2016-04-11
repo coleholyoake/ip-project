@@ -147,7 +147,7 @@
 				        </div>
 				    </div>
 				</div>
-				<!-- <br><br><img src="img/illumination.png" class="center-block" width="60%"> -->
+				<br><br><img src="img/illumination.png" class="center-block desktop-only" width="50%">
 			</div>
 			<div class="col-md-5">
 				<h2>_DRONES &amp; PERIPHERAL RESOURCES</h2>

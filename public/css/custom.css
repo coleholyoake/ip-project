@@ -518,6 +518,10 @@
 			z-index: 5;
 		}
 
+		.desktop-only {
+			display: none;
+		}
+
 @media screen and (min-width: 768px) {
 	
 	
@@ -573,6 +577,9 @@
 		}
 	.navbar-brand img {
 			width: 80%;
+		}
+	.desktop-only {
+			display: block;
 		}
 }
 		
