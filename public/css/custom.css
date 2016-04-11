@@ -98,8 +98,15 @@
 		.center {
 			text-align: center !important;
 		}
-		.owl-nav {
+		.ozo .owl-nav {
 			float: right;
+			margin-top: 15px;
+			color: #c2180f;
+		}
+		.card .owl-nav {
+			float: left;
+			margin-top: 15px;
+			color: #c2180f;
 		}
 		.owl-prev, .owl-next, .inline {
 			display: inline;
@@ -360,7 +367,7 @@
 			overflow: auto;
 
 		}
-		.ozo {
+		.ozo, .card {
 			background: #f3f3f3;
 			background: linear-gradient(10deg, #fff, #ddd);
 			/*padding-bottom: 200px !important;*/

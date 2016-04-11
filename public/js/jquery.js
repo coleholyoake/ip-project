@@ -41,8 +41,8 @@ $(document).ready(function(){
         items:4,
         nav:true,
     navText: [
-      "<h3 class='center inline'> < </h3>",
-      "<h3 class='center inline'> > </h3>"
+      "<h4 class='center inline'> &#9664; </h4>",
+      "<h4 class='center inline'> &#9654; </h4>"
       ],
         // autoplay:true,
         // autoplayTimeout:3000,
@@ -63,21 +63,22 @@ $(document).ready(function(){
         scrollDown.css({ 'opacity' : (1 - st/200) });
         // navbar.css({ 'opacity' : (1 - st/50) });
     });
-    $(window).scroll(function(){
 
-    var wScroll = $(this).scrollTop();
+    // $(window).scroll(function(){
 
-    if(wScroll > $('.flyincontainer1').offset().top - $(window).height()){
-        var offset = (Math.min(0, wScroll - $('.flyincontainer1').offset().top + $(window).height() - 650)).toFixed();
-        $('.flyin1').css({'transform': 'translate(' + offset + 'px, ' + Math.abs(offset * 0.4) + 'px)'});
-    };
+    // var wScroll = $(this).scrollTop();
 
-    if(wScroll > $('.flyincontainer2').offset().top - $(window).height()){
-        var offset = (Math.min(0, wScroll - $('.flyincontainer2').offset().top + $(window).height() - 650)).toFixed();
-        $('.flyin2').css({'transform': 'translate(' + Math.abs(offset) + 'px, ' + Math.abs(offset * 0.4) + 'px)'});
-    };
+    // if(wScroll > $('.flyincontainer1').offset().top - $(window).height()){
+    //     var offset = (Math.min(0, wScroll - $('.flyincontainer1').offset().top + $(window).height() - 650)).toFixed();
+    //     $('.flyin1').css({'transform': 'translate(' + offset + 'px, ' + Math.abs(offset * 0.4) + 'px)'});
+    // };
+
+    // if(wScroll > $('.flyincontainer2').offset().top - $(window).height()){
+    //     var offset = (Math.min(0, wScroll - $('.flyincontainer2').offset().top + $(window).height() - 650)).toFixed();
+    //     $('.flyin2').css({'transform': 'translate(' + Math.abs(offset) + 'px, ' + Math.abs(offset * 0.4) + 'px)'});
+    // };
     
-});
+    // });
 });
 
 

@@ -101,7 +101,7 @@
     <div class="container">
         <div class="row">
         	<div class="col-md-7 pull-right">
-        		<img class="flyin2" src="img/Oculus-1.png" width="100%">
+        		<!-- <img class="flyin2" src="img/Oculus-1.png" width="100%"> -->
         	</div>
         	<div class="col-md-5">
 				<h2>OCULUS RIFT</h2><br>
@@ -122,7 +122,7 @@
     <div class="container">
         <div class="row">
         	<div class="col-md-7">
-        		<img class="flyin1" src="img/VR_CoverPage.png" width="100%">
+        		<!-- <img class="flyin1" src="img/VR_CoverPage.png" width="100%"> -->
         	</div>
         	<div class="col-md-5">
 				<h2>GEAR VR / SAMSUNG</h2><br>
@@ -135,25 +135,26 @@
     </div>
  </div>
 
- <div class="ozo">
+ <div class="card">
     <div class="container">
         <div class="row">
         	<div class="col-md-8 col-md-offset-2 test">
 				<h2 class="darkblue">GOOGLE CARDBOARD</h2><br>
 				<p class="darkblue">Get it, fold it &amp; look inside to enter the world of Cardboard. It’s a VR experience starting with a simple viewer anyone can build or buy.
 				<br><br>
-				Once you have it, you can explore a variety of apps that unfold all around you.</p>
+				Once you have it, you can explore a variety of apps that unfold all around you.</p><br>
+				<form action="/capture" class="button2">
+                    <div class="btn"><input type="submit" value="Get Cardboard"></div>
+                </form>
 			</div>
 			<div class="col-md-8 col-md-offset-2 col-xs-12 carousel">
 				<div class="owl-carousel">
-					<div class="item" style="width:375px"><img src="img/ozo00.jpg"></div>
-				    <div class="item" style="width:312.5px"><img src="img/ozo01.jpg"></div>
-				    <div class="item" style="width:312.5px"><img src="img/ozo02.jpg"></div>
-				    <div class="item" style="width:375px"><img src="img/ozo03.jpg"></div>
-				    <div class="item" style="width:625px"><img src="img/ozo04.jpg"></div>
-				    <div class="item" style="width:437.5px"><img src="img/ozo05.jpg"></div>
-				    <div class="item" style="width:437.5px"><img src="img/ozo06.jpg"></div>
+					<div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
+				    <div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
+				    <div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
+				    <div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
 				</div>
+
 			</div>
        	</div>
     </div>
