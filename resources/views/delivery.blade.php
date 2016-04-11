@@ -58,12 +58,29 @@
 <div class="parallax2">
 	
 </div>
+
 <div class="clear">
 	<div class="containr nopadmarg ">
 		<div class="row nopadmarg">
 			<div class="col-md-12 cell5 nopadmarg">
     			<div class="row nopadmarg2 deli" >
-    				<h2 class="center">_VIVE / OCULUS RIFT / GEAR VR / CARDBOARD /</h2>
+    				<h2 class="center">_DESKTOP / MOBILE / DEDICATED VR DEVICES</h2>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+<div class="parallax2">
+	
+</div>
+
+<div class="clear">
+	<div class="containr nopadmarg ">
+		<div class="row nopadmarg">
+			<div class="col-md-12 cell5 nopadmarg">
+    			<div class="row nopadmarg2 deli" >
+    				<h2 class="center">_VIVE / OCULUS RIFT / GEAR VR / CARDBOARD</h2>
 				</div>
 			</div>
 		</div>
