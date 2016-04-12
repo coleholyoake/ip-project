@@ -87,10 +87,10 @@
 </div>
 
 <!-- <div class="cell5">  --> 
-    <div class="parallax2">
+    <div class="parallax2 parallax-image-4">
         <div class="container">
             <div class="row">
-                <br>
+                <br><br><br>
                 <h1 class="center white slogan2">IMMERSE<br>YOURSELF<br>+NZVR360°</h1>
             </div>
         </div>
@@ -152,16 +152,10 @@
     </div>
 </div>
 
-<!-- <div class="parallax2">
-        <div class="container">
-            <div class="row">
-            </div>
-        </div>
-    </div> -->
 
 
 
- <div class="parallax2">
+ <div class="parallax parallax-image-2">
         <div class="container">
             <div class="row">
             

@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="parallax2">
+<div class="parallax parallax-image-4">
 </div>
 
 
@@ -23,7 +23,7 @@
     </div>
 </div>
 
-<div class="parallax2">
+<div class="parallax parallax-image-4">
 </div> 
 
 <div class="clear">
@@ -130,7 +130,7 @@
 	</div>
 </div>
 
-<div class="parallax2">
+<div class="parallax2 parallax-image-3">
 </div> 
 
 <div class="drone" id="drone"> 
@@ -199,7 +199,7 @@
 	</div>
 </div>
 
-<div class="parallax2">
+<div class="parallax parallax-image-4">
 </div> 
 
 @endsection

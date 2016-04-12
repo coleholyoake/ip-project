@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="parallax2">
+<div class="parallax parallax-image-4">
 	
 </div>
 
@@ -55,7 +55,7 @@
     </div>
 </div>
 
-<div class="parallax2">
+<div class="parallax parallax-image-4">
 	
 </div>
 
@@ -71,7 +71,7 @@
     </div>
 </div>
 
-<div class="parallax2">
+<div class="parallax2 parallax-image-2">
 	
 </div>
 
@@ -178,7 +178,7 @@
     <img class="imgcard" src="img/googlecardboard.png" width="100%">
  </div>
 
- <div class="parallax2">
+ <div class="parallax parallax-image-4">
 	
 </div>
 

@@ -285,24 +285,37 @@
 
 		.parallax {
 			height: 55vh;
-			/*text-indent: -9999px;*/
 			background-attachment: fixed;
 			background-position: center center;
 			background-size: cover;
-			background-image: url('../img/stars.jpg');
-			/*opacity: 0.6;*/
 			color: #fff !important;
 		}
 		.parallax2 {
-			height: 55vh;
-			/*text-indent: -9999px;*/
+			height: 80vh;
 			background-attachment: fixed;
 			background-position: center center;
 			background-size: cover;
-			background-image: url('../img/auck.jpg');
-			/*opacity: 0.6;*/
-			/*color: #fff !important;*/
+			color: #fff !important;
 		}
+		.parallax-image-1 {
+			background-image: url('../img/stars.jpg');
+		}
+		.parallax-image-2 {
+			background-image: url('../img/auck.jpg');
+		}
+		.parallax-image-3 {
+			background-image: url('../img/queenstown.jpg');
+		}
+		.parallax-image-4 {
+			background-image: url('../img/mountain.jpg');
+		}
+		.parallax-image-5 {
+			background-image: url('../img/bridge.jpg');
+		}
+		.parallax-image-6 {
+			background-image: url('../img/mountain2.jpg');
+		}
+		
 
 		
 		h1, h2, h3, h4 {
