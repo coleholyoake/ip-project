@@ -179,16 +179,19 @@
 			opacity: .8;
 			transition: color .5s ease-in-out;
 		} 
-		.capt:hover, .capt:focus {
+		/*.capt:hover, .capt:focus {
 			opacity: 1;
 			background: #c2180f;
 			background: linear-gradient(30deg, #c2180f, #e06019);
 			color: #fff;
 			transition: color .5s ease-in-out;
-		}
+		}*/
 		hr {
 			border-top: 1px dashed #c2180f;
 			margin: 0 5em;
+		}
+		.white-hr {
+			border-color: #fff;
 		}
 		footer hr {
 			border-top: 1px solid #f3f3f3;

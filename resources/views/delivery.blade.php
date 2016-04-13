@@ -2,8 +2,13 @@
 
 @section('content')
 
-<div class="parallax parallax-image-4">
-	
+<div class="parallax parallax-image-2">
+	<div class="container">
+        <div class="row">
+            <br><br><br>
+            <h1 class="center white slogan2">DELIVERY</h1>
+        </div>
+    </div>
 </div>
 
 <div class="cell6">
@@ -55,7 +60,7 @@
     </div>
 </div>
 
-<div class="parallax parallax-image-4">
+<div class="parallax parallax-image-2">
 	
 </div>
 
@@ -72,7 +77,12 @@
 </div>
 
 <div class="parallax2 parallax-image-2">
-	
+	<div class="container">
+        <div class="row">
+            <br><br><br>
+            <h1 class="center white slogan2">EXCEPTIONAL<br>VR360° MEDIA<br>CONTENT</h1>
+        </div>
+    </div>
 </div>
 
 <div class="clear">
@@ -117,10 +127,10 @@
  <div class="cell5 flyincontainer2">
     <div class="container">
         <div class="row">
-        	<div class="col-md-7 pull-right">
+        	<div class="col-md-6 pull-right">
         		<!-- <img class="flyin2" src="img/Oculus-1.png" width="100%"> -->
         	</div>
-        	<div class="col-md-5">
+        	<div class="col-md-6">
 				<h2>OCULUS RIFT</h2><br>
 				<p>Rift is unlike anything you’ve ever experienced. Whether you’re stepping into your favorite game, watching an immersive VR movie, jumping to a destination on the other side of the world, or just spending time with friends in VR, you’ll feel like you’re really there.
 				<br><br>
@@ -138,10 +148,10 @@
  <div class="cell3 flyincontainer1">
     <div class="container">
         <div class="row">
-        	<div class="col-md-7">
+        	<div class="col-md-6">
         		<!-- <img class="flyin1" src="img/VR_CoverPage.png" width="100%"> -->
         	</div>
-        	<div class="col-md-5">
+        	<div class="col-md-6">
 				<h2>GEAR VR / SAMSUNG</h2><br>
 				<p>Samsung &amp; Oculus deliver a new &amp; refined Gear VR, with hundreds of new content options, to the most enjoyable &amp; comfortable mobile VR experience.
 				<br><br>
