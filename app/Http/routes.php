@@ -16,10 +16,10 @@
 // });
 
 Route::get('/', 'IndexController@home');
-Route::get('/capture', 'IndexController@capture');
-Route::get('/delivery', 'IndexController@delivery');
-Route::get('/projects', 'IndexController@projects');
-Route::get('/live', 'LiveController@live');
+Route::get('capture', 'IndexController@capture');
+Route::get('delivery', 'IndexController@delivery');
+
+Route::get('live', 'LiveController@live');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

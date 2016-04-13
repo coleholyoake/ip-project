@@ -17,8 +17,8 @@
             </div>
         </div>
     	<div class="row">
-	    	<a href="#intro"><img id="scroll-before" class="visible center-block scroll-down" src="img/scroll_arrow.svg" width="8%"></a>
-	    	<a href="#intro"><img id="scroll-after" class="hidden center-block scroll-down" src="img/scroll_text.svg" width="8%"></a>
+	    	<a href="#intro"><img id="scroll-before" onmouseover="scrollDownBefore()" class="visible center-block scroll-down" src="img/scroll_arrow.svg" width="8%"></a>
+	    	<a href="#intro"><img id="scroll-after" onmouseout="scrollDownAfter()" class="hidden center-block scroll-down" src="img/scroll_text.svg" width="8%"></a>
 	    </div>
      </div>
      
@@ -52,7 +52,7 @@
 			<div class="col-md-6 cell4 nopadmarg captdeli table-cell3">
 	    		<div class="row nopadmarg2 deli relative" >
 	    			<h2>LIVE</h2>
-                    <p>Experience +NZVR360° right here, right now.</p>
+                    <p>Experience +NZVR360° right here, right now. Live is compatible with Desktop, Mobile and VR Dedicated devices. </p>
                     
                     <h1 class="center font-large"><a class="white opacity" href="/live"><i class="fa fa-play"></i></a></h1>
     			</div>

@@ -1,8 +1,9 @@
-document.getElementById("scroll-before").onmouseover = function() {
+function scrollDownBefore() {
 	document.getElementById("scroll-before").className = "hidden center-block";
 	document.getElementById("scroll-after").className = "visible center-block";
 }
-document.getElementById("scroll-after").onmouseout = function() {
+
+function scrollDownAfter() {
 	document.getElementById("scroll-before").className = "visible center-block";
 	document.getElementById("scroll-after").className = "hidden center-block";
 }
@@ -15,6 +16,32 @@ document.getElementById("scrollup-after").onmouseout = function() {
 	document.getElementById("scrollup-before").className = "visible-up center-block";
 	document.getElementById("scrollup-after").className = "hidden-up center-block";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

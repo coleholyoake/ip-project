@@ -199,7 +199,7 @@
 	</div>
 </div>
 
-<div class="parallax parallax-image-4">
+<div class="parallax parallax-image-2">
 </div> 
 
 @endsection
