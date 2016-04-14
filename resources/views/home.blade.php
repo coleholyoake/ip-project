@@ -49,7 +49,7 @@
 <div class="clear">
 	<div class="containr nopadmarg ">
     	<div class="row nopadmarg flexbox">
-			<div class="col-md-6 cell3 nopadmarg captdeli table-cell3">
+			<div class="col-md-6 cell4 nopadmarg captdeli table-cell3">
 	    		<div class="row nopadmarg2 deli relative" >
 	    			<h2>LIVE</h2>
                     <p>Experience +NZVR360° right here, right now. Live is compatible with Desktop, Mobile and VR Dedicated devices. </p>
@@ -86,16 +86,13 @@
     </div>
 </div>
 
-<!-- <div class="cell4">  
-    <div class="">
-        <div class="container">
-            <div class="row">
-                <br><br><br>
-                <h1 class="center white slogan2">IMMERSE<br>YOURSELF<br>+NZVR360°</h1>
-            </div>
+<div class="parallax parallax-image-3 mobile-only">
+    <div class="container">
+        <div class="row">
+        
         </div>
     </div>
-</div> -->
+</div>
 
 
 <div class="clear">
@@ -131,7 +128,7 @@
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
                     <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WTLum2m6iqw" frameborder="0" allowfullscreen></iframe>
+                        <iframe width='560' height='350' src='http://www.vrideo.com/embed/bnOWUbFQ' scrolling='no' frameborder='0' allowfullscreen='1'></iframe>                    
                     </div>
     			</div>
 	    	</div>
@@ -142,12 +139,12 @@
 
 
 
- <div class="parallax parallax-image-5">
-        <div class="container">
-            <div class="row">
-            
-            </div>
+<div class="parallax parallax-image-2">
+    <div class="container">
+        <div class="row">
+        
         </div>
     </div>
+</div>
 
 @endsection

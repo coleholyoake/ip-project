@@ -13,7 +13,7 @@
 </div>
 
 
-<div class="cell6">
+<div class="cell4">
     <div class="container">
         <div class="row">
         <div class="col-md-12">
@@ -137,12 +137,12 @@
 </div>
 
 <div class="parallax2 parallax-image-3">
-	<div class="container">
+	<!-- <div class="container">
         <div class="row">
             <br><br><br>
             <h1 class="center white slogan2">EXCEPTIONAL<br>VR360° MEDIA<br>CONTENT</h1>
         </div>
-    </div>
+    </div> -->
 </div> 
 
 <div class="drone" id="drone"> 

@@ -77,12 +77,12 @@
 </div>
 
 <div class="parallax2 parallax-image-2">
-	<div class="container">
+	<!-- <div class="container">
         <div class="row">
             <br><br><br>
             <h1 class="center white slogan2">EXCEPTIONAL<br>VR360° MEDIA<br>CONTENT</h1>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div class="clear">

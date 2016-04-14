@@ -151,10 +151,6 @@
 
                 
 
-                
-
-            
-
                 <a-sky id="scene1" src="img/sky4.jpg"></a-sky>
                 <a-sky id="scene2" visible="false" src="img/sky.jpg"></a-sky>
                 <a-sky id="scene3" visible="false" src="img/sky5.jpg"></a-sky>
