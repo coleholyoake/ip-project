@@ -2,11 +2,14 @@
 
 @section('content')
 
-<div class="parallax parallax-image-2">
+<div class="parallax parallax-image-5">
 	<div class="container">
         <div class="row">
-            <br><br><br>
-            <h1 class="center white slogan2">DELIVERY</h1>
+        	<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+	            <br><br>
+	            <!-- <h1 class="center white slogan2">DELIVERY</h1> -->
+	            <img src="img/delivery_title.svg" width="100%" class="center-block slogan2">
+	        </div>
         </div>
     </div>
 </div>
@@ -60,7 +63,7 @@
     </div>
 </div>
 
-<div class="parallax parallax-image-2">
+<div class="parallax parallax-image-5">
 	
 </div>
 
@@ -76,7 +79,7 @@
     </div>
 </div>
 
-<div class="parallax2 parallax-image-2">
+<div class="parallax2 parallax-image-4">
 	<!-- <div class="container">
         <div class="row">
             <br><br><br>
@@ -188,7 +191,7 @@
     <img class="imgcard" src="img/googlecardboard.png" width="100%">
  </div>
 
- <div class="parallax parallax-image-4">
+ <div class="parallax parallax-image-2">
 	
 </div>
 

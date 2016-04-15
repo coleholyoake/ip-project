@@ -6,8 +6,11 @@
 <div class="parallax parallax-image-4">
 	<div class="container">
         <div class="row">
-            <br><br><br>
-            <h1 class="center white slogan2">CAPTURE</h1>
+	        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+	            <br><br>
+	            <!-- <h1 class="center white slogan2">CAPTURE</h1> -->
+	            <img src="img/capture_title.svg" width="100%" class="center-block slogan2">
+            </div>
         </div>
     </div>
 </div>
