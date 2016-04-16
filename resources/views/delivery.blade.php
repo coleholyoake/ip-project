@@ -191,7 +191,26 @@
     <img class="imgcard" src="img/googlecardboard.png" width="100%">
  </div>
 
- <div class="parallax parallax-image-2">
+ <div class="parallax2 parallax-image-3">
+	
+</div>
+
+<div class="cell4"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h2>_INSTALLATION</h2>
+				<span><p> DISPLAY / TRADE INSTALLATION &amp; +NZVR360° CORPORATE PRODUCTION</p></span>
+				<p>Our creatives collaborate with reliable partners on turnkey solutions for brand promotions, exhibitions &amp; installations; we develop &amp; deliver integrated brand experiences from concept through the design process &amp; to installation, launch &amp; experience.</p>
+			</div>
+			<div class="col-md-8 col-md-offset-2 white">
+				<img src="img/editing2.png" class="center-block" width="100%">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="parallax2 parallax-image-2">
 	
 </div>
 

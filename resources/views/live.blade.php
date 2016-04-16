@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>+NZVR360°</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>+NZVR360° | LIVE</title>
 
         <script src="js/aframe.js"></script>
-        <script src="js/aframe-text-component.js"></script>
-        <script src="js/aframe-text-component.min.js"></script>
         <script src="js/aframe-no-click-look-controls.min.js"></script>
-        
+
     </head>
     <body>
         <a-scene>
@@ -19,7 +14,7 @@
                     <a-asset-item id="test" src="model/Hand.dae"></a-asset-item>
                 </a-assets>
 
-                <a-entity text="text: hello" material="color: #fff333" position="0 .7 -2"></a-entity>
+                <a-entity text="text: hello" material="color: #fff333" position="20 0 16"></a-entity>
 
                 <a-entity id="button-outline" geometry="primitive: ring; 
                                     segmentsTheta: 50; 
