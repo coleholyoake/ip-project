@@ -505,6 +505,7 @@
 		    transition: all .3s ease-in-out;
 		    /*width: 177px;*/
 		    font-size: 16px;
+		    letter-spacing: .4em;
 		}
 		.btn input:hover {
 		      background: #040b1b;

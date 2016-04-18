@@ -63,8 +63,7 @@
     </div>
 </div>
 
-<div class="parallax parallax-image-5">
-	
+<div class="parallax parallax-image-5">	
 </div>
 
 <div class="clear">
@@ -79,13 +78,54 @@
     </div>
 </div>
 
+<div class="cell3"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>VRIDEO / STREAM - PLAY - UPLOAD - APPS</h2><br>
+				<p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.
+				<br><br>
+				Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.
+				<br><br>
+				Vrideo was founded in 2014 by entrepreneurs Alex Rosenfeld and Kuangwei Hwang to address the needs of the growing community of producers looking to distribute immersive video and the growing audience of consumers looking to discover immersive video. We're building a centralised, streaming, hardware-agnostic, and independent platform for immersive video.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="img/vrideo2.png" class="center-block" width="100%">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<form target="_blank" action="https://www.vrideo.com" class="button2">
+                    <div class="btn"><input type="submit" value="www.vrideo.com"></div>
+                </form><br>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="cell4"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 pull-right">
+				<h2>DEEP INC / LIQUID CINEMA</h2><br>
+				<p>LIQUID CINEMA™ is a revolutionary software product that allows the creation and distribution of highly sophisticated immersive 360 VR based cinema experiences. It puts easy to use affordable authoring tools in the hands of producers, filmmakers, and interactive artists, while at the same time giving online content producers, such as broadcasters an out of the box solution to distribute cinematic VR content to audiences around the world, via the web, mobile and dedicated VR devices in a cost effective manner.
+				<br><br>
+				Powered by DEEP’s Liquid Cinema technology, we have launched the first broadcaster dedicated 360/VR platform:  ARTE360. This mobile app from the European cultural network ARTE provides immersive and interactive experiences in 360°-video and virtual reality and is available on both iOS and Android.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="img/deepinc.png" class="center-block" width="100%">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 pull-right">
+				<form target="_blank" action="http://deep-inc.com" class="button2">
+                    <div class="btn"><input type="submit" value="www.deep-inc.com"></div>
+                </form><br>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="parallax2 parallax-image-4">
-	<!-- <div class="container">
-        <div class="row">
-            <br><br><br>
-            <h1 class="center white slogan2">EXCEPTIONAL<br>VR360° MEDIA<br>CONTENT</h1>
-        </div>
-    </div> -->
 </div>
 
 <div class="clear">
@@ -204,7 +244,22 @@
 				<p>Our creatives collaborate with reliable partners on turnkey solutions for brand promotions, exhibitions &amp; installations; we develop &amp; deliver integrated brand experiences from concept through the design process &amp; to installation, launch &amp; experience.</p>
 			</div>
 			<div class="col-md-8 col-md-offset-2 white">
-				<img src="img/editing2.png" class="center-block" width="100%">
+				<img src="img/editing3.png" class="center-block" width="100%">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fly"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 white">
+				<h2>_EXPERIENTIAL / EXPERIMENTAL</h2>
+				<span><p class="inverse"> +NZVR360° BROADCAST PRODUCTION</p></span>
+				<span><p class="inverse"> LIVE STREAMING VR360°</p></span>
+				<span><p class="inverse"> AUGMENTED VR360° CONTENT</p></span>
+			</div>
+			<div class="col-md-6 white">
+				<p class="center margin">[ launching April 2016 ]</p>
 			</div>
 		</div>
 	</div>

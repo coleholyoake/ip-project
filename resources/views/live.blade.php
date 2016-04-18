@@ -161,7 +161,8 @@
         });
 
         document.querySelector('#button').addEventListener('mouseleave', function () {
-            document.querySelector('#button-outline').emit('fadeOut');
+            // document.querySelector('#button-outline').emit('fadeOut');
+            document.querySelector('#button-outline').emit('backwards');
         });
 
 
