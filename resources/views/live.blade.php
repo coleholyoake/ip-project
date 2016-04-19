@@ -36,13 +36,13 @@
                 <a-entity id="button" onclick="location.href='/'" geometry="primitive: circle;
                                         segments: 50;
                                         radius: .45"
-                            material=   "color: #000;
+                            material=   "color: #fff;
                                         opacity: 0.7;"
                             position=   "0 .7 -3">
                 <a-mouseenter material= "color: #eee;
                                         opacity: 0.7;">
                 </a-mouseenter>
-                <a-mouseleave material= "color: #000;
+                <a-mouseleave material= "color: #fff;
                                         opacity: 0.7;">
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3000" dur="200" fill="both" easing="ease-out"></a-animation>
@@ -116,7 +116,7 @@
 
                 
 
-                <a-sky id="scene1" src="img/sky4.jpg"></a-sky>
+                <a-sky id="scene1" radius="100" src="img/BrooklynHill.tif"></a-sky>
                 <a-sky id="scene2" visible="false" src="img/sky.jpg"></a-sky>
                 <a-sky id="scene3" visible="false" src="img/sky5.jpg"></a-sky>
 
@@ -127,7 +127,7 @@
 
                 </a-model>
 
-                <a-entity id="camera" camera position="0 1.8 1.5" wasd-controls-enabled="false">
+                <a-entity id="camera" camera position="0 1.8 2" wasd-controls-enabled="false">
                     <a-entity cursor="fuse: true; maxDistance: 2000; timeout: 1200" raycaster geometry="primitive:ring" position="0 0 -2" scale=".03 .03 .03" material="color:red;shader:flat">
                     </a-entity>
                     <a-animation attribute="rotation" from="0 0 0" to="0 15 10" begin="1000" dur="1500"  easing="ease"></a-animation>
@@ -177,7 +177,7 @@
 
 
         function camera() {
-            document.getElementById('camera').setAttribute('no-click-look-controls', 'maxyaw:2.5;maxpitch:.8');
+            document.getElementById('camera').setAttribute('no-click-look-controls', 'maxyaw:3;maxpitch:.8');
         }
         
 

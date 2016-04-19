@@ -78,7 +78,7 @@
     </div>
 </div>
 
-<div class="cell3"> 
+<div class="cell4"> 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -102,7 +102,7 @@
 		</div>
 	</div>
 </div>
-<div class="cell4"> 
+<div class="ozo"> 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 pull-right">
@@ -171,7 +171,7 @@
     <div class="container">
         <div class="row">
         	<div class="col-md-6 pull-right">
-        		<!-- <img class="flyin2" src="img/Oculus-1.png" width="100%"> -->
+        		<img class="flyin2" src="img/Oculus-1.png" width="100%">
         	</div>
         	<div class="col-md-6">
 				<h2>OCULUS RIFT</h2><br>
