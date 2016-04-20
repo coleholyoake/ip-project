@@ -116,7 +116,7 @@
 
                 
 
-                <a-sky id="scene1" radius="100" src="img/BrooklynHill.tif"></a-sky>
+                <a-sky id="scene1" radius="100" src="img/BrooklynHill2.tif"></a-sky>
                 <a-sky id="scene2" visible="false" src="img/sky.jpg"></a-sky>
                 <a-sky id="scene3" visible="false" src="img/sky5.jpg"></a-sky>
 
@@ -127,7 +127,7 @@
 
                 </a-model>
 
-                <a-entity id="camera" camera position="0 1.8 2" wasd-controls-enabled="false">
+                <a-entity id="camera" camera position="0 1.8 3" wasd-controls-enabled="false">
                     <a-entity cursor="fuse: true; maxDistance: 2000; timeout: 1200" raycaster geometry="primitive:ring" position="0 0 -2" scale=".03 .03 .03" material="color:red;shader:flat">
                     </a-entity>
                     <a-animation attribute="rotation" from="0 0 0" to="0 15 10" begin="1000" dur="1500"  easing="ease"></a-animation>

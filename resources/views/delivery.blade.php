@@ -259,7 +259,8 @@
 				<span><p class="inverse"> AUGMENTED VR360° CONTENT</p></span>
 			</div>
 			<div class="col-md-6 white">
-				<p class="center margin">[ launching April 2016 ]</p>
+				<br><br><br><br><br>
+				<p class="center margin">[ launching soon 2016 ]</p>
 			</div>
 		</div>
 	</div>
