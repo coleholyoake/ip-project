@@ -116,9 +116,9 @@
 
                 
 
-                <a-sky id="scene1" radius="100" src="img/BrooklynHill2.tif"></a-sky>
+                <a-sky id="scene1" radius="100" src="img/BrooklynHill2.jpg"></a-sky>
                 <a-sky id="scene2" visible="false" src="img/sky.jpg"></a-sky>
-                <a-sky id="scene3" visible="false" src="img/sky5.jpg"></a-sky>
+                <a-sky id="scene3" visible="false" src="img/shapeshifter.jpg"></a-sky>
 
                 <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -80 0">
                     <a-animation attribute="scale" from="0 0 0" to=".5 .5 .5" begin="1500" dur="200" fill="both" easing="ease-out"></a-animation>
