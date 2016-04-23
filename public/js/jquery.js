@@ -73,7 +73,7 @@ $(document).ready(function(){
         };
 
         if(wScroll > $('.flyincontainer2').offset().top - $(window).height()){
-            var offset = (Math.min(0, wScroll - $('.flyincontainer2').offset().top + $(window).height() - 650)).toFixed();
+            var offset = (Math.min(0, wScroll - $('.flyincontainer2').offset().top + $(window).height() /2 - 300)).toFixed();
             $('.flyin2').css({'transform': 'translate(' + Math.abs(offset) + 'px, ' + Math.abs(offset) + 'px)'});
         };
     

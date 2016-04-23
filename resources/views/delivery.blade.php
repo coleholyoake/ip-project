@@ -170,10 +170,10 @@
  <div class="cell5 flyincontainer2">
     <div class="container">
         <div class="row">
-        	<div class="col-md-6 pull-right">
+        	<div class="col-sm-6 pull-right">
         		<img class="flyin2" src="img/Oculus-1.png" width="100%">
         	</div>
-        	<div class="col-md-6">
+        	<div class="col-sm-6">
 				<h2>OCULUS RIFT</h2><br>
 				<p>Rift is unlike anything you’ve ever experienced. Whether you’re stepping into your favorite game, watching an immersive VR movie, jumping to a destination on the other side of the world, or just spending time with friends in VR, you’ll feel like you’re really there.
 				<br><br>
@@ -191,10 +191,10 @@
  <div class="cell3 flyincontainer1">
     <div class="container">
         <div class="row">
-        	<div class="col-md-6">
+        	<div class="col-sm-6">
         		<!-- <img class="flyin1" src="img/VR_CoverPage.png" width="100%"> -->
         	</div>
-        	<div class="col-md-6">
+        	<div class="col-sm-6">
 				<h2>GEAR VR / SAMSUNG</h2><br>
 				<p>Samsung &amp; Oculus deliver a new &amp; refined Gear VR, with hundreds of new content options, to the most enjoyable &amp; comfortable mobile VR experience.
 				<br><br>
@@ -219,10 +219,11 @@
 			</div>
 			<div class="col-md-8 col-md-offset-2 col-xs-12 carousel">
 				<div class="owl-carousel">
-					<div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
-				    <div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
-				    <div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
-				    <div class="item" style="width:312.5px"><img src="img/card_05.jpg"></div>
+					<div class="item" style="width:312.5px"><img src="img/card00.jpg"></div>
+					<div class="item" style="width:312.5px"><img src="img/card01.jpg"></div>
+					<div class="item" style="width:312.5px"><img src="img/card02.jpg"></div>
+				    <div class="item" style="width:375px"><img src="img/card03.jpg"></div>
+				    <div class="item" style="width:375px"><img src="img/card04.jpg"></div>
 				</div>
 
 			</div>
