@@ -75,14 +75,14 @@
                                         segments: 50;
                                         radius: .3"
                             material=   "color: #eee;
-                                        opacity: 0.7;"
+                                        opacity: .7;"
                             position=   "-3.2 4 -3"
                             rotation=   "0 50 0">
-                <a-mouseenter material= "color: #000;
-                                        opacity: 0.7;">
+                <a-mouseenter material= "color: #fff;
+                                        opacity: .7;">
                 </a-mouseenter>
                 <a-mouseleave material= "color: #eee;
-                                        opacity: 0.7;">
+                                        opacity: .7;">
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3600" dur="200" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="position" from="0 -4 0" to="-3 2.4 -3" begin="3100" dur="1000" fill="both" easing="ease-out"></a-animation>
@@ -92,23 +92,28 @@
                                         segments: 50;
                                         radius: .3"
                             material=   "color: #eee;
-                                        opacity: 0.7;"
+                                        opacity: .7;"
                             position=   "-3.2 4 -3"
                             rotation=   "0 50 0">
-                <a-mouseenter material= "color: #000;
-                                        opacity: 0.7;">
+                <a-mouseenter material= "color: #fff;
+                                        opacity: .7;">
                 </a-mouseenter>
                 <a-mouseleave material= "color: #eee;
-                                        opacity: 0.7;">
+                                        opacity: .7;">
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3800" dur="200" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="position" from="0 -4 0" to="-3 1.6 -3" begin="3300" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-entity>
 
 
-                <a-image src="img/back.png" height="4" opacity="0.9" position="0 2.8 -3" scale="4">
-                    <a-animation attribute="scale" from="1 0 1" to="2.8 0.75 1" begin="1000" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -3" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
+                <a-image id="graphic1" src="img/live_brooklyn.png" height="4" opacity="1" position="0 2.8 -3">
+                    <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-image>
+
+                <a-image id="graphic3" visible="false" src="img/live_shapeshifter.png" height="4" opacity="1" position="0 2.8 -3">
+                    <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-image>
 
                 
@@ -120,12 +125,11 @@
                 <a-sky id="scene2" visible="false" src="img/sky.jpg"></a-sky>
                 <a-sky id="scene3" visible="false" src="img/shapeshifter.jpg"></a-sky>
 
-                <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -80 0">
+               <!--  <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -80 0">
                     <a-animation attribute="scale" from="0 0 0" to=".5 .5 .5" begin="1500" dur="200" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="position" from="0 5 0" to="1.2 1 -2" begin="1500" dur="1000" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="rotation" to="0 30 0" begin="1500" dur="5000" easing="ease-out"></a-animation>
-
-                </a-model>
+                </a-model> -->
 
                 <a-entity id="camera" camera position="0 1.8 3" wasd-controls-enabled="false">
                     <a-entity cursor="fuse: true; maxDistance: 2000; timeout: 1200" raycaster geometry="primitive:ring" position="0 0 -2" scale=".03 .03 .03" material="color:red;shader:flat">
@@ -137,7 +141,7 @@
 
 
                 <a-light color="#fff" position="0 1.8 1.5" intensity="2">
-                    <a-animation attribute="intensity" from="0" to="2" begin="500" dur="2500" easing="ease"></a-animation>
+                    <a-animation attribute="intensity" from="0" to="5" begin="2000" dur="3500" easing="ease"></a-animation>
                 </a-light>
         </a-scene>
 
@@ -147,12 +151,18 @@
             document.getElementById('scene1').setAttribute('visible', 'false');
             document.getElementById('scene2').setAttribute('visible', 'false');
             document.getElementById('scene3').setAttribute('visible', 'true');
+
+            document.getElementById('graphic1').setAttribute('visible', 'false');
+            document.getElementById('graphic3').setAttribute('visible', 'true');
         }
 
         function nextScene3() {
             document.getElementById('scene1').setAttribute('visible', 'true');
             document.getElementById('scene2').setAttribute('visible', 'false');
             document.getElementById('scene3').setAttribute('visible', 'false');
+
+            document.getElementById('graphic1').setAttribute('visible', 'true');
+            document.getElementById('graphic3').setAttribute('visible', 'false');
         }
         
 
