@@ -214,7 +214,7 @@
 	</div>
 </div>
 
-<div class="parallax parallax-image-2">
+<div class="parallax parallax-image-6">
 </div> 
 
 @endsection

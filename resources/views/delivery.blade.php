@@ -125,7 +125,7 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-4">
+<div class="parallax2 parallax-image-7">
 </div>
 
 <div class="clear">
@@ -232,7 +232,7 @@
     <img class="imgcard" src="img/googlecardboard.png" width="100%">
  </div>
 
- <div class="parallax2 parallax-image-3">
+ <div class="parallax2 parallax-image-8">
 	
 </div>
 
@@ -267,7 +267,7 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-2">
+<div class="parallax2 parallax-image-9">
 	
 </div>
 

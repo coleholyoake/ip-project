@@ -16,7 +16,7 @@
 
                 <a-entity text="text: hello" material="color: #fff333" position="20 0 16"></a-entity>
 
-                <a-entity id="button-outline" geometry="primitive: ring; 
+                <!-- <a-entity id="button-outline" geometry="primitive: ring; 
                                     segmentsTheta: 50; 
                                     thetaStart: 90; 
                                     thetaLength: 0; 
@@ -26,12 +26,12 @@
                                     opacity: 0.7;"
                             position="0 .7 -3">
                     <a-animation 
-                        begin="fadeIn" attribute="geometry.thetaLength" to="360" dur="1200" fill="none">
+                        begin="fadeIn" attribute="geometry.thetaLength" to="360" dur="500" fill="none">
                    </a-animation>
                    <a-animation 
                         begin="fadeOut" attribute="geometry.thetaLength" from="360" to="0" dur="200">
                    </a-animation>
-                </a-entity>
+                </a-entity> -->
 
                 <a-entity id="button" onclick="location.href='/'" geometry="primitive: circle;
                                         segments: 50;
@@ -70,6 +70,23 @@
                         begin="fadeOut" attribute="geometry.thetaLength" from="360" to="0" dur="200">
                    </a-animation>
                 </a-entity> -->
+
+                <a-entity id="button1" onclick="nextScene1()" geometry="primitive: circle;
+                                        segments: 50;
+                                        radius: .3"
+                            material=   "color: #eee;
+                                        opacity: .7;"
+                            position=   "-3.2 4 -3"
+                            rotation=   "0 50 0">
+                <a-mouseenter material= "color: #fff;
+                                        opacity: .7;">
+                </a-mouseenter>
+                <a-mouseleave material= "color: #eee;
+                                        opacity: .7;">
+                </a-mouseleave>
+                    <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3400" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 -4 0" to="-3 3.2 -3" begin="3100" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-entity>
 
                 <a-entity id="button1" onclick="nextScene2()" geometry="primitive: circle;
                                         segments: 50;
@@ -116,13 +133,18 @@
                     <a-animation attribute="position" from="0 5 0" to="0 2.8 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-image>
 
+                <a-image id="graphic2" visible="false" src="img/live_classicremise.png" height="4" opacity=".8" position="0 2.8 -3">
+                    <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-image>
+
                 
                 <!-- onclick="location.href='https://www.google.co.nz/webhp?hl=en'" -->
 
                 
 
                 <a-sky id="scene1" radius="100" src="img/BrooklynHill2.jpg"></a-sky>
-                <a-sky id="scene2" visible="false" src="img/sky.jpg"></a-sky>
+                <a-sky id="scene2" visible="false" src="img/classicremise.jpg"></a-sky>
                 <a-sky id="scene3" visible="false" src="img/shapeshifter.jpg"></a-sky>
 
                <!--  <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -80 0">
@@ -132,7 +154,7 @@
                 </a-model> -->
 
                 <a-entity id="camera" camera position="0 1.8 3" wasd-controls-enabled="false">
-                    <a-entity cursor="fuse: true; maxDistance: 2000; timeout: 1200" raycaster geometry="primitive:ring" position="0 0 -2" scale=".03 .03 .03" material="color:red;shader:flat">
+                    <a-entity cursor="fuse: true; maxDistance: 2000; timeout: 500" raycaster geometry="primitive:ring" position="0 0 -2" scale=".03 .03 .03" material="color:red;shader:flat">
                     </a-entity>
                     <a-animation attribute="rotation" from="0 0 0" to="0 15 10" begin="1000" dur="1500"  easing="ease"></a-animation>
                     <a-animation attribute="rotation" from="0 15 10" to="0 -15 -10" begin="2500" dur="1500"  easing="ease"></a-animation>
@@ -147,12 +169,23 @@
 
          <script type="text/javascript">
 
+        function nextScene1() {
+            document.getElementById('scene1').setAttribute('visible', 'false');
+            document.getElementById('scene2').setAttribute('visible', 'true');
+            document.getElementById('scene3').setAttribute('visible', 'false');
+
+            document.getElementById('graphic1').setAttribute('visible', 'false');
+            document.getElementById('graphic2').setAttribute('visible', 'true');
+            document.getElementById('graphic3').setAttribute('visible', 'false');
+        }
+
         function nextScene2() {
             document.getElementById('scene1').setAttribute('visible', 'false');
             document.getElementById('scene2').setAttribute('visible', 'false');
             document.getElementById('scene3').setAttribute('visible', 'true');
 
             document.getElementById('graphic1').setAttribute('visible', 'false');
+            document.getElementById('graphic2').setAttribute('visible', 'false');
             document.getElementById('graphic3').setAttribute('visible', 'true');
         }
 
@@ -162,6 +195,7 @@
             document.getElementById('scene3').setAttribute('visible', 'false');
 
             document.getElementById('graphic1').setAttribute('visible', 'true');
+            document.getElementById('graphic2').setAttribute('visible', 'false');
             document.getElementById('graphic3').setAttribute('visible', 'false');
         }
         
