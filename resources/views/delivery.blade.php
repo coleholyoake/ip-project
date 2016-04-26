@@ -125,7 +125,7 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-7">
+<div class="parallax2 parallax-image-10">
 </div>
 
 <div class="clear">
@@ -192,7 +192,7 @@
     <div class="container">
         <div class="row">
         	<div class="col-sm-6">
-        		<!-- <img class="flyin1" src="img/VR_CoverPage.png" width="100%"> -->
+        		<img class="flyin1" src="img/gearvr.png" width="100%">
         	</div>
         	<div class="col-sm-6">
 				<h2>GEAR VR / SAMSUNG</h2><br>
@@ -232,7 +232,7 @@
     <img class="imgcard" src="img/googlecardboard.png" width="100%">
  </div>
 
- <div class="parallax2 parallax-image-8">
+ <div class="parallax2 parallax-image-7">
 	
 </div>
 
@@ -267,7 +267,7 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-9">
+<div class="parallax2 parallax-image-3">
 	
 </div>
 

@@ -139,7 +139,7 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-3">
+<div class="parallax2 parallax-image-8">
 	<!-- <div class="container">
         <div class="row">
             <br><br><br>

@@ -5,9 +5,23 @@
 
         <script src="js/aframe.js"></script>
         <script src="js/aframe-no-click-look-controls.min.js"></script>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+        form {
+            position: absolute;
+            top: 1em;
+            right: 2em;
+            z-index: 999;
+        }
+        
+        </style>
     </head>
     <body>
+        <form action="./" class="button2">
+                    <div class="btn"><input type="submit" value="HOME"></div>
+                </form><br>
         <a-scene>
                 
                 <a-assets>
@@ -23,7 +37,7 @@
                                     radiusInner: .48;
                                     radiusOuter: .51;"
                             material="color: #fff;
-                                    opacity: 0.7;"
+                                    opacity: 0.8;"
                             position="0 .7 -3">
                     <a-animation 
                         begin="fadeIn" attribute="geometry.thetaLength" to="360" dur="500" fill="none">
@@ -33,21 +47,23 @@
                    </a-animation>
                 </a-entity> -->
 
-                <a-entity id="button" onclick="location.href='/'" geometry="primitive: circle;
+                <!-- <a-entity id="button" onclick="location.href='/'" geometry="primitive: circle;
                                         segments: 50;
                                         radius: .45"
                             material=   "color: #fff;
-                                        opacity: 0.7;"
+                                        opacity: 0.8;"
                             position=   "0 .7 -3">
-                <a-mouseenter material= "color: #eee;
-                                        opacity: 0.7;">
+                <a-mouseenter material= "color: #c2180f;
+                                        opacity: 0.8;"
+                            position=   "0 .7 -2.5">
                 </a-mouseenter>
                 <a-mouseleave material= "color: #fff;
-                                        opacity: 0.7;">
+                                        opacity: 0.8;"
+                            position=   "0 .7 -3">
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3000" dur="200" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="position" from="0 -4 0" to="0 .7 -3" begin="2500" dur="1000" fill="both" easing="ease-out"></a-animation>
-                </a-entity>
+                </a-entity> -->
 
 
 
@@ -60,7 +76,7 @@
                                     radiusInner: .33;
                                     radiusOuter: .36;"
                             material="color: #fff;
-                                    opacity: 0.7;"
+                                    opacity: 0.8;"
                             position="-3 2.4 -3"
                             rotation="0 50 0">
                     <a-animation 
@@ -74,68 +90,95 @@
                 <a-entity id="button1" onclick="nextScene1()" geometry="primitive: circle;
                                         segments: 50;
                                         radius: .3"
-                            material=   "color: #eee;
-                                        opacity: .7;"
+                            material=   "color: #fff;
+                                        opacity: .8;"
                             position=   "-3.2 4 -3"
-                            rotation=   "0 50 0">
-                <a-mouseenter material= "color: #fff;
-                                        opacity: .7;">
+                            rotation=   "0 0 0">
+                <a-mouseenter material= "color: #ccc;
+                                        opacity: .8;">
                 </a-mouseenter>
-                <a-mouseleave material= "color: #eee;
-                                        opacity: .7;">
+                <a-mouseleave material= "color: #fff;
+                                        opacity: .8;">
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3400" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 -4 0" to="-3 3.2 -3" begin="3100" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 -4 0" to="-1.2 1 -3.5" begin="3100" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-entity>
 
                 <a-entity id="button1" onclick="nextScene2()" geometry="primitive: circle;
                                         segments: 50;
                                         radius: .3"
-                            material=   "color: #eee;
-                                        opacity: .7;"
+                            material=   "color: #fff;
+                                        opacity: .8;"
                             position=   "-3.2 4 -3"
-                            rotation=   "0 50 0">
-                <a-mouseenter material= "color: #fff;
-                                        opacity: .7;">
+                            rotation=   "0 0 0">
+                <a-mouseenter material= "color: #ccc;
+                                        opacity: .8;">
                 </a-mouseenter>
-                <a-mouseleave material= "color: #eee;
-                                        opacity: .7;">
+                <a-mouseleave material= "color: #fff;
+                                        opacity: .8;">
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3600" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 -4 0" to="-3 2.4 -3" begin="3100" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 -4 0" to="-.4 1 -3.5" begin="3100" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-entity>
+
+                <a-entity onclick="nextScene4()" geometry="primitive: circle;
+                                        segments: 50;
+                                        radius: .3"
+                            material=   "color: #fff;
+                                        opacity: .8;"
+                            position=   "-3.2 4 -3"
+                            rotation=   "0 0 0">
+                <a-mouseenter material= "color: #ccc;
+                                        opacity: .8;">
+                </a-mouseenter>
+                <a-mouseleave material= "color: #fff;
+                                        opacity: .8;">
+                </a-mouseleave>
+                    <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3800" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 -4 0" to=".4 1 -3.5" begin="3300" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-entity>
 
                 <a-entity onclick="nextScene3()" geometry="primitive: circle;
                                         segments: 50;
                                         radius: .3"
-                            material=   "color: #eee;
-                                        opacity: .7;"
+                            material=   "color: #fff;
+                                        opacity: .8;"
                             position=   "-3.2 4 -3"
-                            rotation=   "0 50 0">
-                <a-mouseenter material= "color: #fff;
-                                        opacity: .7;">
+                            rotation=   "0 0 0">
+                <a-mouseenter material= "color: #ccc;
+                                        opacity: .8;">
                 </a-mouseenter>
-                <a-mouseleave material= "color: #eee;
-                                        opacity: .7;">
+                <a-mouseleave material= "color: #fff;
+                                        opacity: .8;">
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3800" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 -4 0" to="-3 1.6 -3" begin="3300" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 -4 0" to="1.2 1 -3.5" begin="3500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-entity>
 
 
+                <!-- <a-image onclick="location.href='/'" src="img/live_home.png" height="1" opacity=".9" position="0 2.8 -3">
+                    <a-animation attribute="scale" from="1 0 1" to="1 0.75 1" begin="2500" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 1 -5" begin="1000" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-image> -->
+
                 <a-image id="graphic1" src="img/live_brooklyn.png" height="4" opacity="1" position="0 2.8 -3">
                     <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 3.5 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-image>
 
                 <a-image id="graphic3" visible="false" src="img/live_shapeshifter.png" height="4" opacity="1" position="0 2.8 -3">
                     <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 3.5 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-image>
 
-                <a-image id="graphic2" visible="false" src="img/live_classicremise.png" height="4" opacity=".8" position="0 2.8 -3">
+                <a-image id="graphic2" visible="false" src="img/live_witherhills.png" height="4" opacity=".8" position="0 2.8 -3">
                     <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 5 0" to="0 2.8 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 3.5 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
+                </a-image>
+
+                <a-image id="graphic4" visible="false" src="img/live_foxglacier.png" height="4" opacity=".8" position="0 2.8 -3">
+                    <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
+                    <a-animation attribute="position" from="0 5 0" to="0 3.5 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-image>
 
                 
@@ -144,10 +187,11 @@
                 
 
                 <a-sky id="scene1" radius="100" src="img/BrooklynHill2.jpg"></a-sky>
-                <a-sky id="scene2" visible="false" src="img/classicremise.jpg"></a-sky>
+                <a-sky id="scene2" visible="false" src="img/WitherHills.jpg"></a-sky>
                 <a-sky id="scene3" visible="false" src="img/shapeshifter.jpg"></a-sky>
+                <a-sky id="scene4" visible="false" src="img/foxglacier.jpg"></a-sky>
 
-               <!--  <a-model scale=".5 .5 .5" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -80 0">
+                <!-- <a-model id="model" scale=".5 .5 .5" visible="false" src="model/Hand.dae" position="1.2 1 -2" rotation="0 -80 0">
                     <a-animation attribute="scale" from="0 0 0" to=".5 .5 .5" begin="1500" dur="200" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="position" from="0 5 0" to="1.2 1 -2" begin="1500" dur="1000" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="rotation" to="0 30 0" begin="1500" dur="5000" easing="ease-out"></a-animation>
@@ -162,9 +206,9 @@
                 </a-entity>
 
 
-                <a-light color="#fff" position="0 1.8 1.5" intensity="2">
+                <!-- <a-light color="#fff" position="0 1.8 1.5" intensity="2">
                     <a-animation attribute="intensity" from="0" to="5" begin="2000" dur="3500" easing="ease"></a-animation>
-                </a-light>
+                </a-light> -->
         </a-scene>
 
          <script type="text/javascript">
@@ -173,47 +217,67 @@
             document.getElementById('scene1').setAttribute('visible', 'false');
             document.getElementById('scene2').setAttribute('visible', 'true');
             document.getElementById('scene3').setAttribute('visible', 'false');
+            document.getElementById('scene4').setAttribute('visible', 'false');
 
             document.getElementById('graphic1').setAttribute('visible', 'false');
             document.getElementById('graphic2').setAttribute('visible', 'true');
             document.getElementById('graphic3').setAttribute('visible', 'false');
+            document.getElementById('graphic4').setAttribute('visible', 'false');
+            document.getElementById('model').setAttribute('visible', 'false');
         }
 
         function nextScene2() {
             document.getElementById('scene1').setAttribute('visible', 'false');
             document.getElementById('scene2').setAttribute('visible', 'false');
             document.getElementById('scene3').setAttribute('visible', 'true');
+            document.getElementById('scene4').setAttribute('visible', 'false');
 
             document.getElementById('graphic1').setAttribute('visible', 'false');
             document.getElementById('graphic2').setAttribute('visible', 'false');
             document.getElementById('graphic3').setAttribute('visible', 'true');
+            document.getElementById('graphic4').setAttribute('visible', 'false');
+            document.getElementById('model').setAttribute('visible', 'false');
         }
 
         function nextScene3() {
             document.getElementById('scene1').setAttribute('visible', 'true');
             document.getElementById('scene2').setAttribute('visible', 'false');
             document.getElementById('scene3').setAttribute('visible', 'false');
+            document.getElementById('scene3').setAttribute('visible', 'false');
 
             document.getElementById('graphic1').setAttribute('visible', 'true');
             document.getElementById('graphic2').setAttribute('visible', 'false');
             document.getElementById('graphic3').setAttribute('visible', 'false');
+            document.getElementById('graphic4').setAttribute('visible', 'false');
+            document.getElementById('model').setAttribute('visible', 'false');
         }
+
+        function nextScene4() {
+            document.getElementById('scene1').setAttribute('visible', 'false');
+            document.getElementById('scene2').setAttribute('visible', 'false');
+            document.getElementById('scene3').setAttribute('visible', 'false');
+            document.getElementById('scene4').setAttribute('visible', 'true');
+
+            document.getElementById('graphic1').setAttribute('visible', 'false');
+            document.getElementById('graphic2').setAttribute('visible', 'false');
+            document.getElementById('graphic3').setAttribute('visible', 'false');
+            document.getElementById('graphic4').setAttribute('visible', 'true');
+            document.getElementById('model').setAttribute('visible', 'true');
+        }
+
         
 
-        document.querySelector('#button').addEventListener('mouseenter', function () {
-            document.querySelector('#button-outline').emit('fadeIn');
-        });
+        // document.querySelector('#button').addEventListener('mouseenter', function () {
+        //     document.querySelector('#button-outline').emit('fadeIn');
+        // });
 
-        document.querySelector('#button').addEventListener('mouseleave', function () {
-            // document.querySelector('#button-outline').emit('fadeOut');
-            document.querySelector('#button-outline').emit('backwards');
-        });
+        // document.querySelector('#button').addEventListener('mouseleave', function () {
+        //     document.querySelector('#button-outline').emit('backwards');
+        // });
 
-
-
-        document.querySelector('#button1').addEventListener('mouseenter', function () {
-            document.querySelector('#button-outline1').emit('fadeIn');
-        });
+        // document.querySelector('#button1').addEventListener('mouseenter', function () {
+        //     document.querySelector('#button-outline1').emit('fadeIn');
+        // });
 
 
 

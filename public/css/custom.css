@@ -304,12 +304,14 @@
 			color: #fff !important;
 		}
 		.parallax-image-1 {
+			opacity: .5;
 			background-image: url('../img/stars.jpg');
 		}
 		.parallax-image-2 {
 			background-image: url('../img/auck.jpg');
 		}
 		.parallax-image-3 {
+			opacity: .5;
 			background-image: url('../img/queenstown.jpg');
 		}
 		.parallax-image-4 {
@@ -319,16 +321,24 @@
 			background-image: url('../img/shapeshifter2.jpg');
 		}
 		.parallax-image-6 {
+			opacity: .5;
 			background-image: url('../img/blackrock.jpg');
 		}
 		.parallax-image-7 {
+			opacity: .5;
 			background-image: url('../img/mac.jpg');
 		}
 		.parallax-image-8 {
+			opacity: .5;
 			background-image: url('../img/gig.jpg');
 		}
 		.parallax-image-9 {
+			opacity: .5;
 			background-image: url('../img/clouds.jpg');
+		}
+		.parallax-image-10 {
+			opacity: .5;
+			background-image: url('../img/kid.jpg');
 		}
 		
 
