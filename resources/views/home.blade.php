@@ -26,7 +26,7 @@
         <div class="row nopadmarg">
             <div class="col-md-4 nopadmarg table-cell">
                 <div class="row nopadmarg deli">
-                    <img class="imghead center-block" src="img/head.png" width="70%">
+                    <img class="imghead center-block" src="img/head.png" width="75%">
                 </div>
             </div>
             <a id="intro"></a>
