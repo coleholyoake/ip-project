@@ -2,25 +2,22 @@
 
 @section('content')
 
-
 <div class="parallax parallax-image-4">
 	<div class="container">
         <div class="row">
 	        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
 	            <br><br>
-	            <!-- <h1 class="center white slogan2">CAPTURE</h1> -->
 	            <img src="img/capture_title.svg" width="100%" class="center-block slogan2">
             </div>
         </div>
     </div>
 </div>
 
-
 <div class="cell4">
     <div class="container">
         <div class="row">
         <div class="col-md-12">
-	            <h2>_CAPTURE VR360° MEDIA</h2>
+	        <h2>_CAPTURE VR360° MEDIA</h2>
 			<span><p> +NZVR360° = EXCEPTIONAL VR360° MEDIA CONTENT</p></span>
 			<p>+NZVR360° have specialised camera &amp; mounting rigs to suit any VR360° project.  We often design &amp; engineer solutions for unique &amp; innovative shoot requirements.
 			<br><br>
@@ -140,12 +137,6 @@
 </div>
 
 <div class="parallax2 parallax-image-8">
-	<!-- <div class="container">
-        <div class="row">
-            <br><br><br>
-            <h1 class="center white slogan2">EXCEPTIONAL<br>VR360° MEDIA<br>CONTENT</h1>
-        </div>
-    </div> -->
 </div> 
 
 <div class="drone" id="drone"> 
@@ -180,7 +171,6 @@
 		</div>
 		<br><br>
 		<div class="row">
-			<!--  -->
 		</div>
 	</div>
 </div>

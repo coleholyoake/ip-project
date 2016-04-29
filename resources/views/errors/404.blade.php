@@ -75,7 +75,7 @@
                 <div class="title pull-right"><h1>ERROR 404<h1></div>
                 <p>Oops! Nothing to worry, click the link below to get back on track</p>
                 <form action="/" class="button">
-                    <div class="btn"><input type="submit" value="CONTENT"></div>
+                    <div class="btn"><input type="submit" value="HOME"></div>
                 </form>
             </div>
         </div>

@@ -7,21 +7,23 @@
         <script src="js/aframe-no-click-look-controls.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
+        <link href="css/custom.css" rel="stylesheet" type="text/css">
+
         <style type="text/css">
-        form {
-            position: absolute;
-            top: 1em;
-            right: 2em;
-            z-index: 999;
-        }
+            form {
+                position: absolute;
+                top: 1em;
+                right: 2em;
+                z-index: 999;
+            }
         
         </style>
     </head>
     <body>
         <form action="./" class="button2">
-                    <div class="btn"><input type="submit" value="HOME"></div>
-                </form><br>
+            <div class="btn"><input type="submit" value="HOME"></div>
+        </form><br>
+
         <a-scene>
                 
                 <a-assets>
@@ -63,28 +65,6 @@
                 </a-mouseleave>
                     <a-animation attribute="scale" from="0 0 0" to="1 1 1" begin="3000" dur="200" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="position" from="0 -4 0" to="0 .7 -3" begin="2500" dur="1000" fill="both" easing="ease-out"></a-animation>
-                </a-entity> -->
-
-
-
-                <!-- //////////////////////////////////////////////// -->
-
-                <!-- <a-entity id="button-outline1" geometry="primitive: ring; 
-                                    segmentsTheta: 50; 
-                                    thetaStart: 90; 
-                                    thetaLength: 0; 
-                                    radiusInner: .33;
-                                    radiusOuter: .36;"
-                            material="color: #fff;
-                                    opacity: 0.8;"
-                            position="-3 2.4 -3"
-                            rotation="0 50 0">
-                    <a-animation 
-                        begin="fadeIn" attribute="geometry.thetaLength" to="360" dur="1200" fill="none">
-                   </a-animation>
-                   <a-animation 
-                        begin="fadeOut" attribute="geometry.thetaLength" from="360" to="0" dur="200">
-                   </a-animation>
                 </a-entity> -->
 
                 <a-entity id="button1" onclick="nextScene1()" geometry="primitive: circle;
@@ -156,11 +136,6 @@
                 </a-entity>
 
 
-                <!-- <a-image onclick="location.href='/'" src="img/live_home.png" height="1" opacity=".9" position="0 2.8 -3">
-                    <a-animation attribute="scale" from="1 0 1" to="1 0.75 1" begin="2500" dur="200" fill="both" easing="ease-out"></a-animation>
-                    <a-animation attribute="position" from="0 5 0" to="0 1 -5" begin="1000" dur="1000" fill="both" easing="ease-out"></a-animation>
-                </a-image> -->
-
                 <a-image id="graphic1" src="img/live_brooklyn.png" height="4" opacity="1" position="0 2.8 -3">
                     <a-animation attribute="scale" from="1 0 1" to="3.5 0.75 1" begin="2000" dur="200" fill="both" easing="ease-out"></a-animation>
                     <a-animation attribute="position" from="0 5 0" to="0 3.5 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
@@ -181,11 +156,6 @@
                     <a-animation attribute="position" from="0 5 0" to="0 3.5 -5" begin="500" dur="1000" fill="both" easing="ease-out"></a-animation>
                 </a-image>
 
-                
-                <!-- onclick="location.href='https://www.google.co.nz/webhp?hl=en'" -->
-
-                
-
                 <a-sky id="scene1" radius="100" src="img/BrooklynHill2.jpg"></a-sky>
                 <a-sky id="scene2" visible="false" src="img/WitherHills.jpg"></a-sky>
                 <a-sky id="scene3" visible="false" src="img/shapeshifter.jpg"></a-sky>
@@ -205,13 +175,9 @@
                     <a-animation attribute="rotation" from="0 -15 -10" to="0 0 0" begin="4000" dur="1500"  easing="ease"></a-animation>
                 </a-entity>
 
-
-                <!-- <a-light color="#fff" position="0 1.8 1.5" intensity="2">
-                    <a-animation attribute="intensity" from="0" to="5" begin="2000" dur="3500" easing="ease"></a-animation>
-                </a-light> -->
         </a-scene>
 
-         <script type="text/javascript">
+    <script type="text/javascript">
 
         function nextScene1() {
             document.getElementById('scene1').setAttribute('visible', 'false');
@@ -265,8 +231,6 @@
             document.getElementById('model').setAttribute('visible', 'true');
         }
 
-        
-
         // document.querySelector('#button').addEventListener('mouseenter', function () {
         //     document.querySelector('#button-outline').emit('fadeIn');
         // });
@@ -279,23 +243,13 @@
         //     document.querySelector('#button-outline1').emit('fadeIn');
         // });
 
-
-
         setTimeout(camera(), 5500);
-
 
         function camera() {
             document.getElementById('camera').setAttribute('no-click-look-controls', 'maxyaw:3;maxpitch:.8');
         }
         
-
-
-                
-          
-        
-
-        
-  </script>
+    </script>
             
     </body>
 </html>

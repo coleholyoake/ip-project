@@ -36,21 +36,23 @@
 
 </head>
 <body>
-<noscript>
-    <style type="text/css">
-        .noscriptmsg {
-            padding: 10px 0;}
-        .navbar {
-            top: 80px;}
-        .above-the-fold {
-            height: 160vh;
-        }
-    </style>
-    <div class="noscriptmsg center">
-        <p>*We have detected you <strong>do not</strong> have JavaScript enabled. Please enable for the <strong>best</strong> experience. Thanks, +NZVR360°.</p>
-    </div>
-</noscript>
-<a id="top"></a>
+    <noscript>
+        <style type="text/css">
+            .noscriptmsg {
+                padding: 10px 0;}
+            .navbar {
+                top: 80px;}
+            .above-the-fold {
+                height: 160vh;
+            }
+        </style>
+        <div class="noscriptmsg center">
+            <p>*We have detected you <strong>do not</strong> have JavaScript enabled. Please enable for the <strong>best</strong> experience. Thanks, +NZVR360°.</p>
+        </div>
+    </noscript>
+
+    <a id="top"></a>
+
 	<nav id="top" class="navbar navbar-default">
         <div class="containr">
             <div class="navbar-header">
@@ -85,7 +87,6 @@
                 <a href="#top"><img id="scrollup-after" class="center-block hidden-up scroll-up" src="img/scrollup_text.svg" width="8%"></a>
             </div>
             <div class="row">
-                
                 <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
                     <div class="row clear">
                         <div class="col-xs-4 col-sm-2 col-sm-offset-1 social center">
@@ -110,7 +111,6 @@
                         </div>
                     </div>
                 </div>
-               
             </div>
             <hr>
             <div class="row">
@@ -143,7 +143,6 @@
         </div>
     </footer>
 
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -155,14 +154,10 @@
     
 	<script type="text/javascript">
         window.sr = ScrollReveal();
-            // sr.reveal('.moving-zone');
-            // sr.reveal('.test');
             sr.reveal('.hero-logo', { duration: 3000 });
             sr.reveal('.slogan', { duration: 5000 });
             sr.reveal('.slogan2', { duration: 1500 });
             sr.reveal('.button', { duration: 2000 });
-            // sr.reveal('iframe', { duration: 1000 });
-            // sr.reveal('.carousel', { duration: 1000 });
 	</script>
 </body>
 </html>

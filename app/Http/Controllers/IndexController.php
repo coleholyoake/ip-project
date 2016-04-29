@@ -23,9 +23,4 @@ class IndexController extends Controller
     {
     	return view('delivery');
     }
-
-    public function projects() 
-    {
-    	return view('projects');
-    }
 }

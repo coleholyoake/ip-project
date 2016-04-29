@@ -7,7 +7,6 @@
         <div class="row">
         	<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
 	            <br><br>
-	            <!-- <h1 class="center white slogan2">DELIVERY</h1> -->
 	            <img src="img/delivery_title.svg" width="100%" class="center-block slogan2">
 	        </div>
         </div>
@@ -34,32 +33,6 @@
 				<p>360° video content encourages user interaction, increasing viewership numbers &amp; total media consumption time.</p>
             </div>
         </div>
-        <!-- <hr class="mar">
-        <div class="col-md-12">
-        	<p>+NZVR360° VIDEO VR SOLUTIONS FOR EVERYONE</p>
-        </div>
-        <div class="col-md-4">
-				<ul>
-					<li>_ Virtual training &amp; conferencing</li>
-					<li>_ News gathering &amp; documentation</li>
-					<li>_ Product launches &amp; showcases</li>
-				</ul>
-        </div>
-        
-        <div class="col-md-4">
-        	<ul>
-				<li>_ Tourism, virtual locations &amp; education</li>
-				<li>_ Security &amp; surveillance</li>
-				<li>_ Law enforcement &amp; military</li>
-			</ul>
-        </div>
-        <div class="col-md-4">
-        	<ul>
-				<li>_ Interactive marketing &amp; advertising</li>
-				<li>_ Concerts &amp; special events</li>
-				<li>_ Sports, gaming &amp; entertainment</li>
-			</ul>
-        </div> -->
     </div>
 </div>
 
@@ -233,7 +206,6 @@
  </div>
 
  <div class="parallax2 parallax-image-7">
-	
 </div>
 
 <div class="cell4"> 
@@ -268,7 +240,6 @@
 </div>
 
 <div class="parallax2 parallax-image-3">
-	
 </div>
 
 @endsection

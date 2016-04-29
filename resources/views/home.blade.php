@@ -36,15 +36,11 @@
                     <p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.</p>
                     <p>Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.</p>
                     <p>+NZVR360° is a Wellington New Zealand based company developing innovative methodology of engagement &amp; delivery to audiences on multiple platforms.</p>
-                    
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
 
 <div class="clear">
 	<div class="containr nopadmarg ">
@@ -53,15 +49,12 @@
 	    		<div class="row nopadmarg2 deli relative" >
 	    			<h2>LIVE</h2>
                     <p>Experience +NZVR360° right here, right now. Live is compatible with Desktop, Mobile and VR Dedicated devices. </p>
-                    
                     <h1 class="center font-large"><a class="white opacity" href="/live"><i class="fa fa-play"></i></a></h1>
     			</div>
     		</div>
     		<div class="col-md-6 cell3 nopadmarg table-cell3">
     			<div id="capture-before" class="row nopadmarg2 capt" >
-                
     				<img id="capture-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2"> CAPTURE</h2> 
-                    
                     <p>+NZVR360° capture VR360° content with various specialised camera rigs to create immersive media. 
                     Our rigs are sophisticated capture devices in shot specific configurations; &amp; we understand the 
                     need for shots &amp; scenes that will "flow" in a released product as a story in the context of 
@@ -72,9 +65,7 @@
     			</div>
                 <hr class="white-hr">
     			<div id="delivery-before" class="row nopadmarg2 capt">
-
     				<img id="delivery-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2"> DELIVERY</h2>
-        
                     <p>+NZVR360° are utilising Vrideo &amp; Deep Inc/ARTe360 - LIQUID CINEMA™ tools for distribution, authoring &amp; development.</p>
                     <p>+NZVR360 build immersive experiences for online/ offline/ live/ interactive: trade &amp; entertainment events; experiential &amp; experimental installations; web/ mobile/ dedicated VR devices.</p>
                     <form action="/delivery" class="button">
@@ -86,14 +77,8 @@
     </div>
 </div>
 
-<div class="parallax parallax-image-3 mobile-only">
-    <div class="container">
-        <div class="row">
-        
-        </div>
-    </div>
+<div class="parallax parallax-image-10 mobile-only">
 </div>
-
 
 <div class="clear">
 	<div class="containr nopadmarg">
@@ -102,9 +87,8 @@
 	    		<div id="projects-before" class="row nopadmarg2 capt" >
 	    			<img id="projects-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2">CONTENT</h2>
                     <p>+NZVR360° build to brief: defined results require careful planning &amp; purpose.<p>
-                    
                     <p>We use sophisticated planning from our collaborative experience in TV broadcast, film, touring &amp; entertainment, content management, new media technologies &amp; advertising to produce &amp; build exceptional VR360° media.</p>
-    			     <form action="" class="button">
+    			     <form target="_blank" action="http://www.nzvr360.com/content/" class="button">
                         <div class="btn"><input type="submit" value="CONTENT"></div>
                     </form>
                 </div>
@@ -130,15 +114,7 @@
     </div>
 </div>
 
-
-
-
 <div class="parallax parallax-image-2">
-    <div class="container">
-        <div class="row">
-        
-        </div>
-    </div>
 </div>
 
 @endsection
