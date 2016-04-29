@@ -32,7 +32,7 @@
             <a id="intro"></a>
             <div class="col-md-8 cell5 nopadmarg table-cell2">
                 <div class="row nopadmarg2 deli" >
-                    <h4>virtual reality • 360° • immersive media</h4><br>
+                    <h4>VIRTUAL REALITY • 360° • IMMERSIVE MEDIA</h4><br>
                     <p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.</p>
                     <p>Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.</p>
                     <p>+NZVR360° is a Wellington New Zealand based company developing innovative methodology of engagement &amp; delivery to audiences on multiple platforms.</p>
@@ -104,7 +104,7 @@
                     <p>+NZVR360° build to brief: defined results require careful planning &amp; purpose.<p>
                     
                     <p>We use sophisticated planning from our collaborative experience in TV broadcast, film, touring &amp; entertainment, content management, new media technologies &amp; advertising to produce &amp; build exceptional VR360° media.</p>
-    			     <form action="/projects" class="button">
+    			     <form action="" class="button">
                         <div class="btn"><input type="submit" value="CONTENT"></div>
                     </form>
                 </div>
@@ -120,13 +120,7 @@
     		</div>
     		<div class="col-md-8 cell4 nopadmarg table-cell4 ">
     			<div class="row nopadmarg2 deli" >
-    				<h2>INFO</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+    				<h4 class="center">"SO GNARLY!"</h4><br>
                     <div class="videoWrapper">
                         <iframe width='560' height='350' src='http://www.vrideo.com/embed/bnOWUbFQ' scrolling='no' frameborder='0' allowfullscreen='1'></iframe>                    
                     </div>
