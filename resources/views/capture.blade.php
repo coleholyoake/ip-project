@@ -68,35 +68,7 @@
 	<img class="imgozo" src="img/ozo.png" width="100%">
 </div>
 
-<div class="cluster" id="cluster"> 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5">
-				<h3 class="white"> 360HEROS CLUSTER</h3><br>
-				<p class="white">We use this cluster of GoPro cameras for most applications &amp; projects. Cost 
-				effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots 
-				stitched together with clever software to create our immersive VR360° media.
-				The complete cluster including patented mount weighs in at under 600grams &amp; is extremely versatile 
-				&amp; strong.  A shell makes the cluster waterproof for underwater shots; we mount on drones for flying 
-				/ tracking shots; &amp; we have custom designed remote control vehicles for terrestrial tracking shots. 
-				In the post production we can hide the mounting or vehicle in the seam of the stitch for a complete &amp; 
-				total immersive experience.</p>
-			</div>
-			<div class="col-md-7">
-				<div class="moving-zone">
-				    <div class="popup">
-				        <img class="margin" src="img/fallback_sky2.2.jpg" width="100%">
-				        <div class="moving-zone-2">
-				        	<div class="popup-2">
-				        		<img src="img/cluster.png" width="105%">
-				        	</div>
-				        </div>
-				    </div>
-				</div>
-			</div>
-		 </div>
-	</div>
-</div>
+
 
 <div class="fly">		
 	<div class="container">
@@ -120,6 +92,35 @@
 		</div>
 	</div>
 	<img class="imgfly" src="img/360fly2.png" width="100%">
+</div>
+<div class="cell4" id="cluster"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h3 class=""> 360HEROS CLUSTER</h3><br>
+				<p class="">We use this cluster of GoPro cameras for most applications &amp; projects. Cost 
+				effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots 
+				stitched together with clever software to create our immersive VR360° media.
+				The complete cluster including patented mount weighs in at under 600grams &amp; is extremely versatile 
+				&amp; strong.  A shell makes the cluster waterproof for underwater shots; we mount on drones for flying 
+				/ tracking shots; &amp; we have custom designed remote control vehicles for terrestrial tracking shots. 
+				In the post production we can hide the mounting or vehicle in the seam of the stitch for a complete &amp; 
+				total immersive experience.</p>
+			</div>
+			<div class="col-md-7">
+				<div class="moving-zone">
+				    <div class="popup">
+				        <img class="margin" src="img/fallback_sky2.2.jpg" width="100%">
+				        <div class="moving-zone-2">
+				        	<div class="popup-2">
+				        		<img src="img/cluster.png" width="105%">
+				        	</div>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		 </div>
+	</div>
 </div>
 
 <div class="process">

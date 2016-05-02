@@ -161,7 +161,7 @@
     </div>
  </div>
 
- <div class="cell3 flyincontainer1">
+ <div class="cell5 flyincontainer1">
     <div class="container">
         <div class="row">
         	<div class="col-sm-6">

@@ -9,7 +9,7 @@
     			<img src="img/logo2.svg" width="100%">
     		</div>
     	</div>
-        <div class="row slogan">
+        <div class="row slogan desktoptablet-only">
             <div class="col-md-8 col-md-offset-2 center">
                 <br>
                 <h4>VIRTUAL REALITY • 360° • IMMERSIVE MEDIA</h4>
@@ -17,8 +17,8 @@
             </div>
         </div>
     	<div class="row">
-	    	<a href="#intro"><img id="scroll-before" onmouseover="scrollDownBefore()" class="visible center-block scroll-down" src="img/scroll_arrow.svg" width="8%"></a>
-	    	<a href="#intro"><img id="scroll-after" onmouseout="scrollDownAfter()" class="hidden center-block scroll-down" src="img/scroll_text.svg" width="8%"></a>
+	    	<a href="#intro"><img id="scroll-before" onmouseover="scrollDownBefore()" class="visible center-block scroll-down" src="img/scroll_arrow.svg"></a>
+	    	<a href="#intro"><img id="scroll-after" onmouseout="scrollDownAfter()" class="hidden center-block scroll-down" src="img/scroll_text.svg"></a>
 	    </div>
      </div>
      

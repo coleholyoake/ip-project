@@ -235,25 +235,29 @@
 			display: none;
 			position: absolute;
 			bottom: 550px;
-			left: 46%;
+			left: 44%;
+			width: 12%;
 		}
 		.visible {
 			display: block;
 			position: absolute;
 			bottom: 550px;
-			left: 46%;
+			left: 44%;
+			width: 12%;
 		}
 		.hidden-up {
 			display: none;
 			position: absolute;
 			top: -50px;
-			left: 46%;
+			left: 44%;
+			width: 12%;
 		}
 		.visible-up {
 			display: block;
 			position: absolute;
 			top: -50px;
-			left: 46%;
+			left: 44%;
+			width: 12%;
 		}
 		.hidden2 {
 			display: none;
@@ -304,14 +308,12 @@
 			color: #fff !important;
 		}
 		.parallax-image-1 {
-			opacity: .8;
 			background-image: url('../img/stars.jpg');
 		}
 		.parallax-image-2 {
 			background-image: url('../img/auck.jpg');
 		}
 		.parallax-image-3 {
-			opacity: .8;
 			background-image: url('../img/queenstown.jpg');
 		}
 		.parallax-image-4 {
@@ -321,23 +323,18 @@
 			background-image: url('../img/shapeshifter2.jpg');
 		}
 		.parallax-image-6 {
-			opacity: .8;
 			background-image: url('../img/blackrock.jpg');
 		}
 		.parallax-image-7 {
-			opacity: .8;
 			background-image: url('../img/mac.jpg');
 		}
 		.parallax-image-8 {
-			opacity: .8;
 			background-image: url('../img/gig.jpg');
 		}
 		.parallax-image-9 {
-			opacity: .8;
 			background-image: url('../img/clouds.jpg');
 		}
 		.parallax-image-10 {
-			opacity: .8;
 			background-image: url('../img/kid.jpg');
 		}
 		
@@ -560,6 +557,9 @@
 		.desktop-only {
 			display: none;
 		}
+		.desktoptablet-only {
+			display: none;
+		}	
 
 		.mobile-only {
 			display: block;
@@ -586,7 +586,38 @@
 	.navbar-collapse {
 		background: rgba(255,255,255,0);
 	}
-
+	.hidden {
+			display: none;
+			position: absolute;
+			bottom: 550px;
+			left: 46%;
+			width: 8%;
+		}
+	.visible {
+			display: block;
+			position: absolute;
+			bottom: 550px;
+			left: 46%;
+			width: 8%;
+		}
+	.hidden-up {
+			display: none;
+			position: absolute;
+			top: -50px;
+			left: 46%;
+			width: 8%;
+		}
+		.visible-up {
+			display: block;
+			position: absolute;
+			top: -50px;
+			left: 46%;
+			width: 8%;
+		}
+	.desktoptablet-only {
+		display: block;
+	}
+	
 		
 	
 }
@@ -627,5 +658,6 @@
 	.mobile-only {
 			display: none;
 		}
+	
 }
 		
