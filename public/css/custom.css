@@ -65,6 +65,7 @@
 		.above-the-fold{
 		  background-image: url('../img/fold.jpg');
 		  background-size: cover;
+		  vertical-align: center;
 		  /*color: white;*/
 		  /*padding: 20px;*/
 		  position: relative;
@@ -323,7 +324,7 @@
 			background-image: url('../img/shapeshifter2.jpg');
 		}
 		.parallax-image-6 {
-			background-image: url('../img/blackrock.jpg');
+			background-image: url('../img/bridge.jpg');
 		}
 		.parallax-image-7 {
 			background-image: url('../img/mac.jpg');
