@@ -3,7 +3,8 @@
 			padding: 0px;
 		}
 		html {
-			margin-bottom: 0px !important;
+			padding-bottom: 0px !important;
+			padding-bottom: 0px !important;
 		}
 
 		#ragapaBottomDiv {
@@ -70,18 +71,6 @@
 
 }
 @font-face {
-    font-family: 'dosis-regular';
-    src: url('../fonts/dosis-regular-webfont.eot');
-    src: url('../fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/dosis-regular-webfont.woff2') format('woff2'),
-         url('../fonts/dosis-regular-webfont.woff') format('woff'),
-         url('../fonts/dosis-regular-webfont.ttf') format('truetype'),
-         url('../fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
     font-family: 'dosis-semibold';
     src: url('../fonts/dosis-semibold-webfont.eot');
     src: url('../fonts/dosis-semibold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -93,9 +82,21 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'dosis-regular';
+    src: url('../fonts/dosis-regular-webfont.eot');
+    src: url('../fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-regular-webfont.woff') format('woff'),
+         url('../fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 		body, input{
 		    margin: 0;
-		    font-family: dosis-regular;
+		    font-family: dosis-regular, TamilSangamMN ;
 		    color: #040b1b;
 		    font-size: 16px;
 		}
