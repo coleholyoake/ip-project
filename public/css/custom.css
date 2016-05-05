@@ -311,7 +311,7 @@
 			margin: 0px !important;
 		}
 		.nopadmarg2 {
-			padding: 1em 2em !important;
+			padding: 3em 2em !important;
 			box-sizing: border-box;
 			margin: 0px !important;
 		}
@@ -438,6 +438,9 @@
 			margin-top: 15px;
 			font-weight: 400;
 		}
+		h2 {
+			font-size: 20px;
+		}
 		.darkblue {
 			color: #040b1b;
 		}
@@ -458,7 +461,7 @@
 		span p{
 			background-color: #040b1b;
 			color: #fff;
-			font-size: 20px;
+			font-size: 16px;
 			padding: .3em 1em;
 			margin: 1em 0;
 			box-sizing: border-box;
@@ -503,13 +506,28 @@
 			/*overflow: auto;*/
 			color: #040b1b;
 		}
+		.ozo, .car, .fly {
+
+			overflow: hidden;
+		}
 		.fly .container {
 			z-index: 2;
 		}
-		.imgozo, .imgfly, .imgcard, .imghtc {
+		.imgozo, .imghtc {
 			position: absolute;
 			bottom: 0;
+			left: 0;
 			z-index: 1;
+			width: 140%;
+			pointer-events: none;
+			transform: translate(0px, 0px);
+		}
+		.imgfly, .imgcard {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			z-index: 1;
+			width: 140%;
 			pointer-events: none;
 			transform: translate(0px, 0px);
 		}
@@ -613,7 +631,7 @@
 		    cursor: pointer;
 		    transition: all .3s ease-in-out;
 		    /*width: 177px;*/
-		    font-size: 16px;
+		    font-size: 10px;
 		    letter-spacing: .4em;
 		}
 		.btn input:hover {
@@ -710,7 +728,33 @@
 	.desktoptablet-only {
 		display: block;
 	}
-	
+	.btn input {
+		    font-size: 16px;
+		}
+		span p{
+			font-size: 20px;
+		}
+		h2 {
+			font-size: 30px;
+		}
+		.imgozo, .imghtc {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			width: 120%;
+			pointer-events: none;
+			transform: translate(0px, 0px);
+		}
+		.imgfly, .imgcard {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			z-index: 1;
+			width: 120%;
+			pointer-events: none;
+			transform: translate(0px, 0px);
+		}
 		
 	
 }
@@ -750,6 +794,25 @@
 		}
 	.mobile-only {
 			display: none;
+		}
+
+		.imgozo, .imghtc {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			width: 100%;
+			pointer-events: none;
+			transform: translate(0px, 0px);
+		}
+		.imgfly, .imgcard {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			z-index: 1;
+			width: 100%;
+			pointer-events: none;
+			transform: translate(0px, 0px);
 		}
 	
 }
