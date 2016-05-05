@@ -18,7 +18,7 @@
         </div>
     	<div class="row">
 	    	<a href="#intro"><img id="scroll-before" onmouseover="scrollDownBefore()" class="visible center-block scroll-down" src="img/scroll_arrow.svg"></a>
-	    	<a href="#intro"><img id="scroll-after" onmouseout="scrollDownAfter()" class="hidden center-block scroll-down" src="img/scroll_text.svg"></a>
+	    	<a href="#intro"><img id="scroll-after" onmouseout="scrollDownAfter()" class="hidden center-block scroll-down" src="img/scroll_text.svg" onError="img/scroll_text.png"></a>
 	    </div>
      </div>
      

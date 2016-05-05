@@ -36,8 +36,8 @@
     </div>
 </div>
 
-<div class="parallax parallax-image-5">	
-</div>
+<!-- <div class="parallax parallax-image-5">	
+</div> -->
 
 <div class="clear">
 	<div class="containr nopadmarg ">
