@@ -387,14 +387,14 @@
 		}
 
 		.parallax {
-			height: 55vh;
+			height: 400px;
 			background-attachment: fixed;
 			background-position: center center;
 			background-size: cover;
 			color: #fff !important;
 		}
 		.parallax2 {
-			height: 80vh;
+			height: 600px;
 			background-attachment: fixed;
 			background-position: center center;
 			background-size: cover;

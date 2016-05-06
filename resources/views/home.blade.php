@@ -95,14 +95,13 @@
                 <hr>
                 <div id="news-before" class="row nopadmarg2 capt" >
                     <img id="news-after" class="hidden2 arrowto" src="img/arrowto.svg" height="25px"> <h2 class="visible2">NEWS</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.<p>
+                    <p>Stay in touch with +NZVR360° latest news &amp; releases - recent events in Virtual &amp; Mixed Reality, Augmented Reality &amp; CGI content of our team, our clients &amp; partners…<p>
                     <form target="_blank" action="http://www.nzvr360.com/news/" class="button">
                         <div class="btn"><input type="submit" value="NEWS"></div>
                     </form>
                 </div>
     		</div>
-    		<div class="col-md-8 cell4 nopadmarg table-cell4 ">
+    		<div class="col-md-8 cell4 nopadmarg table-cell4 desktoptablet-only">
     			<div class="row nopadmarg2 deli" >
     				<h4 class="center">"SO GNARLY!"</h4><br>
                     <div class="videoWrapper">

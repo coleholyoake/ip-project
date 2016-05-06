@@ -39,67 +39,6 @@
 <!-- <div class="parallax parallax-image-5">	
 </div> -->
 
-<div class="clear">
-	<div class="containr nopadmarg ">
-		<div class="row nopadmarg">
-			<div class="col-md-12 cell5 nopadmarg">
-    			<div class="row nopadmarg2 deli" >
-    				<h2 class="center">_DESKTOP / MOBILE / DEDICATED VR DEVICES</h2>
-				</div>
-			</div>
-		</div>
-    </div>
-</div>
-
-<div class="cell4"> 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<h2>VRIDEO / STREAM - PLAY - UPLOAD - APPS</h2><br>
-				<p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.
-				<br><br>
-				Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.
-				<br><br>
-				Vrideo was founded in 2014 by entrepreneurs Alex Rosenfeld and Kuangwei Hwang to address the needs of the growing community of producers looking to distribute immersive video and the growing audience of consumers looking to discover immersive video. We're building a centralised, streaming, hardware-agnostic, and independent platform for immersive video.</p>
-			</div>
-			<div class="col-md-6">
-				<img src="img/vrideo2.png" class="center-block" width="100%">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<form target="_blank" action="https://www.vrideo.com" class="button2">
-                    <div class="btn"><input type="submit" value="www.vrideo.com"></div>
-                </form><br>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="ozo"> 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 pull-right">
-				<h2>DEEP INC / LIQUID CINEMA</h2><br>
-				<p>LIQUID CINEMA™ is a revolutionary software product that allows the creation and distribution of highly sophisticated immersive 360 VR based cinema experiences. It puts easy to use affordable authoring tools in the hands of producers, filmmakers, and interactive artists, while at the same time giving online content producers, such as broadcasters an out of the box solution to distribute cinematic VR content to audiences around the world, via the web, mobile and dedicated VR devices in a cost effective manner.
-				<br><br>
-				Powered by DEEP’s Liquid Cinema technology, we have launched the first broadcaster dedicated 360/VR platform:  ARTE360. This mobile app from the European cultural network ARTE provides immersive and interactive experiences in 360°-video and virtual reality and is available on both iOS and Android.</p>
-			</div>
-			<div class="col-md-6">
-				<img src="img/deepinc.png" class="center-block" width="100%">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 pull-right">
-				<form target="_blank" action="http://deep-inc.com" class="button2">
-                    <div class="btn"><input type="submit" value="www.deep-inc.com"></div>
-                </form><br>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="parallax2 parallax-image-10">
-</div>
 
 <div class="clear">
 	<div class="containr nopadmarg ">
@@ -208,6 +147,68 @@
  <div class="parallax2 parallax-image-7">
 </div>
 
+<div class="clear">
+	<div class="containr nopadmarg ">
+		<div class="row nopadmarg">
+			<div class="col-md-12 cell5 nopadmarg">
+    			<div class="row nopadmarg2 deli" >
+    				<h2 class="center">_DESKTOP / MOBILE / DEDICATED VR DEVICES</h2>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+<div class="cell4"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>VRIDEO / STREAM - PLAY - UPLOAD - APPS</h2><br>
+				<p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.
+				<br><br>
+				Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.
+				<br><br>
+				Vrideo was founded in 2014 by entrepreneurs Alex Rosenfeld and Kuangwei Hwang to address the needs of the growing community of producers looking to distribute immersive video and the growing audience of consumers looking to discover immersive video. We're building a centralised, streaming, hardware-agnostic, and independent platform for immersive video.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="img/vrideo2.png" class="center-block" width="100%">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<form target="_blank" action="https://www.vrideo.com" class="button2">
+                    <div class="btn"><input type="submit" value="www.vrideo.com"></div>
+                </form><br>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ozo"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 pull-right">
+				<h2>DEEP INC / LIQUID CINEMA</h2><br>
+				<p>LIQUID CINEMA™ is a revolutionary software product that allows the creation and distribution of highly sophisticated immersive 360 VR based cinema experiences. It puts easy to use affordable authoring tools in the hands of producers, filmmakers, and interactive artists, while at the same time giving online content producers, such as broadcasters an out of the box solution to distribute cinematic VR content to audiences around the world, via the web, mobile and dedicated VR devices in a cost effective manner.
+				<br><br>
+				Powered by DEEP’s Liquid Cinema technology, we have launched the first broadcaster dedicated 360/VR platform:  ARTE360. This mobile app from the European cultural network ARTE provides immersive and interactive experiences in 360°-video and virtual reality and is available on both iOS and Android.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="img/deepinc.png" class="center-block" width="100%">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 pull-right">
+				<form target="_blank" action="http://deep-inc.com" class="button2">
+                    <div class="btn"><input type="submit" value="www.deep-inc.com"></div>
+                </form><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="parallax2 parallax-image-10">
+</div>
+
 <div class="cell4"> 
 	<div class="container">
 		<div class="row">
@@ -239,7 +240,7 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-3">
+<div class="parallax parallax-image-3">
 </div>
 
 @endsection

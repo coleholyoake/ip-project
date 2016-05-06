@@ -43,7 +43,7 @@
             .navbar {
                 top: 80px;}
             .above-the-fold {
-                height: 160vh;
+                height: 1250px;
             }
         </style>
         <div class="noscriptmsg center">
