@@ -231,18 +231,6 @@
             document.getElementById('model').setAttribute('visible', 'true');
         }
 
-        // document.querySelector('#button').addEventListener('mouseenter', function () {
-        //     document.querySelector('#button-outline').emit('fadeIn');
-        // });
-
-        // document.querySelector('#button').addEventListener('mouseleave', function () {
-        //     document.querySelector('#button-outline').emit('backwards');
-        // });
-
-        // document.querySelector('#button1').addEventListener('mouseenter', function () {
-        //     document.querySelector('#button-outline1').emit('fadeIn');
-        // });
-
         setTimeout(camera(), 5500);
 
         function camera() {

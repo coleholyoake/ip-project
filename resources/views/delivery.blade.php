@@ -7,13 +7,13 @@
         <div class="row">
         	<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
 	            <br><br>
-	            <img src="img/delivery_title.svg" width="100%" class="center-block slogan2">
+	            <img src="img/delivery_title.svg" width="100%" class="center-block slogan2 pagetitle">
 	        </div>
         </div>
     </div>
 </div>
 
-<div class="cell6">
+<div class="ozo">
     <div class="container">
         <div class="row">
         	<div class="col-md-12">
@@ -36,14 +36,10 @@
     </div>
 </div>
 
-<!-- <div class="parallax parallax-image-5">	
-</div> -->
-
-
 <div class="clear">
 	<div class="containr nopadmarg ">
 		<div class="row nopadmarg">
-			<div class="col-md-12 cell5 nopadmarg">
+			<div class="col-md-12 cell3 nopadmarg">
     			<div class="row nopadmarg2 deli" >
     				<h2 class="center">_VIVE / OCULUS RIFT / GEAR VR / CARDBOARD</h2>
 				</div>
@@ -53,10 +49,10 @@
 </div>
 
 <div class="ozo">
-    <div class="container">
+    <div class="container paddingbottomextend paddingtopextend">
         <div class="row">
         	<div class="col-md-8 col-md-offset-2 test">
-				<h2 class="darkblue">HTC+VALVE</h2><br>
+				<h3 class="darkblue">HTC+VALVE</h3><br>
 				<p class="darkblue">Vive’s headset was developed in conjunction with Valve, creators of such 
 				ground-breaking games as Portal &amp; Half-Life. HTC manufactures some of the 
 				finest consumer electronics on the planet &amp; Valve is an unrivaled architect 
@@ -80,13 +76,13 @@
  </div>
 
  <div class="cell5 flyincontainer2">
-    <div class="container">
+    <div class="container paddingtopextend">
         <div class="row">
-        	<div class="col-sm-6 pull-right">
-        		<img class="flyin2" src="img/Oculus-1.png" width="100%">
+        	<div class="col-sm-5 pull-right">
+        		<img class="flyin1 center-block" src="img/Oculus-1.png">
         	</div>
-        	<div class="col-sm-6">
-				<h2>OCULUS RIFT</h2><br>
+        	<div class="col-sm-7">
+				<h3>OCULUS RIFT</h3><br>
 				<p>Rift is unlike anything you’ve ever experienced. Whether you’re stepping into your favorite game, watching an immersive VR movie, jumping to a destination on the other side of the world, or just spending time with friends in VR, you’ll feel like you’re really there.
 				<br><br>
 				Seeing is believing
@@ -101,13 +97,13 @@
  </div>
 
  <div class="cell5 flyincontainer1">
-    <div class="container">
+    <div class="container paddingbottomextend">
         <div class="row">
-        	<div class="col-sm-6">
-        		<img class="flyin1" src="img/gearvr.png" width="100%">
+        	<div class="col-sm-5">
+        		<img class="flyin2 center-block" src="img/gearvr.png">
         	</div>
-        	<div class="col-sm-6">
-				<h2>GEAR VR / SAMSUNG</h2><br>
+        	<div class="col-sm-7">
+				<h3>GEAR VR / SAMSUNG</h3><br>
 				<p>Samsung &amp; Oculus deliver a new &amp; refined Gear VR, with hundreds of new content options, to the most enjoyable &amp; comfortable mobile VR experience.
 				<br><br>
 				[Seoul, South Korea, September 25, 2015] – Samsung Electronics Co., Ltd. today announced its first Gear VR device aimed to consumers, extending its leadership in the wearables category. The latest edition of the Gear VR is compatible with even more smartphones, including the Galaxy Note 5, Galaxy S6 edge+, S6 &amp; S6 edge, leveraging each device’s super AMOLED display to provide the color, clarity &amp; performance needed for an amazing virtual reality experience.
@@ -118,10 +114,10 @@
  </div>
 
  <div class="card">
-    <div class="container">
+    <div class="container paddingbottomextend paddingtopextend">
         <div class="row">
         	<div class="col-md-8 col-md-offset-2 test">
-				<h2 class="darkblue">GOOGLE CARDBOARD</h2><br>
+				<h3 class="darkblue">GOOGLE CARDBOARD</h3><br>
 				<p class="darkblue">Get it, fold it &amp; look inside to enter the world of Cardboard. It’s a VR experience starting with a simple viewer anyone can build or buy.
 				<br><br>
 				Once you have it, you can explore a variety of apps that unfold all around you.</p><br>
@@ -144,13 +140,13 @@
     <img class="imgcard" src="img/googlecardboard.png" width="100%">
  </div>
 
- <div class="parallax2 parallax-image-7">
+ <div class="parallax parallax-image-7">
 </div>
 
 <div class="clear">
 	<div class="containr nopadmarg ">
 		<div class="row nopadmarg">
-			<div class="col-md-12 cell5 nopadmarg">
+			<div class="col-md-12 cell3 nopadmarg">
     			<div class="row nopadmarg2 deli" >
     				<h2 class="center">_DESKTOP / MOBILE / DEDICATED VR DEVICES</h2>
 				</div>
@@ -160,10 +156,10 @@
 </div>
 
 <div class="cell4"> 
-	<div class="container">
+	<div class="container paddingtopextend">
 		<div class="row">
 			<div class="col-md-6">
-				<h2>VRIDEO / STREAM - PLAY - UPLOAD - APPS</h2><br>
+				<h3>VRIDEO / STREAM - PLAY - UPLOAD - APPS</h3><br>
 				<p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.
 				<br><br>
 				Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.
@@ -184,10 +180,10 @@
 	</div>
 </div>
 <div class="ozo"> 
-	<div class="container">
+	<div class="container paddingbottomextend">
 		<div class="row">
 			<div class="col-md-6 pull-right">
-				<h2>DEEP INC / LIQUID CINEMA</h2><br>
+				<h3>DEEP INC / LIQUID CINEMA</h3><br>
 				<p>LIQUID CINEMA™ is a revolutionary software product that allows the creation and distribution of highly sophisticated immersive 360 VR based cinema experiences. It puts easy to use affordable authoring tools in the hands of producers, filmmakers, and interactive artists, while at the same time giving online content producers, such as broadcasters an out of the box solution to distribute cinematic VR content to audiences around the world, via the web, mobile and dedicated VR devices in a cost effective manner.
 				<br><br>
 				Powered by DEEP’s Liquid Cinema technology, we have launched the first broadcaster dedicated 360/VR platform:  ARTE360. This mobile app from the European cultural network ARTE provides immersive and interactive experiences in 360°-video and virtual reality and is available on both iOS and Android.</p>
@@ -206,14 +202,27 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-10">
+<div class="parallax parallax-image-10">
+</div>
+
+
+<div class="clear">
+	<div class="containr nopadmarg">
+		<div class="row nopadmarg">
+			<div class="col-md-12 cell3 nopadmarg">
+    			<div class="row nopadmarg2 deli" >
+    				<h2 class="center">_INSTALLATION / EXPERIENTIAL / EXPERIMENTAL</h2>
+				</div>
+			</div>
+		</div>
+    </div>
 </div>
 
 <div class="cell4"> 
-	<div class="container">
+	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2>_INSTALLATION</h2>
+				<!-- <h2>_INSTALLATION</h2> -->
 				<span><p> DISPLAY / TRADE INSTALLATION &amp; +NZVR360° CORPORATE PRODUCTION</p></span>
 				<p>Our creatives collaborate with reliable partners on turnkey solutions for brand promotions, exhibitions &amp; installations; we develop &amp; deliver integrated brand experiences from concept through the design process &amp; to installation, launch &amp; experience.</p>
 			</div>
@@ -224,16 +233,16 @@
 	</div>
 </div>
 <div class="fly"> 
-	<div class="container">
+	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
 			<div class="col-md-6 white">
-				<h2>_EXPERIENTIAL / EXPERIMENTAL</h2>
+				<!-- <h2>_EXPERIENTIAL / EXPERIMENTAL</h2> -->
 				<span><p class="inverse"> +NZVR360° BROADCAST PRODUCTION</p></span>
 				<span><p class="inverse"> LIVE STREAMING VR360°</p></span>
 				<span><p class="inverse"> AUGMENTED VR360° CONTENT</p></span>
 			</div>
 			<div class="col-md-6 white">
-				<br><br><br><br><br>
+				<br><br><br>
 				<p class="center margin">[ launching soon 2016 ]</p>
 			</div>
 		</div>

@@ -49,7 +49,7 @@
 	    		<div class="row nopadmarg2 deli relative" >
 	    			<h2>LIVE</h2>
                     <p>Experience +NZVR360° right here, right now. Live is compatible with Desktop, Mobile and VR Dedicated devices. </p>
-                    <h1 class="center font-large"><a class="white opacity" href="/live"><i class="fa fa-play"></i></a></h1>
+                    <h1 class="center font-large"><a class="whiteplay opacity" href="/live"><i class="fa fa-play"></i></a></h1>
     			</div>
     		</div>
     		<div class="col-md-6 cell3 nopadmarg table-cell3">
@@ -103,7 +103,7 @@
     		</div>
     		<div class="col-md-8 cell4 nopadmarg table-cell4 desktoptablet-only">
     			<div class="row nopadmarg2 deli" >
-    				<h4 class="center">"SO GNARLY!"</h4><br>
+    				<h4 class="center">"HIT THE GROUND RUNNING"</h4><br>
                     <div class="videoWrapper">
                         <iframe width='560' height='350' src='http://www.vrideo.com/embed/bnOWUbFQ' scrolling='no' frameborder='0' allowfullscreen='1'></iframe>                    
                     </div>

@@ -6,8 +6,7 @@
 	<div class="container">
         <div class="row">
 	        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-	            <br><br>
-	            <img src="img/capture_title.svg" width="100%" class="center-block slogan2">
+	            <img src="img/capture_title.svg" width="100%" class="center-block slogan2 pagetitle">
             </div>
         </div>
     </div>
@@ -29,13 +28,10 @@
     </div>
 </div>
 
-<!-- <div class="parallax parallax-image-4">
-</div>  -->
-
 <div class="clear">
-	<div class="containr nopadmarg ">
+	<div class="containr nopadmarg">
 		<div class="row nopadmarg">
-			<div class="col-md-12 cell5 nopadmarg">
+			<div class="col-md-12 cell3 nopadmarg">
     			<div class="row nopadmarg2 deli" >
     				<h2 class="center">_CAMERAS &amp; CAPTURE TOOLS</h2>
 				</div>
@@ -45,7 +41,7 @@
 </div>
 
 <div class="ozo">		
-	<div class="container">
+	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 test">
 				<h3 class="darkblue"> NOKIA OZO</h3><br>
@@ -68,10 +64,8 @@
 	<img class="imgozo" src="img/ozo.png" width="100%">
 </div>
 
-
-
 <div class="fly">		
-	<div class="container">
+	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">	
 			<div class="col-md-8 col-md-offset-2 test">
 				<h3 class="white"> 360FLY</h3><br>
@@ -94,7 +88,7 @@
 	<img class="imgfly" src="img/360fly2.png" width="100%">
 </div>
 <div class="cell4" id="cluster"> 
-	<div class="container">
+	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
 			<div class="col-md-5">
 				<h3 class=""> 360HEROS CLUSTER</h3><br>
@@ -137,11 +131,23 @@
 	</div>
 </div>
 
-<div class="parallax2 parallax-image-8">
+<div class="parallax parallax-image-8">
 </div> 
 
+<div class="clear">
+	<div class="containr nopadmarg">
+		<div class="row nopadmarg">
+			<div class="col-md-12 cell3 nopadmarg">
+    			<div class="row nopadmarg2 deli" >
+    				<h2 class="center">_DRONES &amp; PERIPHERAL RESOURCES / POST / EDITING</h2>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
 <div class="drone" id="drone"> 
-	<div class="container">
+	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
 			<div class="col-md-7">
 				<div class="moving-zone">
@@ -157,7 +163,7 @@
 				<br><br><img src="img/illumination.png" class="center-block desktop-only" width="50%">
 			</div>
 			<div class="col-md-5">
-				<h2>_DRONES &amp; PERIPHERAL RESOURCES</h2>
+				<!-- <h2>_DRONES &amp; PERIPHERAL RESOURCES</h2> -->
 				<span><p> TOOLS TO ENHANCE CAPTURE RESULTS</p></span>
 				<p>Our arsenal of equipment includes drones, conventional camera &amp; audio rigs &amp; peripheral 
 				resources - tripods, mounts, radio controlled vehicles, wireless control modules, HDD recorders &amp; 
@@ -177,10 +183,10 @@
 </div>
 
 <div class="fly"> 
-	<div class="container">
+	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 white">
-				<h2>_POST / EDITING</h2>
+				<!-- <h2>_POST / EDITING</h2> -->
 				<span><p class="inverse"> PREPARING THE RESULT</p></span>
 				<p>Our editors use a selection of software packages to stitch the VR media together - depending on the 
 				capture method &amp; the requirement of delivery.
