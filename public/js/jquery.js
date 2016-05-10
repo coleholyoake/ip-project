@@ -41,8 +41,8 @@ $(document).ready(function(){
         items:4,
         nav:true,
     navText: [
-      "<h4 class='center inline'> &#9664; </h4>",
-      "<h4 class='center inline'> &#9654; </h4>"
+      "<h4 class='center inline'> <i class='fa fa-arrow-left' aria-hidden='true'></i> </h4>",
+      "<h4 class='center inline'> <i class='fa fa-arrow-right' aria-hidden='true'></i> </h4>"
       ],
         // autoplay:true,
         // autoplayTimeout:3000,
