@@ -9,17 +9,12 @@
     			<img src="img/logo2.svg" width="100%">
     		</div>
     	</div>
-        <div class="row slogan desktoptablet-only">
+        <div class="row slogan">
             <div class="col-md-8 col-md-offset-2 center">
                 <br>
-                <h4>VIRTUAL REALITY • 360° • IMMERSIVE MEDIA</h4>
-                <h4>EXPERIMENTAL • EXPONENTIAL • EXPERIENTIAL</h4>
+                <h4><b>VIRTUAL REALITY • 360° • IMMERSIVE MEDIA</b></h4>
             </div>
         </div>
-    	<div class="row">
-	    	<a href="#intro"><img id="scroll-before" onmouseover="scrollDownBefore()" class="visible center-block scroll-down" src="img/scroll_arrow.svg"></a>
-	    	<a href="#intro"><img id="scroll-after" onmouseout="scrollDownAfter()" class="hidden center-block scroll-down" src="img/scroll_text.svg" onError="img/scroll_text.png"></a>
-	    </div>
      </div>
      
      <div class="containr nopadmarg tables jsfail">
@@ -30,9 +25,13 @@
                 </div>
             </div>
             <a id="intro"></a>
+            <div class="row">
+                <a href="#intro"><img id="scroll-before" onmouseover="scrollDownBefore()" class="visible center-block scroll-down" src="img/scroll_arrow.svg"></a>
+                <a href="#intro"><img id="scroll-after" onmouseout="scrollDownAfter()" class="hidden center-block scroll-down" src="img/scroll_text.svg" onError="img/scroll_text.png"></a>
+            </div>
             <div class="col-md-8 cell5 nopadmarg table-cell2">
                 <div class="row nopadmarg2 deli" >
-                    <h4>VIRTUAL REALITY • 360° • IMMERSIVE MEDIA</h4><br>
+                    <h4>EXPERIMENTAL • EXPONENTIAL • EXPERIENTIAL</h4><br>
                     <p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.</p>
                     <p>Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.</p>
                     <p>+NZVR360° is a Wellington New Zealand based company developing innovative methodology of engagement &amp; delivery to audiences on multiple platforms.</p>

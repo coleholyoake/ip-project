@@ -75,6 +75,7 @@
 		background-size: cover;
 		vertical-align: center;
 		position: relative;
+		min-height: 1000px;
 	 }
 	.jsfail {
 		position: absolute;
@@ -216,14 +217,14 @@
 	.hidden {
 		display: none;
 		position: absolute;
-		bottom: 550px;
+		top: 30px;
 		left: 44%;
 		width: 12%;
 	}
 	.visible {
 		display: block;
 		position: absolute;
-		bottom: 550px;
+		top: 30px;
 		left: 44%;
 		width: 12%;
 	}
@@ -561,14 +562,14 @@
 	.hidden {
 		display: none;
 		position: absolute;
-		bottom: 550px;
+		top: 80px;
 		left: 46%;
 		width: 8%;
 	}
 	.visible {
 		display: block;
 		position: absolute;
-		bottom: 550px;
+		top: 80px;
 		left: 46%;
 		width: 8%;
 	}
