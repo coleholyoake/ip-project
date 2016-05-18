@@ -46,8 +46,10 @@
     	<div class="row nopadmarg flexbox">
 			<div class="col-md-6 cell4 nopadmarg captdeli table-cell3">
 	    		<div class="row nopadmarg2 deli relative" >
-	    			<h2>LIVE</h2>
-                    <p>Experience +NZVR360° right here, right now. Live is compatible with Desktop, Mobile and VR Dedicated devices. </p>
+	    			<h2>PREVIEW</h2>
+                    <p>Experience a preview of +NZVR360° right here, right now. Preview is compatible with Desktop, Mobile &amp; VR Dedicated devices. 
+                    Keep an eye out for more &amp; don't forget to check out our <strong><a class="white" target="_blank" href="https://littlstar.com/nzvr360">'LITTLSTAR'</a></strong>
+                    profile for more videos!</p>
                     <h1 class="center font-large"><a class="whiteplay opacity" href="/live"><i class="fa fa-play"></i></a></h1>
     			</div>
     		</div>
@@ -104,7 +106,8 @@
     			<div class="row nopadmarg2 deli" >
     				<h4 class="center">"HIT THE GROUND RUNNING"</h4><br>
                     <div class="videoWrapper">
-                        <iframe width='560' height='350' src='http://www.vrideo.com/embed/bnOWUbFQ' scrolling='no' frameborder='0' allowfullscreen='1'></iframe>                    
+                        <img src="img/poster.jpg">
+                        <!-- <iframe src='https://embed.littlstar.com/videos/977f020a' width='640px' height='360px' class='lsplayer-frame' frameborder='0' allowfullscreen></iframe> -->
                     </div>
     			</div>
 	    	</div>

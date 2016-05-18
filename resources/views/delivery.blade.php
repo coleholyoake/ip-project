@@ -64,6 +64,9 @@
 				experiences that change how we communicate, how we are entertained, &amp; 
 				how we learn &amp; train. Each &amp; every component has been redesigned from 
 				the ground up to provide better comfort, ergonomics, &amp; performance.</p>
+				<form target="_blank" action="https://www.htcvive.com/anz/" class="button2">
+                    <div class="btn"><input type="submit" value="Learn More"></div>
+                </form>
 			</div>
 			<div class="col-md-8 col-md-offset-2 col-xs-12">
 				<div class="videoWrapper">
@@ -91,6 +94,7 @@
 				The magic of presence
 				Rift’s advanced display technology combined with its precise, low-latency constellation tracking system enables the sensation of presence – the feeling as though you’re actually there. The magic of presence changes everything. You’ve never experienced immersion like this.
 				</p>
+				
 			</div>
        	</div>
     </div>
@@ -159,12 +163,11 @@
 	<div class="container paddingtopextend">
 		<div class="row">
 			<div class="col-md-6">
-				<h3>VRIDEO / STREAM - PLAY - UPLOAD - APPS</h3><br>
-				<p>Virtual reality is finally on the verge of its breakthrough. This represents a huge opportunity not only for gaming, but also for immersive video.
+				<h3>LITTLSTAR - PLAY - UPLOAD - APPS</h3>
+				<span><p> THE WORLD REVOLVES AROUND YOU</p></span>
+				<p>LITTLSTAR IS A GLOBAL NETWORK DEDICATED TO VIRTUAL REALITY AND 360 CONTENT.
 				<br><br>
-				Over the history of entertainment, each new media format to emerge has represented a step forward in immersion and presence. Immersive video is arguably the culmination of this evolution, a media format in which consuming content is becoming indistinguishable from having real life experiences.
-				<br><br>
-				Vrideo was founded in 2014 by entrepreneurs Alex Rosenfeld and Kuangwei Hwang to address the needs of the growing community of producers looking to distribute immersive video and the growing audience of consumers looking to discover immersive video. We're building a centralised, streaming, hardware-agnostic, and independent platform for immersive video.</p>
+				Littlstar are excited and passionate about the future of entertainment, education, storytelling and immersive experiences powered by the new medium of virtual reality. The innovations in the space allow us to be instantly catapulted into experiences ranging from a front row seat at a concert to a shark infested shipwreck on everything from your mobile device, desktop, television, or headset.</p>
 			</div>
 			<div class="col-md-6">
 				<img src="img/vrideo2.png" class="center-block" width="100%">
@@ -172,30 +175,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<form target="_blank" action="https://www.vrideo.com" class="button2">
-                    <div class="btn"><input type="submit" value="www.vrideo.com"></div>
-                </form><br>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="ozo"> 
-	<div class="container paddingbottomextend">
-		<div class="row">
-			<div class="col-md-6 pull-right">
-				<h3>DEEP INC / LIQUID CINEMA</h3><br>
-				<p>LIQUID CINEMA™ is a revolutionary software product that allows the creation and distribution of highly sophisticated immersive 360 VR based cinema experiences. It puts easy to use affordable authoring tools in the hands of producers, filmmakers, and interactive artists, while at the same time giving online content producers, such as broadcasters an out of the box solution to distribute cinematic VR content to audiences around the world, via the web, mobile and dedicated VR devices in a cost effective manner.
-				<br><br>
-				Powered by DEEP’s Liquid Cinema technology, we have launched the first broadcaster dedicated 360/VR platform:  ARTE360. This mobile app from the European cultural network ARTE provides immersive and interactive experiences in 360°-video and virtual reality and is available on both iOS and Android.</p>
-			</div>
-			<div class="col-md-6">
-				<img src="img/deepinc.png" class="center-block" width="100%">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 pull-right">
-				<form target="_blank" action="http://deep-inc.com" class="button2">
-                    <div class="btn"><input type="submit" value="www.deep-inc.com"></div>
+				<form target="_blank" action="https://littlstar.com/nzvr360" class="button2">
+                    <div class="btn"><input type="submit" value="www.littlstar.com"></div>
                 </form><br>
 			</div>
 		</div>

@@ -40,28 +40,34 @@
     </div>
 </div>
 
-<div class="ozo">		
+<div class="cell4" id="cluster"> 
 	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 test">
-				<h3 class="darkblue"> NOKIA OZO</h3><br>
-				<p class="darkblue">Capturing 360° spherical video and 360x360 surround sound with unique interactive 
-				monitoring, OZO increases both the quality and efficiency of Virtual Reality production.</p>
+			<div class="col-md-5">
+				<h3 class=""> FREEDOM360 GOPRO RIG</h3><br>
+				<p class="">We use this cluster of GoPro cameras for most applications &amp; projects. Cost 
+				effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots 
+				stitched together with clever software to create our immersive VR360° media.<br><br>
+				The complete cluster including patented mount weighs in at under 600grams &amp; is extremely versatile 
+				&amp; strong.  A shell makes the cluster waterproof for underwater shots; we mount on drones for flying 
+				/ tracking shots; &amp; we have custom designed remote control vehicles for terrestrial tracking shots. 
+				In the post production we can hide the mounting or vehicle in the seam of the stitch for a complete &amp; 
+				total immersive experience.</p>
 			</div>
-			<div class="col-md-8 col-md-offset-2 col-xs-12 carousel">
-				<div class="owl-carousel">
-					<div class="item" style="width:375px"><img src="img/ozo00.jpg"></div>
-				    <div class="item" style="width:312.5px"><img src="img/ozo01.jpg"></div>
-				    <div class="item" style="width:312.5px"><img src="img/ozo02.jpg"></div>
-				    <div class="item" style="width:375px"><img src="img/ozo03.jpg"></div>
-				    <div class="item" style="width:625px"><img src="img/ozo04.jpg"></div>
-				    <div class="item" style="width:437.5px"><img src="img/ozo05.jpg"></div>
-				    <div class="item" style="width:437.5px"><img src="img/ozo06.jpg"></div>
+			<div class="col-md-7">
+				<div class="moving-zone">
+				    <div class="popup">
+				        <img class="margin" src="img/fallback_sky2.2.jpg" width="100%">
+				        <div class="moving-zone-2">
+				        	<div class="popup-2">
+				        		<img src="img/cluster.png" width="105%">
+				        	</div>
+				        </div>
+				    </div>
 				</div>
 			</div>
-		</div>
+		 </div>
 	</div>
-	<img class="imgozo" src="img/ozo.png" width="100%">
 </div>
 
 <div class="fly">		
@@ -87,35 +93,31 @@
 	</div>
 	<img class="imgfly" src="img/360fly2.png" width="100%">
 </div>
-<div class="cell4" id="cluster"> 
+
+<div class="ozo">		
 	<div class="container paddingbottomextend paddingtopextend">
 		<div class="row">
-			<div class="col-md-5">
-				<h3 class=""> 360HEROS CLUSTER</h3><br>
-				<p class="">We use this cluster of GoPro cameras for most applications &amp; projects. Cost 
-				effective &amp; impressive results the cluster works by capturing a series of 170° x 120° native shots 
-				stitched together with clever software to create our immersive VR360° media.
-				The complete cluster including patented mount weighs in at under 600grams &amp; is extremely versatile 
-				&amp; strong.  A shell makes the cluster waterproof for underwater shots; we mount on drones for flying 
-				/ tracking shots; &amp; we have custom designed remote control vehicles for terrestrial tracking shots. 
-				In the post production we can hide the mounting or vehicle in the seam of the stitch for a complete &amp; 
-				total immersive experience.</p>
+			<div class="col-md-8 col-md-offset-2 test">
+				<h3 class="darkblue"> NOKIA OZO</h3><br>
+				<p class="darkblue">Capturing 360° spherical video and 360x360 surround sound with unique interactive 
+				monitoring, OZO increases both the quality and efficiency of Virtual Reality production.</p>
 			</div>
-			<div class="col-md-7">
-				<div class="moving-zone">
-				    <div class="popup">
-				        <img class="margin" src="img/fallback_sky2.2.jpg" width="100%">
-				        <div class="moving-zone-2">
-				        	<div class="popup-2">
-				        		<img src="img/cluster.png" width="105%">
-				        	</div>
-				        </div>
-				    </div>
+			<div class="col-md-8 col-md-offset-2 col-xs-12 carousel">
+				<div class="owl-carousel">
+					<div class="item" style="width:375px"><img src="img/ozo00.jpg"></div>
+				    <div class="item" style="width:312.5px"><img src="img/ozo01.jpg"></div>
+				    <div class="item" style="width:312.5px"><img src="img/ozo02.jpg"></div>
+				    <div class="item" style="width:375px"><img src="img/ozo03.jpg"></div>
+				    <div class="item" style="width:625px"><img src="img/ozo04.jpg"></div>
+				    <div class="item" style="width:437.5px"><img src="img/ozo05.jpg"></div>
+				    <div class="item" style="width:437.5px"><img src="img/ozo06.jpg"></div>
 				</div>
 			</div>
-		 </div>
+		</div>
 	</div>
+	<img class="imgozo" src="img/ozo.png" width="100%">
 </div>
+
 
 <div class="process">
 	<div class="container no-padding-bottom no-padding-top">
@@ -174,10 +176,14 @@
 				<br><br>
 				+NZVR360° come ready for your location &amp; can even provide the espresso machine; our production 
 				involves all audio (playback &amp; recording) &amp; lighting for any location requirement.</p>
+				<form target="_blank" action="http://www.planbeta.co.nz/make" class="button2">
+                    <div class="btn"><input type="submit" value="Location &amp; Event Services"></div>
+                </form>
 			</div>
 		</div>
 		<br><br>
 		<div class="row">
+
 		</div>
 	</div>
 </div>

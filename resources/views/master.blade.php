@@ -72,7 +72,6 @@
                     <li><a href="/">+NZVR360°</a></li>
                     <li><a href="/capture">CAPTURE</a></li>
                     <li><a href="/delivery">DELIVERY</a></li>
-                    <li><a href="/live">LIVE</a></li>
                 </ul>
             </div>  
         </div>
@@ -123,8 +122,8 @@
                         <li><a class="white" href="/">_ HOME</a></li>
                         <li><a class="white" href="/capture">_ CAPTURE</a></li>
                         <li><a class="white" href="/delivery">_ DELIVERY</a></li>
-                        <li><a class="white" href="/live">_ LIVE</a></li>
-                        <li><a class="white" href="/projects">_ CONTENT</a></li>
+                        <li><a class="white" href="/live">_ PREVIEW</a></li>
+                        <li><a class="white" target="_blank" href="http://www.nzvr360.com/content/">_ CONTENT</a></li>
                         <li><a class="white" target="_blank" href="http://www.nzvr360.com/news/">_ NEWS</a></li>
                     </ul>
                 </div>
